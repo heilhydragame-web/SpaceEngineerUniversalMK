@@ -20,7 +20,7 @@
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="ConstructionMK" />
       <!-- 1 -->
-      <BaseProductionTimeInSeconds>400</BaseProductionTimeInSeconds>      <!-- 4 -->
+      <BaseProductionTimeInSeconds>200</BaseProductionTimeInSeconds>      <!-- 4 -->
     </Blueprint>
 
     <!-- Girder Component MK -->
@@ -38,7 +38,7 @@
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="GirderMK" />
       <!-- 1 -->
-      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>      <!-- 1 -->
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>      <!-- 1 -->
     </Blueprint>
 
     <!-- Metal Grid MK -->
@@ -60,7 +60,7 @@
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="MetalGridMK" />
       <!-- 1 -->
-      <BaseProductionTimeInSeconds>200</BaseProductionTimeInSeconds>      <!-- 2 -->
+      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>      <!-- 2 -->
     </Blueprint>
 
     <!-- Interior Plate MK -->
@@ -78,7 +78,7 @@
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="InteriorPlateMK" />
       <!-- 1 -->
-      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>      <!-- 1 -->
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>      <!-- 1 -->
     </Blueprint>
 
     <!-- Steel Plate MK -->
@@ -96,7 +96,7 @@
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="SteelPlateMK" />
       <!-- 1 -->
-      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>      <!-- 1 -->
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>      <!-- 1 -->
     </Blueprint>
 
     <!-- Small Tube MK -->
@@ -114,7 +114,7 @@
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="SmallTubeMK" />
       <!-- 1 -->
-      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>      <!-- 1 -->
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>      <!-- 1 -->
     </Blueprint>
 
     <!-- Large Tube MK -->
@@ -132,7 +132,7 @@
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="LargeTubeMK" />
       <!-- 1 -->
-      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>      <!-- 1 -->
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>      <!-- 1 -->
     </Blueprint>
 
     <!-- Motor Component MK -->
@@ -152,7 +152,7 @@
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="MotorMK" />
       <!-- 1 -->
-      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>      <!-- 1 -->
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>      <!-- 1 -->
     </Blueprint>
 
     <!-- Display MK -->
@@ -172,7 +172,7 @@
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="DisplayMK" />
       <!-- 1 -->
-      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>      <!-- 1 -->
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>      <!-- 1 -->
     </Blueprint>
 
     <!-- Bullet proof Glass MK -->
@@ -190,7 +190,7 @@
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="BulletproofGlassMK" />
       <!-- 1 -->
-      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>      <!-- 1 -->
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>      <!-- 1 -->
     </Blueprint>
 
     <!-- Computer Component MK -->
@@ -210,7 +210,7 @@
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="ComputerMK" />
       <!-- 1 -->
-      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>      <!-- 1 -->
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>      <!-- 1 -->
     </Blueprint>
 
     <!-- Reactor Component MK -->
@@ -232,7 +232,7 @@
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="ReactorMK" />
       <!-- 1 -->
-      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>      <!-- 1 -->
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>      <!-- 1 -->
     </Blueprint>
 
     <!-- Thrust Component MK -->
@@ -256,7 +256,7 @@
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="ThrustMK" />
       <!-- 1 -->
-      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>      <!-- 1 -->
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>      <!-- 1 -->
     </Blueprint>
 
     <!-- Gravity Generator ComponentMK -->
@@ -280,7 +280,7 @@
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="GravityGeneratorMK" />
       <!-- 1 -->
-      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>      <!-- 1 -->
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>      <!-- 1 -->
     </Blueprint>
 
     <!-- Medical Component MK -->
@@ -302,7 +302,7 @@
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="MedicalMK" />
       <!-- 1 -->
-      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>      <!-- 1 -->
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>      <!-- 1 -->
     </Blueprint>
 
     <!-- Radio Communication Component MK -->
@@ -322,7 +322,7 @@
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="RadioCommunicationMK" />
       <!-- 1 -->
-      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>      <!-- 1 -->
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>      <!-- 1 -->
     </Blueprint>
 
     <!-- Detector Component MK -->
@@ -342,7 +342,7 @@
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="DetectorMK" />
       <!-- 1 -->
-      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>      <!-- 1 -->
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>      <!-- 1 -->
     </Blueprint>
 
     <!-- Solar Cell MK -->
@@ -362,7 +362,7 @@
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="SolarCellMK" />
       <!-- 1 -->
-      <BaseProductionTimeInSeconds>1000</BaseProductionTimeInSeconds>      <!-- 10 -->
+      <BaseProductionTimeInSeconds>500</BaseProductionTimeInSeconds>      <!-- 10 -->
     </Blueprint>
 
     <!-- Power Cell MK -->
@@ -384,7 +384,7 @@
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="PowerCellMK" />
       <!-- 1 -->
-      <BaseProductionTimeInSeconds>400</BaseProductionTimeInSeconds>      <!-- 4 -->
+      <BaseProductionTimeInSeconds>200</BaseProductionTimeInSeconds>      <!-- 4 -->
     </Blueprint>
 
     <!-- Superconductor MK -->
@@ -404,7 +404,7 @@
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="SuperconductorMK" />
       <!-- 1 -->
-      <BaseProductionTimeInSeconds>800</BaseProductionTimeInSeconds>      <!-- 8 -->
+      <BaseProductionTimeInSeconds>400</BaseProductionTimeInSeconds>      <!-- 8 -->
     </Blueprint>
 
   </Blueprints>
