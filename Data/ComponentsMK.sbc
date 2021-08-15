@@ -1,0 +1,468 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Components>
+
+    <!-- Components MK -->
+
+    <!-- Construction MK -->
+
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ConstructionMK</SubtypeId>
+      </Id>
+      <DisplayName>Construction Component MK</DisplayName>
+      <Icon>Textures\GUI\Icons\Component\construction_components_component_MK.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>400</Mass>      <!-- 8 -->
+      <Volume>20</Volume>      <!-- 2 -->
+      <Model>Models\Components\construction_components_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>30</MaxIntegrity>      <!-- 30 -->
+      <DropProbability>0.5</DropProbability>      <!-- 0.5 -->
+      <Health>1800</Health>      <!-- 18 -->
+    </Component>
+
+    <!-- Metal Grid MK -->
+
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>MetalGridMK</SubtypeId>
+      </Id>
+      <DisplayName>Metal Grid MK</DisplayName>
+      <Icon>Textures\GUI\Icons\Component\metal_grid_component_MK.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.05</Z>
+      </Size>
+      <Mass>300</Mass>      <!-- 6 -->
+      <Volume>150</Volume>      <!-- 15 -->
+      <Model>Models\Components\metal_grid_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>30</MaxIntegrity>      <!-- 30 -->
+      <DropProbability>0.95</DropProbability>      <!-- 0.95 -->
+      <Health>6900</Health>      <!-- 69 -->
+    </Component>
+
+    <!-- Interior Plate MK -->
+
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>InteriorPlateMK</SubtypeId>
+      </Id>
+      <DisplayName>Interior Plate MK</DisplayName>
+      <Icon>Textures\GUI\Icons\Component\interior_plate_component_MK.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.05</Z>
+      </Size>
+      <Mass>150</Mass>      <!-- 3 -->
+      <Volume>50</Volume>      <!-- 5 -->
+      <Model>Models\Components\interior_plate_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>15</MaxIntegrity>      <!-- 15 -->
+      <DropProbability>0.8</DropProbability>      <!-- 8 -->
+      <Health>3600</Health>      <!-- 36 -->
+    </Component>
+
+    <!-- Steel Plate MK -->
+
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>SteelPlateMK</SubtypeId>
+      </Id>
+      <DisplayName>Steel Plate MK</DisplayName>
+      <Icon>Textures\GUI\Icons\Component\steel_plate_component_MK.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.01</Z>
+      </Size>
+      <Mass>1000</Mass>      <!-- 20 -->
+      <Volume>30</Volume>      <!-- 3 -->
+      <Model>Models\Components\steel_plate_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>15</MaxIntegrity>      <!-- 100 -->
+      <DropProbability>0.9</DropProbability>      <!-- 0.9 -->
+      <Health>5300</Health>      <!-- 53 -->
+    </Component>
+
+    <!-- Girder MK -->
+
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>GirderMK</SubtypeId>
+      </Id>
+      <DisplayName>Girder MK</DisplayName>
+      <Icon>Textures\GUI\Icons\Component\girder_component_MK.dds</Icon>
+      <Size>
+        <X>0.05</X>
+        <Y>0.05</Y>
+        <Z>1</Z>
+      </Size>
+      <Mass>300</Mass>      <!-- 6 -->
+      <Volume>20</Volume>      <!-- 2 -->
+      <Model>Models\Components\girder_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>15</MaxIntegrity>      <!-- 15 -->
+      <DropProbability>0.5</DropProbability>      <!-- 0.5 -->
+    </Component>
+
+    <!-- Small Tube MK -->
+
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>SmallTubeMK</SubtypeId>
+      </Id>
+      <DisplayName>Small Steel Tube MK</DisplayName>
+      <Icon>Textures\GUI\Icons\Component\small_tube_component_MK.dds</Icon>
+      <Size>
+        <X>1</X>
+        <Y>0.04</Y>
+        <Z>0.04</Z>
+      </Size>
+      <Mass>200</Mass>      <!-- 4 -->
+      <Volume>20</Volume>      <!-- 2 -->
+      <Model>Models\Components\small_tube_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>15</MaxIntegrity>      <!-- 15 -->
+      <DropProbability>0.5</DropProbability>      <!-- 0.5 -->
+      <Health>1800</Health>      <!-- 18 -->
+    </Component>
+
+    <!-- Large Tube MK -->
+
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>LargeTubeMK</SubtypeId>
+      </Id>
+      <DisplayName>Large Steel Tube MK</DisplayName>
+      <Icon>Textures\GUI\Icons\Component\large_tube_component_MK.dds</Icon>
+      <Size>
+        <X>1</X>
+        <Y>0.2</Y>
+        <Z>0.2</Z>
+      </Size>
+      <Mass>1250</Mass>      <!-- 25 -->
+      <Volume>300</Volume>      <!-- 38 -->
+      <Model>Models\Components\large_tube_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>15</MaxIntegrity>      <!-- 60 -->
+      <DropProbability>0.6</DropProbability>      <!-- 0.6 -->
+      <Health>2200</Health>      <!-- 22 -->
+    </Component>
+
+    <!-- Motor MK -->
+
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>MotorMK</SubtypeId>
+      </Id>
+      <DisplayName>Motor MK</DisplayName>
+      <Icon>Textures\GUI\Icons\Component\motor_component_MK.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.2</Y>
+        <Z>0.2</Z>
+      </Size>
+      <Mass>1200</Mass>      <!-- 24 -->
+      <Volume>80</Volume>      <!-- 8 -->
+      <Model>Models\Components\motor_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>40</MaxIntegrity>      <!-- 40 -->
+      <DropProbability>0.3</DropProbability>      <!-- 0.3 -->
+      <Health>1400</Health>      <!-- 14 -->
+    </Component>
+
+    <!-- Display MK -->
+
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>DisplayMK</SubtypeId>
+      </Id>
+      <DisplayName>Display MK</DisplayName>
+      <Icon>Textures\GUI\Icons\Component\display_component_MK.dds</Icon>
+      <Size>
+        <X>0.3</X>
+        <Y>0.4</Y>
+        <Z>0.05</Z>
+      </Size>
+      <Mass>400</Mass>      <!-- 8 -->
+      <Volume>60</Volume>      <!-- 6 -->
+      <Model>Models\Components\display_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>5</MaxIntegrity>      <!-- 5 -->
+      <DropProbability>0.2</DropProbability>      <!-- 0.2 -->
+      <Health>1200</Health>      <!-- 12 -->
+    </Component>
+
+    <!-- Bullet proof Glass MK -->
+
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>BulletproofGlassMK</SubtypeId>
+      </Id>
+      <DisplayName>Bullet proof Glass MK</DisplayName>
+      <Icon>Textures\GUI\Icons\Component\bulletproof_glass_component_MK.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>750</Mass>      <!-- 15 -->
+      <Volume>80</Volume>      <!-- 8 -->
+      <Model>Models\Components\bulletproof_glass_component.mwm</Model>
+      <PhysicalMaterial>Glass</PhysicalMaterial>
+      <MaxIntegrity>60</MaxIntegrity>      <!-- 60 -->
+      <DropProbability>0.3</DropProbability>      <!-- 0.3 -->
+      <Health>1400</Health>      <!-- 14 -->
+    </Component>
+
+    <!-- Computer MK -->
+
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ComputerMK</SubtypeId>
+      </Id>
+      <DisplayName>Computer MK</DisplayName>
+      <Icon>Textures\GUI\Icons\Component\computer_component_MK.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.02</Z>
+      </Size>
+      <Mass>10</Mass>      <!-- 0.2 -->
+      <Volume>10</Volume>      <!-- 1 -->
+      <Model>Models\Components\computer_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>1</MaxIntegrity>      <!-- 1 -->
+      <DropProbability>0.1</DropProbability>      <!-- 0.1 -->
+      <Health>1100</Health>      <!-- 11 -->
+    </Component>
+
+    <!-- Reactor MK -->
+
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ReactorMK</SubtypeId>
+      </Id>
+      <DisplayName>Reactor Components MK</DisplayName>
+      <Icon>Textures\GUI\Icons\Component\reactor_components_component_MK.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.2</Y>
+        <Z>0.2</Z>
+      </Size>
+      <Mass>1250</Mass>      <!-- 25 -->
+      <Volume>80</Volume>      <!-- 8 -->
+      <Model>Models\Components\reactor_components_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>20</MaxIntegrity>      <!-- 20 -->
+      <DropProbability>0.3</DropProbability>      <!-- 0.3 -->
+      <Health>1400</Health>      <!-- 14 -->
+    </Component>
+
+    <!-- Thrust MK -->
+
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>ThrustMK</SubtypeId>
+      </Id>
+      <DisplayName>Thrust Components MK</DisplayName>
+      <Icon>Textures\GUI\Icons\Component\thrust_components_component_MK.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.2</Y>
+        <Z>0.2</Z>
+      </Size>
+      <Mass>2000</Mass>      <!-- 40 -->
+      <Volume>100</Volume>      <!-- 10 -->
+      <Model>Models\Components\thrust_components_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>30</MaxIntegrity>      <!-- 30 -->
+      <DropProbability>0.2</DropProbability>      <!-- 0.2 -->
+      <Health>1200</Health>      <!-- 12 -->
+    </Component>
+
+    <!-- Gravity Generator MK -->
+
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>GravityGeneratorMK</SubtypeId>
+      </Id>
+      <DisplayName>Gravity Generator Components MK</DisplayName>
+      <Icon>Textures\GUI\Icons\Component\gravity_generator_components_component_MK.dds</Icon>
+      <Size>
+        <X>1</X>
+        <Y>0.7</Y>
+        <Z>0.4</Z>
+      </Size>
+      <Mass>40000</Mass>      <!-- 800 -->
+      <Volume>300</Volume>      <!-- 200 -->
+      <Model>Models\Components\gravity_generator_components_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>500</MaxIntegrity>      <!-- 500 -->
+      <DropProbability>0.2</DropProbability>      <!-- 0.2 -->
+      <Health>1200</Health>      <!-- 12 -->
+    </Component>
+
+    <!-- Medical MK -->
+
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>MedicalMK</SubtypeId>
+      </Id>
+      <DisplayName>Medical Components MK</DisplayName>
+      <Icon>Textures\GUI\Icons\Component\medical_components_component_MK.dds</Icon>
+      <Size>
+        <X>1</X>
+        <Y>0.4</Y>
+        <Z>0.4</Z>
+      </Size>
+      <Mass>7500</Mass>      <!-- 150 -->
+      <Volume>160</Volume>      <!-- 160 -->
+      <Model>Models\Components\medical_components_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>70</MaxIntegrity>      <!-- 70 -->
+      <DropProbability>0.2</DropProbability>      <!-- 0.2 -->
+      <Health>1200</Health>      <!-- 12 -->
+    </Component>
+
+    <!-- Radio Communication MK -->
+
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>RadioCommunicationMK</SubtypeId>
+      </Id>
+      <DisplayName>Radio Communication Components MK</DisplayName>
+      <Icon>Textures\GUI\Icons\Component\radio_communication_components_component_MK.dds</Icon>
+      <Size>
+        <X>1</X>
+        <Y>0.5</Y>
+        <Z>0.4</Z>
+      </Size>
+      <Mass>400</Mass>      <!-- 8 -->
+      <Volume>700</Volume>      <!-- 70 -->
+      <Model>Models\Components\radio_communication_components_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>15</MaxIntegrity>      <!-- 15 -->
+      <DropProbability>0.1</DropProbability>      <!-- 0.1 -->
+      <Health>1100</Health>      <!-- 11 -->
+    </Component>
+
+    <!-- Detector MK -->
+
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>DetectorMK</SubtypeId>
+      </Id>
+      <DisplayName>Detector Components MK</DisplayName>
+      <Icon>Textures\GUI\Icons\Component\detector_components_component_MK.dds</Icon>
+      <Size>
+        <X>0.15</X>
+        <Y>0.15</Y>
+        <Z>0.4</Z>
+      </Size>
+      <Mass>250</Mass>      <!-- 5 -->
+      <Volume>60</Volume>      <!-- 6 -->
+      <Model>Models\Components\detector_components_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>4</MaxIntegrity>      <!-- 4 -->
+      <DropProbability>0.1</DropProbability>      <!-- 0.1 -->
+      <Health>1100</Health>      <!-- 11 -->
+    </Component>
+
+    <!-- Solar Cell MK -->
+
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>SolarCellMK</SubtypeId>
+      </Id>
+      <DisplayName>Solar Cell MK</DisplayName>
+      <Icon>Textures\GUI\Icons\Component\SolarCellComponent_MK.dds</Icon>
+      <Size>
+        <X>1</X>
+        <Y>0.5</Y>
+        <Z>0.05</Z>
+      </Size>
+      <Mass>400</Mass>      <!-- 8 -->
+      <Volume>200</Volume>      <!-- 20 -->
+      <Model>Models\Components\SolarCell.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>1</MaxIntegrity>      <!-- 1 -->
+      <DropProbability>0.1</DropProbability>      <!-- 0.1 -->
+      <Health>1100</Health>      <!-- 11 -->
+    </Component>
+
+    <!-- Power Cell MK -->
+
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>PowerCellMK</SubtypeId>
+      </Id>
+      <DisplayName>Power Cell MK</DisplayName>
+      <Icon>Textures\GUI\Icons\Component\BatteryComponent_MK.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.3</Y>
+        <Z>0.3</Z>
+      </Size>
+      <Mass>1250</Mass>      <!-- 25 -->
+      <Volume>300</Volume>      <!-- 45 -->
+      <Model>Models\Components\PowerCellComponent.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>50</MaxIntegrity>      <!-- 50 -->
+      <DropProbability>0.3</DropProbability>      <!-- 0.3 -->
+      <Health>1400</Health>      <!-- 14 -->
+    </Component>
+
+    <!-- Superconductor MK -->
+
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>SuperconductorMK</SubtypeId>
+      </Id>
+      <DisplayName>Super conductor MK</DisplayName>
+      <Icon>Textures\GUI\Icons\Component\superconductor_conducts_component_MK.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.03</Z>
+      </Size>
+      <Mass>750</Mass>      <!-- 15 -->
+      <Volume>80</Volume>      <!-- 8 -->
+      <Model>Models\Components\superconductor_conducts_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>5</MaxIntegrity>      <!-- 5 -->
+      <DropProbability>0.3</DropProbability>      <!-- 0.3 -->
+      <Health>1400</Health>      <!-- 14 -->
+    </Component>
+
+  </Components>
+</Definitions>

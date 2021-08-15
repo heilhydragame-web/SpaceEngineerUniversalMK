@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlueprintClasses>
+
+  </BlueprintClasses>
+
+  <!-- Components MK -->
+
+  <BlueprintClassEntries>
+    <Entry Class="Components" BlueprintSubtypeId="ConstructionComponentMK" />
+    <Entry Class="Components" BlueprintSubtypeId="GirderComponentMK" />
+    <Entry Class="Components" BlueprintSubtypeId="MetalGridMK" />
+    <Entry Class="Components" BlueprintSubtypeId="InteriorPlateMK" />
+    <Entry Class="Components" BlueprintSubtypeId="SteelPlateMK" />
+    <Entry Class="Components" BlueprintSubtypeId="SmallTubeMK" />
+    <Entry Class="Components" BlueprintSubtypeId="LargeTubeMK" />
+    <Entry Class="Components" BlueprintSubtypeId="MotorComponentMK" />
+    <Entry Class="Components" BlueprintSubtypeId="DisplayMK" />
+    <Entry Class="Components" BlueprintSubtypeId="BulletproofGlassMK" />
+    <Entry Class="Components" BlueprintSubtypeId="ComputerComponentMK" />
+    <Entry Class="Components" BlueprintSubtypeId="ReactorComponentMK" />
+    <Entry Class="Components" BlueprintSubtypeId="ThrustComponentMK" />
+    <Entry Class="Components" BlueprintSubtypeId="GravityGeneratorComponentMK" />
+    <Entry Class="Components" BlueprintSubtypeId="MedicalComponentMK" />
+    <Entry Class="Components" BlueprintSubtypeId="RadioCommunicationComponentMK" />
+    <Entry Class="Components" BlueprintSubtypeId="DetectorComponentMK" />
+    <Entry Class="Components" BlueprintSubtypeId="SolarCellMK" />
+    <Entry Class="Components" BlueprintSubtypeId="PowerCellMK" />
+    <Entry Class="Components" BlueprintSubtypeId="SuperconductorMK" />
+    <Entry Class="Components" BlueprintSubtypeId="ComponentBaseMK2" />
+    <Entry Class="Components" BlueprintSubtypeId="ComponentBaseUpgradeMK2" />
+
+  </BlueprintClassEntries>
+</Definitions>

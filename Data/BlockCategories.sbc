@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CategoryClasses>
+		<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+			<Id>
+				<TypeId>GuiBlockCategoryDefinition</TypeId>
+				<SubtypeId/>
+			</Id>
+			<DisplayName>MK2-5 X2-X16</DisplayName>
+			<Name>MK-MK2-5 X2-X16</Name>
+			<ItemIds>
+				<string>LargeAtmosphericThrusterMK2</string>
+				<string>LargeBatteryMK2</string>
+				<string>LargeContainerMK2</string>
+				<string>LargeGyroMK2</string>
+				<string>LargeHydrogeneEngineMK2</string>
+				<string>LargeHydrogeneTankMK2</string>
+				<string>LargeHydrogeneThrusterMK2</string>
+				<string>LargeJumpDriveMK2</string>
+				<string>LargeIonThrusterMK2</string>
+				<string>LargeNuclearReactorMK2</string>
+				<string>LargeOxygenGeneratorMK2</string>
+				<string>LargeOxygenTankMK2</string>
+				<string>LargeSolarPanelMK2</string>
+				<string>LargeUpgradeMK2</string>
+				<string>WindTurbineMK2</string>
+			</ItemIds>
+		</Category>
+	</CategoryClasses>
+</Definitions>
