@@ -11,7 +11,6 @@
             <Icon>Textures\GUI\Icons\Cubes\MK2\CargoContainerMK2.dds</Icon>
             <Description>Description_LargeCargoContainerMK2</Description>
             <CubeSize>Large</CubeSize>
-            <GuiVisible>false</GuiVisible>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="3" />
             <ModelOffset x="0" y="0" z="0" />
@@ -78,6 +77,7 @@
                 </BlockVariant>
             </BlockVariants>
             <BlockPairName>LargeCargoContainerIndustrialMK2</BlockPairName>
+            <InventoryMaxVolume>35.0</InventoryMaxVolume>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -89,6 +89,7 @@
             <PCU>10</PCU>
             <DLC>HeavyIndustry</DLC>
         </Definition>
+
         <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
             <Id>
                 <TypeId>OxygenTank</TypeId>
@@ -154,7 +155,7 @@
             <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
             <StandbyPowerConsumption>0.000001</StandbyPowerConsumption>
             <Capacity>40000000</Capacity>
-            <InventoryMaxVolume>0.75</InventoryMaxVolume>
+            <InventoryMaxVolume>1.5</InventoryMaxVolume>
             <InventorySize>
                 <X>2</X>
                 <Y>2</Y>
@@ -474,7 +475,7 @@
             <ForceMagnitude>9000000</ForceMagnitude>
             <MaxPowerConsumption>66.6</MaxPowerConsumption>
             <MinPowerConsumption>0.000002</MinPowerConsumption>
-            <SlowdownFactor>1</SlowdownFactor>
+            <SlowdownFactor>2</SlowdownFactor>
 
             <MinPlanetaryInfluence>0</MinPlanetaryInfluence>
             <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
@@ -514,7 +515,7 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>SmallBlockLargeThrustSciFiMK2</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Block_LargeThrustSciFi</DisplayName>
+            <DisplayName>Large SiFi Thruster MK2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\MK2\Small_IonThrusterLarge_SciFiMK2.dds</Icon>
             <Description>Description_IonThrust</Description>
             <CubeSize>Small</CubeSize>
@@ -622,10 +623,10 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>LargeBlockLargeAtmosphericThrustSciFi</SubtypeId>
+                <SubtypeId>LargeBlockLargeAtmosphericThrustSciFiMK2</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Block_LargeAtmoThrustSciFi</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\MK2\Large_AtmosphericThrusterLarge_SciFi.dds</Icon>
+            <DisplayName>Large SiFi Atmospheric Thruster MK2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\MK2\Large_AtmosphericThrusterLarge_SciFiMK2.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -635,13 +636,13 @@
             <ThrusterType>Atmospheric</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="SteelPlate" Count="100" />
+                <Component Subtype="SteelPlate" Count="200" />
+                <Component Subtype="Construction" Count="80" />
+                <Component Subtype="LargeTube" Count="100" />
+                <Component Subtype="MetalGrid" Count="80" />
+                <Component Subtype="Motor" Count="2000" />
                 <Component Subtype="Construction" Count="40" />
-                <Component Subtype="LargeTube" Count="50" />
-                <Component Subtype="MetalGrid" Count="40" />
-                <Component Subtype="Motor" Count="1100" />
-                <Component Subtype="Construction" Count="20" />
-                <Component Subtype="SteelPlate" Count="130" />
+                <Component Subtype="SteelPlate" Count="250" />
             </Components>
             <CriticalComponent Subtype="Motor" Index="0" />
             <MountPoints>
@@ -655,6 +656,20 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AtmosphericThrusterLarge_SciFi_Construction2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AtmosphericThrusterLarge_SciFi_Construction3.mwm" />
             </BuildProgressModels>
+            <BlockVariants>
+                <BlockVariant>
+                    <TypeId>Thrust</TypeId>
+                    <SubtypeId>LargeBlockLargeAtmosphericThrustSciFiMK3</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>Thrust</TypeId>
+                    <SubtypeId>LargeBlockLargeAtmosphericThrustSciFiMK4</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>Thrust</TypeId>
+                    <SubtypeId>LargeBlockLargeAtmosphericThrustSciFiMK5</SubtypeId>
+                </BlockVariant>
+            </BlockVariants>
             <VoxelPlacement>
                 <StaticMode>
                     <PlacementMode>Volumetric</PlacementMode>
@@ -667,17 +682,17 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeAtmoThrustSciFi</BlockPairName>
+            <BlockPairName>LargeAtmoThrustSciFiMK2</BlockPairName>
             <Center x="1" y="1" z="2" />
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>90</BuildTimeSeconds>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>6480000</ForceMagnitude>
-            <MaxPowerConsumption>16.8</MaxPowerConsumption>
+            <ForceMagnitude>13000000</ForceMagnitude>
+            <MaxPowerConsumption>26.8</MaxPowerConsumption>
             <MinPowerConsumption>0.000002</MinPowerConsumption>
-            <SlowdownFactor>1</SlowdownFactor>
+            <SlowdownFactor>2</SlowdownFactor>
 
             <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
             <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
@@ -685,7 +700,7 @@
             <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
             <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
 
-            <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
+            <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
             <FlameLengthScale>1.15</FlameLengthScale>
             <FlameIdleColor>
                 <X>0.3</X>
@@ -724,10 +739,10 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>LargeBlockSmallAtmosphericThrustSciFi</SubtypeId>
+                <SubtypeId>LargeBlockSmallAtmosphericThrustSciFiMK2</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Block_SmallAtmoThrustSciFi</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\MK2\Large_AtmosphericThrusterSmall_SciFi.dds</Icon>
+            <DisplayName>Small SiFi Atmospheric Thruster MK2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\MK2\Large_AtmosphericThrusterSmall_SciFiMK2.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -737,13 +752,13 @@
             <ThrusterType>Atmospheric</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="SteelPlate" Count="15" />
-                <Component Subtype="Construction" Count="30" />
-                <Component Subtype="LargeTube" Count="8" />
-                <Component Subtype="MetalGrid" Count="10" />
-                <Component Subtype="Motor" Count="110" />
-                <Component Subtype="Construction" Count="20" />
-                <Component Subtype="SteelPlate" Count="20" />
+                <Component Subtype="SteelPlate" Count="30" />
+                <Component Subtype="Construction" Count="60" />
+                <Component Subtype="LargeTube" Count="15" />
+                <Component Subtype="MetalGrid" Count="20" />
+                <Component Subtype="Motor" Count="200" />
+                <Component Subtype="Construction" Count="40" />
+                <Component Subtype="SteelPlate" Count="40" />
             </Components>
             <CriticalComponent Subtype="Motor" Index="0" />
             <MountPoints>
@@ -757,6 +772,20 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AtmosphericThrusterSmall_SciFi_Construction2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AtmosphericThrusterSmall_SciFi_Construction3.mwm" />
             </BuildProgressModels>
+            <BlockVariants>
+                <BlockVariant>
+                    <TypeId>Thrust</TypeId>
+                    <SubtypeId>LargeBlockSmallAtmosphericThrustSciFiMK3</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>Thrust</TypeId>
+                    <SubtypeId>LargeBlockSmallAtmosphericThrustSciFiMK4</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>Thrust</TypeId>
+                    <SubtypeId>LargeBlockSmallAtmosphericThrustSciFiMK5</SubtypeId>
+                </BlockVariant>
+            </BlockVariants>
             <VoxelPlacement>
                 <StaticMode>
                     <PlacementMode>Volumetric</PlacementMode>
@@ -769,7 +798,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallAtmoThrustSciFi</BlockPairName>
+            <BlockPairName>SmallAtmoThrustSciFiMK2</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
@@ -777,10 +806,10 @@
             <BuildTimeSeconds>40</BuildTimeSeconds>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>648000</ForceMagnitude>
-            <MaxPowerConsumption>2.4</MaxPowerConsumption>
+            <ForceMagnitude>1300000</ForceMagnitude>
+            <MaxPowerConsumption>4.4</MaxPowerConsumption>
             <MinPowerConsumption>0.000002</MinPowerConsumption>
-            <SlowdownFactor>1</SlowdownFactor>
+            <SlowdownFactor>2</SlowdownFactor>
 
             <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
             <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
@@ -788,7 +817,7 @@
             <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
             <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
 
-            <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
+            <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
             <FlameLengthScale>1.15</FlameLengthScale>
             <FlameIdleColor>
                 <X>0.3</X>
@@ -827,10 +856,10 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>SmallBlockLargeAtmosphericThrustSciFi</SubtypeId>
+                <SubtypeId>SmallBlockLargeAtmosphericThrustSciFiMK2</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Block_LargeAtmoThrustSciFi</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\MK2\Small_AtmosphericThrusterLarge_SciFi.dds</Icon>
+            <DisplayName>Large SiFi Atmospheric Thruster MK2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\MK2\Small_AtmosphericThrusterLarge_SciFiMK2.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -840,13 +869,13 @@
             <ThrusterType>Atmospheric</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="SteelPlate" Count="10" />
+                <Component Subtype="SteelPlate" Count="20" />
+                <Component Subtype="Construction" Count="40" />
+                <Component Subtype="LargeTube" Count="8" />
+                <Component Subtype="MetalGrid" Count="15" />
+                <Component Subtype="Motor" Count="180" />
                 <Component Subtype="Construction" Count="20" />
-                <Component Subtype="LargeTube" Count="4" />
-                <Component Subtype="MetalGrid" Count="8" />
-                <Component Subtype="Motor" Count="90" />
-                <Component Subtype="Construction" Count="10" />
-                <Component Subtype="SteelPlate" Count="10" />
+                <Component Subtype="SteelPlate" Count="20" />
             </Components>
             <CriticalComponent Subtype="Motor" Index="0" />
             <MountPoints>
@@ -859,6 +888,20 @@
                 <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\AtmosphericThrusterLarge_SciFi_Construction1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AtmosphericThrusterLarge_SciFi_Construction2.mwm" />
             </BuildProgressModels>
+            <BlockVariants>
+                <BlockVariant>
+                    <TypeId>Thrust</TypeId>
+                    <SubtypeId>SmallBlockLargeAtmosphericThrustSciFiMK3</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>Thrust</TypeId>
+                    <SubtypeId>SmallBlockLargeAtmosphericThrustSciFiMK4</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>Thrust</TypeId>
+                    <SubtypeId>SmallBlockLargeAtmosphericThrustSciFiMK5</SubtypeId>
+                </BlockVariant>
+            </BlockVariants>
             <VoxelPlacement>
                 <StaticMode>
                     <PlacementMode>Volumetric</PlacementMode>
@@ -871,17 +914,17 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeAtmoThrustSciFi</BlockPairName>
+            <BlockPairName>LargeAtmoThrustSciFiMK2</BlockPairName>
             <Center x="1" y="1" z="2" />
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>20</BuildTimeSeconds>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>576000</ForceMagnitude>
-            <MaxPowerConsumption>2.4</MaxPowerConsumption>
+            <ForceMagnitude>1200000</ForceMagnitude>
+            <MaxPowerConsumption>4.4</MaxPowerConsumption>
             <MinPowerConsumption>0.000002</MinPowerConsumption>
-            <SlowdownFactor>1</SlowdownFactor>
+            <SlowdownFactor>2</SlowdownFactor>
 
             <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
             <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
@@ -889,8 +932,8 @@
             <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
             <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
 
-            <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
-            <FlameDamage>0.2</FlameDamage>
+            <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
+            <FlameDamage>0.0</FlameDamage>
             <FlameLengthScale>1.15</FlameLengthScale>
             <FlameIdleColor>
                 <X>0.3</X>
@@ -929,10 +972,10 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>SmallBlockSmallAtmosphericThrustSciFi</SubtypeId>
+                <SubtypeId>SmallBlockSmallAtmosphericThrustSciFiMK2</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Block_SmallAtmoThrustSciFi</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\MK2\Small_AtmosphericThrusterSmall_SciFi.dds</Icon>
+            <DisplayName>Small SiFi Atmospheric Thruster MK2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\MK2\Small_AtmosphericThrusterSmall_SciFiMK2.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -942,13 +985,13 @@
             <ThrusterType>Atmospheric</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="Construction" Count="40" />
+                <Component Subtype="LargeTube" Count="2" />
+                <Component Subtype="MetalGrid" Count="2" />
+                <Component Subtype="Motor" Count="40" />
+                <Component Subtype="Construction" Count="4" />
                 <Component Subtype="SteelPlate" Count="2" />
-                <Component Subtype="Construction" Count="20" />
-                <Component Subtype="LargeTube" Count="1" />
-                <Component Subtype="MetalGrid" Count="1" />
-                <Component Subtype="Motor" Count="18" />
-                <Component Subtype="Construction" Count="2" />
-                <Component Subtype="SteelPlate" Count="1" />
             </Components>
             <CriticalComponent Subtype="Motor" Index="0" />
             <MountPoints>
@@ -961,6 +1004,20 @@
                 <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\AtmosphericThrusterSmall_SciFi_Construction1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AtmosphericThrusterSmall_SciFi_Construction2.mwm" />
             </BuildProgressModels>
+            <BlockVariants>
+                <BlockVariant>
+                    <TypeId>Thrust</TypeId>
+                    <SubtypeId>SmallBlockSmallAtmosphericThrustSciFiMK3</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>Thrust</TypeId>
+                    <SubtypeId>SmallBlockSmallAtmosphericThrustSciFiMK4</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>Thrust</TypeId>
+                    <SubtypeId>SmallBlockSmallAtmosphericThrustSciFiMK5</SubtypeId>
+                </BlockVariant>
+            </BlockVariants>
             <VoxelPlacement>
                 <StaticMode>
                     <PlacementMode>Volumetric</PlacementMode>
@@ -973,17 +1030,17 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallAtmoThrustSciFi</BlockPairName>
+            <BlockPairName>SmallAtmoThrustSciFiMK2</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>10</BuildTimeSeconds>
             <EdgeType>Light</EdgeType>
 
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>96000</ForceMagnitude>
-            <MaxPowerConsumption>0.600</MaxPowerConsumption>
+            <ForceMagnitude>200000</ForceMagnitude>
+            <MaxPowerConsumption>1.200</MaxPowerConsumption>
             <MinPowerConsumption>0.000002</MinPowerConsumption>
-            <SlowdownFactor>1</SlowdownFactor>
+            <SlowdownFactor>2</SlowdownFactor>
 
             <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
             <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
@@ -991,8 +1048,8 @@
             <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
             <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
 
-            <FlameDamageLengthScale>0.35</FlameDamageLengthScale>
-            <FlameDamage>0.1</FlameDamage>
+            <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
+            <FlameDamage>0.0</FlameDamage>
             <FlameLengthScale>1.5</FlameLengthScale>
             <FlameIdleColor>
                 <X>0.3</X>
@@ -1032,10 +1089,10 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>LargeBlockLargeHydrogenThrustIndustrial</SubtypeId>
+                <SubtypeId>LargeBlockLargeHydrogenThrustIndustrialMK2</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Block_LargeHydrogenThrustIndustrial</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\MK2\HydrogenThrusterIndustrialLarge.dds</Icon>
+            <DisplayName>Large Industrial Hydrogen Thruster MK2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\MK2\HydrogenThrusterIndustrialLargeMK2.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1045,12 +1102,12 @@
             <ThrusterType>Hydrogen</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
+                <Component Subtype="SteelPlate" Count="200" />
+                <Component Subtype="Construction" Count="300" />
+                <Component Subtype="MetalGrid" Count="500" />
+                <Component Subtype="LargeTube" Count="80" />
+                <Component Subtype="Construction" Count="60" />
                 <Component Subtype="SteelPlate" Count="100" />
-                <Component Subtype="Construction" Count="150" />
-                <Component Subtype="MetalGrid" Count="250" />
-                <Component Subtype="LargeTube" Count="40" />
-                <Component Subtype="Construction" Count="30" />
-                <Component Subtype="SteelPlate" Count="50" />
             </Components>
             <CriticalComponent Subtype="LargeTube" Index="0" />
             <Center x="1" y="1" z="3" />
@@ -1066,6 +1123,20 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenThrusterIndustrialLargeConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenThrusterIndustrialLargeConstruction_3.mwm" />
             </BuildProgressModels>
+            <BlockVariants>
+                <BlockVariant>
+                    <TypeId>Thrust</TypeId>
+                    <SubtypeId>LargeBlockLargeHydrogenThrustIndustrialMK3</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>Thrust</TypeId>
+                    <SubtypeId>LargeBlockLargeHydrogenThrustIndustrialMK4</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>Thrust</TypeId>
+                    <SubtypeId>LargeBlockLargeHydrogenThrustIndustrialMK5</SubtypeId>
+                </BlockVariant>
+            </BlockVariants>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
                 <StaticMode>
@@ -1079,7 +1150,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeHydrogenThrustIndustrial</BlockPairName>
+            <BlockPairName>LargeHydrogenThrustIndustrialMK2</BlockPairName>
             <MirroringX>Z</MirroringX>
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -1091,12 +1162,12 @@
                 </FuelId>
                 <Efficiency>1</Efficiency>
             </FuelConverter>
-            <MaxPowerConsumption>7.5</MaxPowerConsumption>
+            <MaxPowerConsumption>15.0</MaxPowerConsumption>
             <MinPowerConsumption>0.000000001</MinPowerConsumption>
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>7200000</ForceMagnitude>
-            <SlowdownFactor>1</SlowdownFactor>
-            <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
+            <ForceMagnitude>15000000</ForceMagnitude>
+            <SlowdownFactor>2</SlowdownFactor>
+            <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
             <FlameLengthScale>1.15</FlameLengthScale>
             <FlameIdleColor>
                 <X>1</X>
@@ -1133,10 +1204,10 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>LargeBlockSmallHydrogenThrustIndustrial</SubtypeId>
+                <SubtypeId>LargeBlockSmallHydrogenThrustIndustrialMK2</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Block_HydrogenThrustIndustrial</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\MK2\HydrogenThrusterIndustrialSmall.dds</Icon>
+            <DisplayName>Small Industrial Hydrogen Thruster MK2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\MK2\HydrogenThrusterIndustrialSmallMK2.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1146,12 +1217,12 @@
             <ThrusterType>Hydrogen</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="SteelPlate" Count="15" />
+                <Component Subtype="SteelPlate" Count="30" />
+                <Component Subtype="Construction" Count="80" />
+                <Component Subtype="MetalGrid" Count="80" />
+                <Component Subtype="LargeTube" Count="15" />
                 <Component Subtype="Construction" Count="40" />
-                <Component Subtype="MetalGrid" Count="40" />
-                <Component Subtype="LargeTube" Count="8" />
-                <Component Subtype="Construction" Count="20" />
-                <Component Subtype="SteelPlate" Count="10" />
+                <Component Subtype="SteelPlate" Count="20" />
             </Components>
             <CriticalComponent Subtype="LargeTube" Index="0" />
             <MountPoints>
@@ -1162,6 +1233,20 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenThrusterIndustrialSmallConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenThrusterIndustrialSmallConstruction_3.mwm" />
             </BuildProgressModels>
+            <BlockVariants>
+                <BlockVariant>
+                    <TypeId>Thrust</TypeId>
+                    <SubtypeId>LargeBlockLargeHydrogenThrustIndustrialMK3</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>Thrust</TypeId>
+                    <SubtypeId>LargeBlockLargeHydrogenThrustIndustrialMK4</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>Thrust</TypeId>
+                    <SubtypeId>LargeBlockLargeHydrogenThrustIndustrialMK5</SubtypeId>
+                </BlockVariant>
+            </BlockVariants>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
                 <StaticMode>
@@ -1175,14 +1260,14 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>HydrogenThrustIndustrial</BlockPairName>
+            <BlockPairName>HydrogenThrustIndustrialMK2</BlockPairName>
             <Center x="0" y="0" z="0" />
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>40</BuildTimeSeconds>
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>1080000</ForceMagnitude>
-            <SlowdownFactor>1</SlowdownFactor>
+            <ForceMagnitude>2200000</ForceMagnitude>
+            <SlowdownFactor>2</SlowdownFactor>
             <FuelConverter>
                 <FuelId>
                     <TypeId>GasProperties</TypeId>
@@ -1190,9 +1275,9 @@
                 </FuelId>
                 <Efficiency>1</Efficiency>
             </FuelConverter>
-            <MaxPowerConsumption>1.25</MaxPowerConsumption>
+            <MaxPowerConsumption>2.5</MaxPowerConsumption>
             <MinPowerConsumption>0.000000001</MinPowerConsumption>
-            <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
+            <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
             <FlameLengthScale>1.15</FlameLengthScale>
             <FlameIdleColor>
                 <X>1</X>
@@ -1230,10 +1315,10 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>SmallBlockLargeHydrogenThrustIndustrial</SubtypeId>
+                <SubtypeId>SmallBlockLargeHydrogenThrustIndustrialMK2</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Block_LargeHydrogenThrustIndustrial</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\MK2\HydrogenThrusterIndustrialLarge.dds</Icon>
+            <DisplayName>Large Industrial Hydrogen Thruster MK2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\MK2\HydrogenThrusterIndustrialLargeMK2.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1243,12 +1328,12 @@
             <ThrusterType>Hydrogen</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="SteelPlate" Count="20" />
+                <Component Subtype="SteelPlate" Count="40" />
+                <Component Subtype="Construction" Count="40" />
+                <Component Subtype="MetalGrid" Count="40" />
+                <Component Subtype="LargeTube" Count="20" />
                 <Component Subtype="Construction" Count="20" />
-                <Component Subtype="MetalGrid" Count="22" />
-                <Component Subtype="LargeTube" Count="10" />
-                <Component Subtype="Construction" Count="10" />
-                <Component Subtype="SteelPlate" Count="10" />
+                <Component Subtype="SteelPlate" Count="20" />
             </Components>
             <CriticalComponent Subtype="LargeTube" Index="0" />
             <Center x="1" y="1" z="3" />
@@ -1263,6 +1348,20 @@
                 <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\HydrogenThrusterIndustrialLargeConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\HydrogenThrusterIndustrialLargeConstruction_2.mwm" />
             </BuildProgressModels>
+            <BlockVariants>
+                <BlockVariant>
+                    <TypeId>Thrust</TypeId>
+                    <SubtypeId>SmallBlockLargeHydrogenThrustIndustrialMK3</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>Thrust</TypeId>
+                    <SubtypeId>SmallBlockLargeHydrogenThrustIndustrialMK4</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>Thrust</TypeId>
+                    <SubtypeId>SmallBlockLargeHydrogenThrustIndustrialMK5</SubtypeId>
+                </BlockVariant>
+            </BlockVariants>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
                 <StaticMode>
@@ -1276,7 +1375,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeHydrogenThrustIndustrial</BlockPairName>
+            <BlockPairName>LargeHydrogenThrustIndustrialMK2</BlockPairName>
             <MirroringX>Z</MirroringX>
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -1288,12 +1387,12 @@
                 </FuelId>
                 <Efficiency>1</Efficiency>
             </FuelConverter>
-            <MaxPowerConsumption>0.6</MaxPowerConsumption>
+            <MaxPowerConsumption>1.2</MaxPowerConsumption>
             <MinPowerConsumption>0.000000001</MinPowerConsumption>
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>480000</ForceMagnitude>
-            <SlowdownFactor>1</SlowdownFactor>
-            <FlameDamageLengthScale>0.6</FlameDamageLengthScale>
+            <ForceMagnitude>1000000</ForceMagnitude>
+            <SlowdownFactor>2</SlowdownFactor>
+            <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
             <FlameLengthScale>1.15</FlameLengthScale>
             <FlameIdleColor>
                 <X>1</X>
@@ -1329,10 +1428,10 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>SmallBlockSmallHydrogenThrustIndustrial</SubtypeId>
+                <SubtypeId>SmallBlockSmallHydrogenThrustIndustrialMK2</SubtypeId>
             </Id>
-            <DisplayName>DisplayName_Block_HydrogenThrustIndustrial</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\MK2\HydrogenThrusterIndustrialSmall.dds</Icon>
+            <DisplayName>Small Industrial Hydrogen Thruster MK2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\MK2\HydrogenThrusterIndustrialSmallMK2.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1342,12 +1441,12 @@
             <ThrusterType>Hydrogen</ThrusterType>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
             <Components>
-                <Component Subtype="SteelPlate" Count="2" />
+                <Component Subtype="SteelPlate" Count="4" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="MetalGrid" Count="8" />
+                <Component Subtype="LargeTube" Count="4" />
                 <Component Subtype="Construction" Count="10" />
-                <Component Subtype="MetalGrid" Count="4" />
-                <Component Subtype="LargeTube" Count="2" />
-                <Component Subtype="Construction" Count="5" />
-                <Component Subtype="SteelPlate" Count="5" />
+                <Component Subtype="SteelPlate" Count="10" />
             </Components>
             <CriticalComponent Subtype="LargeTube" Index="0" />
             <MountPoints>
@@ -1357,6 +1456,20 @@
                 <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\HydrogenThrusterIndustrialSmallConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\HydrogenThrusterIndustrialSmallConstruction_2.mwm" />
             </BuildProgressModels>
+            <BlockVariants>
+                <BlockVariant>
+                    <TypeId>Thrust</TypeId>
+                    <SubtypeId>SmallBlockSmallHydrogenThrustIndustrialMK3</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>Thrust</TypeId>
+                    <SubtypeId>SmallBlockSmallHydrogenThrustIndustrialMK4</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>Thrust</TypeId>
+                    <SubtypeId>SmallBlockSmallHydrogenThrustIndustrialMK5</SubtypeId>
+                </BlockVariant>
+            </BlockVariants>
             <VoxelPlacement>
                 <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
                 <StaticMode>
@@ -1370,13 +1483,13 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>HydrogenThrustIndustrial</BlockPairName>
+            <BlockPairName>HydrogenThrustIndustrialMK2</BlockPairName>
             <Center x="0" y="0" z="0" />
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>10</BuildTimeSeconds>
             <ResourceSinkGroup>Thrust</ResourceSinkGroup>
-            <ForceMagnitude>98400</ForceMagnitude>
+            <ForceMagnitude>200000</ForceMagnitude>
             <FuelConverter>
                 <FuelId>
                     <TypeId>GasProperties</TypeId>
@@ -1384,10 +1497,10 @@
                 </FuelId>
                 <Efficiency>1</Efficiency>
             </FuelConverter>
-            <MaxPowerConsumption>0.125</MaxPowerConsumption>
+            <MaxPowerConsumption>0.25</MaxPowerConsumption>
             <MinPowerConsumption>0.000000001</MinPowerConsumption>
-            <SlowdownFactor>1</SlowdownFactor>
-            <FlameDamageLengthScale>0.34</FlameDamageLengthScale>
+            <SlowdownFactor>2</SlowdownFactor>
+            <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
             <FlameLengthScale>1.5</FlameLengthScale>
             <FlameIdleColor>
                 <X>1</X>
