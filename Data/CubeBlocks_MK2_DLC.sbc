@@ -2,7 +2,93 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <CubeBlocks>
-
+        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+            <Id>
+                <TypeId>CargoContainer</TypeId>
+                <SubtypeId>LargeBlockLargeIndustrialContainerMK2</SubtypeId>
+            </Id>
+            <DisplayName>Industrial Container MK2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\MK2\CargoContainerMK2.dds</Icon>
+            <Description>Description_LargeCargoContainerMK2</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="3" z="3" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\CargoContainer.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="600" />
+                <Component Subtype="Construction" Count="100" />
+                <Component Subtype="MetalGrid" Count="50" />
+                <Component Subtype="SmallTube" Count="100" />
+                <Component Subtype="Motor" Count="40" />
+                <Component Subtype="Display" Count="2" />
+                <Component Subtype="Computer" Count="15" />
+                <Component Subtype="Construction" Count="40" />
+                <Component Subtype="InteriorPlate" Count="100" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="1" StartY="1" EndX="2" EndY="2" />
+                <MountPoint Side="Right" StartX="0.2" StartY="0.55" EndX="0.3" EndY="0.85" />
+                <MountPoint Side="Right" StartX="0.2" StartY="2.15" EndX="0.3" EndY="2.45" />
+                <MountPoint Side="Right" StartX="2.7" StartY="0.55" EndX="2.8" EndY="0.85" />
+                <MountPoint Side="Right" StartX="2.7" StartY="2.15" EndX="2.8" EndY="2.45" />
+                <MountPoint Side="Left" StartX="1" StartY="1" EndX="2" EndY="2" />
+                <MountPoint Side="Left" StartX="0.2" StartY="0.55" EndX="0.3" EndY="0.85" />
+                <MountPoint Side="Left" StartX="0.2" StartY="2.15" EndX="0.3" EndY="2.45" />
+                <MountPoint Side="Left" StartX="2.7" StartY="0.55" EndX="2.8" EndY="0.85" />
+                <MountPoint Side="Left" StartX="2.7" StartY="2.15" EndX="2.8" EndY="2.45" />
+                <MountPoint Side="Top" StartX="0.5" StartY="0.2" EndX="0.8" EndY="0.3" />
+                <MountPoint Side="Top" StartX="2.2" StartY="0.2" EndX="2.5" EndY="0.3" />
+                <MountPoint Side="Top" StartX="0.5" StartY="2.7" EndX="0.8" EndY="2.8" />
+                <MountPoint Side="Top" StartX="2.2" StartY="2.7" EndX="2.5" EndY="2.8" />
+                <MountPoint Side="Bottom" StartX="0.5" StartY="0.2" EndX="0.8" EndY="0.3" Default="true" />
+                <MountPoint Side="Bottom" StartX="2.2" StartY="0.2" EndX="2.5" EndY="0.3" />
+                <MountPoint Side="Bottom" StartX="0.5" StartY="2.7" EndX="0.8" EndY="2.8" />
+                <MountPoint Side="Bottom" StartX="2.2" StartY="2.7" EndX="2.5" EndY="2.8" />
+                <MountPoint Side="Front" StartX="1.15" StartY="1.15" EndX="1.85" EndY="1.85" />
+                <MountPoint Side="Front" StartX="0.2" StartY="0.5" EndX="0.5" EndY="2.5" />
+                <MountPoint Side="Front" StartX="0.5" StartY="0.2" EndX="0.8" EndY="2.8" />
+                <MountPoint Side="Front" StartX="2.5" StartY="0.5" EndX="2.8" EndY="2.5" />
+                <MountPoint Side="Front" StartX="2.2" StartY="0.2" EndX="2.5" EndY="2.8" />
+                <MountPoint Side="Back" StartX="1.15" StartY="1.15" EndX="1.85" EndY="1.85" />
+                <MountPoint Side="Back" StartX="0.2" StartY="0.5" EndX="0.5" EndY="2.5" />
+                <MountPoint Side="Back" StartX="0.5" StartY="0.2" EndX="0.8" EndY="2.8" />
+                <MountPoint Side="Back" StartX="2.5" StartY="0.5" EndX="2.8" EndY="2.5" />
+                <MountPoint Side="Back" StartX="2.2" StartY="0.2" EndX="2.5" EndY="2.8" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\CargoContainerConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockVariants>
+                <BlockVariant>
+                    <TypeId>CargoContainer</TypeId>
+                    <SubtypeId>LargeBlockLargeIndustrialContainerMK3</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>CargoContainer</TypeId>
+                    <SubtypeId>LargeBlockLargeIndustrialContainerMK4</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>CargoContainer</TypeId>
+                    <SubtypeId>LargeBlockLargeIndustrialContainerMK5</SubtypeId>
+                </BlockVariant>
+            </BlockVariants>
+            <BlockPairName>LargeCargoContainerIndustrialMK2</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>45</BuildTimeSeconds>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>10</PCU>
+            <DLC>HeavyIndustry</DLC>
+        </Definition>
         <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
             <Id>
                 <TypeId>OxygenTank</TypeId>
