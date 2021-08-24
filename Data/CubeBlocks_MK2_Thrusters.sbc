@@ -38,6 +38,20 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ThrustSmallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ThrustSmallConstruction_2.mwm" />
       </BuildProgressModels>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockSmallThrustMK3</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockSmallThrustMK4</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockSmallThrustMK5</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
       <VoxelPlacement>
         <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
@@ -135,6 +149,20 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\ThrustLargeConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ThrustLargeConstruction_2.mwm" />
       </BuildProgressModels>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockLargeThrustMK3</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockLargeThrustMK4</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockLargeThrustMK5</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
       <VoxelPlacement>
         <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
@@ -234,6 +262,20 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\ThrustSmallConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ThrustSmallConstruction_3.mwm" />
       </BuildProgressModels>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockSmallThrustMK3</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockSmallThrustMK4</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockSmallThrustMK5</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
       <VoxelPlacement>
         <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
@@ -333,6 +375,20 @@
         <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\ThrustLargeConstruction_4.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ThrustLargeConstruction_5.mwm" />
       </BuildProgressModels>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockLargeThrustMK3</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockLargeThrustMK4</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockLargeThrustMK5</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
       <VoxelPlacement>
         <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
@@ -436,6 +492,20 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenThrusterLarge_Construction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenThrusterLarge_Construction_3.mwm" />
       </BuildProgressModels>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockLargeHydrogenThrustMK3</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockLargeHydrogenThrustMK4</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockLargeHydrogenThrustMK5</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
       <VoxelPlacement>
         <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
@@ -534,6 +604,20 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenThrusterSmall_Construction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenThrusterSmall_Construction_3.mwm" />
       </BuildProgressModels>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockSmallHydrogenThrustMK3</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockSmallHydrogenThrustMK4</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockSmallHydrogenThrustMK5</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
       <VoxelPlacement>
         <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
@@ -636,6 +720,20 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\HydrogenThrusterLarge_Construction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\HydrogenThrusterLarge_Construction_3.mwm" />
       </BuildProgressModels>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockLargeHydrogenThrustMK3</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockLargeHydrogenThrustMK4</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockLargeHydrogenThrustMK5</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
       <VoxelPlacement>
         <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
@@ -733,6 +831,20 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\HydrogenThrusterSmall_Construction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\HydrogenThrusterSmall_Construction_3.mwm" />
       </BuildProgressModels>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockSmallHydrogenThrustMK3</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockSmallHydrogenThrustMK4</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockSmallHydrogenThrustMK5</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
       <VoxelPlacement>
         <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
@@ -834,6 +946,20 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AtmosphericThrusterLarge_Construction_02.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AtmosphericThrusterLarge_Construction_03.mwm" />
       </BuildProgressModels>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockLargeAtmosphericThrustMK3</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockLargeAtmosphericThrustMK4</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockLargeAtmosphericThrustMK5</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
       <VoxelPlacement>
         <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
@@ -940,6 +1066,20 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AtmosphericThrusterSmall_Construction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AtmosphericThrusterSmall_Construction_3.mwm" />
       </BuildProgressModels>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockSmallAtmosphericThrustMK3</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockSmallAtmosphericThrustMK4</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>LargeBlockSmallAtmosphericThrustMK5</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
       <VoxelPlacement>
         <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
@@ -1047,6 +1187,20 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\AtmosphericThrusterLarge_Construction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AtmosphericThrusterLarge_Construction_3.mwm" />
       </BuildProgressModels>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockLargeAtmosphericThrustMK3</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockLargeAtmosphericThrustMK4</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockLargeAtmosphericThrustMK5</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
       <VoxelPlacement>
         <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>
@@ -1154,6 +1308,20 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\AtmosphericThrusterSmall_Construction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AtmosphericThrusterSmall_Construction_3.mwm" />
       </BuildProgressModels>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockSmallAtmosphericThrustMK3</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockSmallAtmosphericThrustMK4</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>Thrust</TypeId>
+          <SubtypeId>SmallBlockSmallAtmosphericThrustMK5</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
       <VoxelPlacement>
         <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
         <StaticMode>

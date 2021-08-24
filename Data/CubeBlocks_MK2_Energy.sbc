@@ -35,6 +35,20 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" />
             </BuildProgressModels>
+            <BlockVariants>
+                <BlockVariant>
+                    <TypeId>BatteryBlock</TypeId>
+                    <SubtypeId>LargeBlockBatteryBlockMK3</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>BatteryBlock</TypeId>
+                    <SubtypeId>LargeBlockBatteryBlockMK4</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>BatteryBlock</TypeId>
+                    <SubtypeId>LargeBlockBatteryBlockMK5</SubtypeId>
+                </BlockVariant>
+            </BlockVariants>
             <BlockPairName>BatteryBlockMK2</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>40</BuildTimeSeconds>
@@ -96,6 +110,20 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BatterySmallConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BatterySmallConstruction_2.mwm" />
             </BuildProgressModels>
+            <BlockVariants>
+                <BlockVariant>
+                    <TypeId>BatteryBlock</TypeId>
+                    <SubtypeId>SmallBlockBatteryBlockMK3</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>BatteryBlock</TypeId>
+                    <SubtypeId>SmallBlockBatteryBlockMK4</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>BatteryBlock</TypeId>
+                    <SubtypeId>SmallBlockBatteryBlockMK5</SubtypeId>
+                </BlockVariant>
+            </BlockVariants>
             <BlockPairName>BatteryBlockMK2</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>20</BuildTimeSeconds>
@@ -156,6 +184,20 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BatterySmall1x1_Construction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BatterySmall1x1_Construction_2.mwm" />
             </BuildProgressModels>
+            <BlockVariants>
+                <BlockVariant>
+                    <TypeId>BatteryBlock</TypeId>
+                    <SubtypeId>SmallBlockSmallBatteryBlockMK3</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>BatteryBlock</TypeId>
+                    <SubtypeId>SmallBlockSmallBatteryBlockMK4</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>BatteryBlock</TypeId>
+                    <SubtypeId>SmallBlockSmallBatteryBlockMK5</SubtypeId>
+                </BlockVariant>
+            </BlockVariants>
             <BlockPairName>Battery1x1BlockMK2</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>8</BuildTimeSeconds>
@@ -223,6 +265,20 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GeneratorSmallConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GeneratorSmallConstruction_2.mwm" />
             </BuildProgressModels>
+            <BlockVariants>
+                <BlockVariant>
+                    <TypeId>Reactor</TypeId>
+                    <SubtypeId>SmallBlockSmallGeneratorMK3</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>Reactor</TypeId>
+                    <SubtypeId>SmallBlockSmallGeneratorMK4</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>Reactor</TypeId>
+                    <SubtypeId>SmallBlockSmallGeneratorMK5</SubtypeId>
+                </BlockVariant>
+            </BlockVariants>
             <BlockPairName>SmallReactorMK2</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -318,6 +374,20 @@
                 <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Small\GeneratorLargeConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GeneratorLargeConstruction_2.mwm" />
             </BuildProgressModels>
+            <BlockVariants>
+                <BlockVariant>
+                    <TypeId>Reactor</TypeId>
+                    <SubtypeId>SmallBlockLargeGeneratorMK3</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>Reactor</TypeId>
+                    <SubtypeId>SmallBlockLargeGeneratorMK4</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>Reactor</TypeId>
+                    <SubtypeId>SmallBlockLargeGeneratorMK5</SubtypeId>
+                </BlockVariant>
+            </BlockVariants>
             <BlockPairName>LargeReactorMK2</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -406,6 +476,20 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GeneratorSmallConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GeneratorSmallConstruction_3.mwm" />
             </BuildProgressModels>
+            <BlockVariants>
+                <BlockVariant>
+                    <TypeId>Reactor</TypeId>
+                    <SubtypeId>LargeBlockSmallGeneratorMK3</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>Reactor</TypeId>
+                    <SubtypeId>LargeBlockSmallGeneratorMK4</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>Reactor</TypeId>
+                    <SubtypeId>LargeBlockSmallGeneratorMK5</SubtypeId>
+                </BlockVariant>
+            </BlockVariants>
             <BlockPairName>SmallReactorMK2</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -499,6 +583,20 @@
                 <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\GeneratorLargeConstruction_4.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GeneratorLargeConstruction_5.mwm" />
             </BuildProgressModels>
+            <BlockVariants>
+                <BlockVariant>
+                    <TypeId>Reactor</TypeId>
+                    <SubtypeId>LargeBlockLargeGeneratorMK3</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>Reactor</TypeId>
+                    <SubtypeId>LargeBlockLargeGeneratorMK4</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>Reactor</TypeId>
+                    <SubtypeId>LargeBlockLargeGeneratorMK5</SubtypeId>
+                </BlockVariant>
+            </BlockVariants>
             <BlockPairName>LargeReactorMK2</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -583,6 +681,20 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenEngine_Construction2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenEngine_Construction3.mwm" />
             </BuildProgressModels>
+            <BlockVariants>
+                <BlockVariant>
+                    <TypeId>HydrogenEngine</TypeId>
+                    <SubtypeId>LargeHydrogenEngineMK3</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>HydrogenEngine</TypeId>
+                    <SubtypeId>LargeHydrogenEngineMK4</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>HydrogenEngine</TypeId>
+                    <SubtypeId>LargeHydrogenEngineMK5</SubtypeId>
+                </BlockVariant>
+            </BlockVariants>
             <BlockPairName>HydrogenEngineMK2</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -673,6 +785,20 @@
                 <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\HydrogenEngine_Construction1.mwm" />
                 <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\HydrogenEngine_Construction2.mwm" />
             </BuildProgressModels>
+            <BlockVariants>
+                <BlockVariant>
+                    <TypeId>HydrogenEngine</TypeId>
+                    <SubtypeId>SmallHydrogenEngineMK3</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>HydrogenEngine</TypeId>
+                    <SubtypeId>SmallHydrogenEngineMK4</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>HydrogenEngine</TypeId>
+                    <SubtypeId>SmallHydrogenEngineMK5</SubtypeId>
+                </BlockVariant>
+            </BlockVariants>
             <BlockPairName>HydrogenEngineMK2</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -746,6 +872,20 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\WindTurbine_Construction2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WindTurbine_Construction3.mwm" />
             </BuildProgressModels>
+            <BlockVariants>
+                <BlockVariant>
+                    <TypeId>WindTurbine</TypeId>
+                    <SubtypeId>LargeBlockWindTurbineMK3</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>WindTurbine</TypeId>
+                    <SubtypeId>LargeBlockWindTurbineMK4</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>WindTurbine</TypeId>
+                    <SubtypeId>LargeBlockWindTurbineMK5</SubtypeId>
+                </BlockVariant>
+            </BlockVariants>
 
             <BlockPairName>WindTurbineMK2</BlockPairName>
             <EdgeType>Light</EdgeType>
@@ -820,6 +960,20 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelConstruction2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelConstruction3.mwm" />
             </BuildProgressModels>
+            <BlockVariants>
+                <BlockVariant>
+                    <TypeId>SolarPanel</TypeId>
+                    <SubtypeId>LargeBlockSolarPanelMK3</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>SolarPanel</TypeId>
+                    <SubtypeId>LargeBlockSolarPanelMK4</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>SolarPanel</TypeId>
+                    <SubtypeId>LargeBlockSolarPanelMK5</SubtypeId>
+                </BlockVariant>
+            </BlockVariants>
             <BlockPairName>SolarPanelMK2</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>30</BuildTimeSeconds>
@@ -881,6 +1035,20 @@
                 <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\SolarPanelConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\SolarPanelConstruction_2.mwm" />
             </BuildProgressModels>
+            <BlockVariants>
+                <BlockVariant>
+                    <TypeId>SolarPanel</TypeId>
+                    <SubtypeId>SmallBlockSolarPanelMK3</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>SolarPanel</TypeId>
+                    <SubtypeId>SmallBlockSolarPanelMK4</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>SolarPanel</TypeId>
+                    <SubtypeId>SmallBlockSolarPanelMK5</SubtypeId>
+                </BlockVariant>
+            </BlockVariants>
             <BlockPairName>SolarPanelMK2</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>20</BuildTimeSeconds>

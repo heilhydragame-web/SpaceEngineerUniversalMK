@@ -37,6 +37,20 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\UpgradeProductivityConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\UpgradeProductivityConstruction_3.mwm" />
       </BuildProgressModels>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>UpgradeModule</TypeId>
+          <SubtypeId>LargeProductivityModuleMK3</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>UpgradeModule</TypeId>
+          <SubtypeId>LargeProductivityModuleMK4</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>UpgradeModule</TypeId>
+          <SubtypeId>LargeProductivityModuleMK5</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
       <BlockPairName>ProductivityModuleMK2</BlockPairName>
       <MirroringX>Z</MirroringX>
       <MirroringZ>X</MirroringZ>
@@ -92,6 +106,20 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\UpgradeEffectivenessConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\UpgradeEffectivenessConstruction_3.mwm" />
       </BuildProgressModels>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>UpgradeModule</TypeId>
+          <SubtypeId>LargeEffectivenessModuleMK3</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>UpgradeModule</TypeId>
+          <SubtypeId>LargeEffectivenessModuleMK4</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>UpgradeModule</TypeId>
+          <SubtypeId>LargeEffectivenessModuleMK5</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
       <BlockPairName>EffectivenessModuleMK2</BlockPairName>
       <MirroringX>Z</MirroringX>
       <MirroringZ>X</MirroringZ>
@@ -147,6 +175,20 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\UpgradeEnergyConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\UpgradeEnergyConstruction_3.mwm" />
       </BuildProgressModels>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>UpgradeModule</TypeId>
+          <SubtypeId>LargeEnergyModuleMK3</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>UpgradeModule</TypeId>
+          <SubtypeId>LargeEnergyModuleMK4</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>UpgradeModule</TypeId>
+          <SubtypeId>LargeEnergyModuleMK5</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
       <BlockPairName>EnergyModuleMK2</BlockPairName>
       <MirroringX>Z</MirroringX>
       <MirroringZ>X</MirroringZ>
@@ -204,6 +246,20 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenGeneratorConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenGeneratorConstruction_3.mwm" />
       </BuildProgressModels>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>OxygenGenerator</TypeId>
+          <SubtypeId>OxygenGeneratorMK3</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>OxygenGenerator</TypeId>
+          <SubtypeId>OxygenGeneratorMK4</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>OxygenGenerator</TypeId>
+          <SubtypeId>OxygenGeneratorMK5</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
       <BlockPairName>OxygenGeneratorMK2</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>22</BuildTimeSeconds>
@@ -304,6 +360,20 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\OxygenGeneratorConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\OxygenGeneratorConstruction_2.mwm" />
       </BuildProgressModels>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>OxygenGenerator</TypeId>
+          <SubtypeId>OxygenGeneratorSmallMK3</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>OxygenGenerator</TypeId>
+          <SubtypeId>OxygenGeneratorSmallMK4</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>OxygenGenerator</TypeId>
+          <SubtypeId>OxygenGeneratorSmallMK5</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
       <Center x="1" y="1" z="0" />
       <BuildTimeSeconds>14</BuildTimeSeconds>
       <EdgeType>Light</EdgeType>
@@ -404,6 +474,20 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarHydroponicsConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarHydroponicsConstruction_3.mwm" />
       </BuildProgressModels>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>OxygenFarm</TypeId>
+          <SubtypeId>LargeBlockOxygenFarmMK3</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>OxygenFarm</TypeId>
+          <SubtypeId>LargeBlockOxygenFarmMK4</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>OxygenFarm</TypeId>
+          <SubtypeId>LargeBlockOxygenFarmMK5</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
       <BlockPairName>OxygenFarmMK2</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>30</BuildTimeSeconds>
@@ -469,6 +553,20 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\JumpDriveConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\JumpDriveConstruction_3.mwm" />
       </BuildProgressModels>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>JumpDrive</TypeId>
+          <SubtypeId>LargeJumpDriveMK3</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>JumpDrive</TypeId>
+          <SubtypeId>LargeJumpDriveMK4</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>JumpDrive</TypeId>
+          <SubtypeId>LargeJumpDriveMK5</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
       <BlockPairName>JumpDriveMK2</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -528,6 +626,20 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\OxygenStorageConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\OxygenStorageConstruction_2.mwm" />
       </BuildProgressModels>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>OxygenTankSmallMK3</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>OxygenTankSmallMK4</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>OxygenTankSmallMK5</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
       <BlockPairName>OxygenTankMK2</BlockPairName>
       <Center x="1" y="1" z="1" />
       <MirroringY>Z</MirroringY>
@@ -607,6 +719,20 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenStorageConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenStorageConstruction_3.mwm" />
       </BuildProgressModels>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>OxygenTankLargeMK3</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>OxygenTankLargeMK4</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>OxygenTankLargeMK5</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
       <BlockPairName>OxygenTankMK2</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -685,6 +811,20 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenTank_Construction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenTank_Construction_3.mwm" />
       </BuildProgressModels>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>LargeHydrogenTankMK3</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>LargeHydrogenTankMK4</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>LargeHydrogenTankMK5</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
       <BlockPairName>HydrogenTankMK2</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -755,6 +895,20 @@
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\HydrogenTankSmallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenTankSmallConstruction_2.mwm" />
       </BuildProgressModels>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>LargeHydrogenTankSmallMK3</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>LargeHydrogenTankSmallMK4</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>LargeHydrogenTankSmallMK5</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
       <BlockPairName>HydrogenTankSmallMK2</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -842,6 +996,20 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\HydrogenTank_Construction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\HydrogenTank_Construction_3.mwm" />
       </BuildProgressModels>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>SmallHydrogenTankMK3</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>SmallHydrogenTankMK4</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>SmallHydrogenTankMK5</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
       <BlockPairName>HydrogenTankMK2</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -912,6 +1080,20 @@
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\HydrogenTankSmallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\HydrogenTankSmallConstruction_2.mwm" />
       </BuildProgressModels>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>SmallHydrogenTankSmallMK3</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>SmallHydrogenTankSmallMK4</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>OxygenTank</TypeId>
+          <SubtypeId>SmallHydrogenTankSmallMK5</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
       <BlockPairName>HydrogenTankSmallMK2</BlockPairName>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
@@ -983,6 +1165,20 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerSmallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerSmallConstruction_2.mwm" />
       </BuildProgressModels>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>CargoContainer</TypeId>
+          <SubtypeId>SmallBlockSmallContainerMK3</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CargoContainer</TypeId>
+          <SubtypeId>SmallBlockSmallContainerMK4</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CargoContainer</TypeId>
+          <SubtypeId>SmallBlockSmallContainerMK5</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
       <BlockPairName>SmallCargoContainerMK2</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -1029,6 +1225,20 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerMediumConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerMediumConstruction_2.mwm" />
       </BuildProgressModels>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>CargoContainer</TypeId>
+          <SubtypeId>SmallBlockMediumContainerMK3</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CargoContainer</TypeId>
+          <SubtypeId>SmallBlockMediumContainerMK4</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CargoContainer</TypeId>
+          <SubtypeId>SmallBlockMediumContainerMK5</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
       <BlockPairName>MediumCargoContainerMK2</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -1075,6 +1285,20 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerLargeConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerLargeConstruction_2.mwm" />
       </BuildProgressModels>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>CargoContainer</TypeId>
+          <SubtypeId>SmallBlockLargeContainerMK3</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CargoContainer</TypeId>
+          <SubtypeId>SmallBlockLargeContainerMK4</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CargoContainer</TypeId>
+          <SubtypeId>SmallBlockLargeContainerMK5</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
       <BlockPairName>LargeCargoContainerMK2</BlockPairName>
       <MirroringX>Z</MirroringX>
       <MirroringZ>X</MirroringZ>
@@ -1124,6 +1348,20 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerSmallConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerSmallConstruction_3.mwm" />
       </BuildProgressModels>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>CargoContainer</TypeId>
+          <SubtypeId>LargeBlockSmallContainerMK3</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CargoContainer</TypeId>
+          <SubtypeId>LargeBlockSmallContainerMK4</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CargoContainer</TypeId>
+          <SubtypeId>LargeBlockSmallContainerMK5</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
       <BlockPairName>SmallCargoContainerMK2</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -1174,6 +1412,20 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerLargeConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerLargeConstruction_3.mwm" />
       </BuildProgressModels>
+      <BlockVariants>
+        <BlockVariant>
+          <TypeId>CargoContainer</TypeId>
+          <SubtypeId>LargeBlockLargeContainerMK3</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CargoContainer</TypeId>
+          <SubtypeId>LargeBlockLargeContainerMK4</SubtypeId>
+        </BlockVariant>
+        <BlockVariant>
+          <TypeId>CargoContainer</TypeId>
+          <SubtypeId>LargeBlockLargeContainerMK5</SubtypeId>
+        </BlockVariant>
+      </BlockVariants>
       <BlockPairName>LargeCargoContainerMK2</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
