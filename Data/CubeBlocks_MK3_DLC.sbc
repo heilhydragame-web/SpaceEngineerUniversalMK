@@ -5,11 +5,11 @@
         <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
             <Id>
                 <TypeId>CargoContainer</TypeId>
-                <SubtypeId>LargeBlockLargeIndustrialContainerMK2</SubtypeId>
+                <SubtypeId>LargeBlockLargeIndustrialContainerMK3</SubtypeId>
             </Id>
-            <DisplayName>Industrial Container MK2</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\MK2\CargoContainerMK2.dds</Icon>
-            <Description>Description_LargeCargoContainerMK2</Description>
+            <DisplayName>Industrial Container MK3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\MK3\CargoContainerMK3.dds</Icon>
+            <Description>Description_LargeCargoContainerMK3</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="3" z="3" />
@@ -64,7 +64,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>LargeCargoContainerIndustrialMK2</BlockPairName>
+            <BlockPairName>LargeCargoContainerIndustrialMK3</BlockPairName>
             <InventoryMaxVolume>35.0</InventoryMaxVolume>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -81,10 +81,10 @@
         <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
             <Id>
                 <TypeId>OxygenTank</TypeId>
-                <SubtypeId>LargeHydrogenTankIndustrialMK2</SubtypeId>
+                <SubtypeId>LargeHydrogenTankIndustrialMK3</SubtypeId>
             </Id>
-            <DisplayName>Large Industrial Hydrogen Tank MK2</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\MK2\HydrogenTankIndustrialMK2.dds</Icon>
+            <DisplayName>Large Industrial Hydrogen Tank MK3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\MK3\HydrogenTankIndustrialMK3.dds</Icon>
             <Description>Description_HydrogenTank</Description>
             <Public>true</Public>
             <CubeSize>Large</CubeSize>
@@ -122,7 +122,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenTankIndustrialConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenTankIndustrialConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HydrogenTankIndustrialMK2</BlockPairName>
+            <BlockPairName>HydrogenTankIndustrialMK3</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -165,10 +165,10 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>LargeBlockSmallThrustSciFiMK2</SubtypeId>
+                <SubtypeId>LargeBlockSmallThrustSciFiMK3</SubtypeId>
             </Id>
-            <DisplayName>Small SiFi Thruster MK2</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\MK2\large_IonThrusterSmall_SciFiMK2.dds</Icon>
+            <DisplayName>Small SiFi Thruster MK3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\MK3\large_IonThrusterSmall_SciFiMK3.dds</Icon>
             <Description>Description_IonThrust</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -212,7 +212,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallThrustSciFiMK2</BlockPairName>
+            <BlockPairName>SmallThrustSciFiMK3</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -260,10 +260,10 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>SmallBlockSmallThrustSciFiMK2</SubtypeId>
+                <SubtypeId>SmallBlockSmallThrustSciFiMK3</SubtypeId>
             </Id>
-            <DisplayName>Small SiFi Thruster MK2</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\MK2\Small_IonThrusterSmall_SciFiMK2.dds</Icon>
+            <DisplayName>Small SiFi Thruster MK3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\MK3\Small_IonThrusterSmall_SciFiMK3.dds</Icon>
             <Description>Description_IonThrust</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -306,7 +306,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallThrustSciFiMK2</BlockPairName>
+            <BlockPairName>SmallThrustSciFiMK3</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>10</BuildTimeSeconds>
@@ -355,10 +355,10 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>LargeBlockLargeThrustSciFiMK2</SubtypeId>
+                <SubtypeId>LargeBlockLargeThrustSciFiMK3</SubtypeId>
             </Id>
-            <DisplayName>Large SiFi Thruster MK2</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\MK2\large_IonThrusterLarge_SciFiMK2.dds</Icon>
+            <DisplayName>Large SiFi Thruster MK3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\MK3\large_IonThrusterLarge_SciFiMK3.dds</Icon>
             <Description>Description_IonThrust</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -404,7 +404,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeThrustSciFiMK2</BlockPairName>
+            <BlockPairName>LargeThrustSciFiMK3</BlockPairName>
             <Center x="1" y="0" z="2" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -453,10 +453,10 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>SmallBlockLargeThrustSciFiMK2</SubtypeId>
+                <SubtypeId>SmallBlockLargeThrustSciFiMK3</SubtypeId>
             </Id>
-            <DisplayName>Large SiFi Thruster MK2</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\MK2\Small_IonThrusterLarge_SciFiMK2.dds</Icon>
+            <DisplayName>Large SiFi Thruster MK3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\MK3\Small_IonThrusterLarge_SciFiMK3.dds</Icon>
             <Description>Description_IonThrust</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -499,7 +499,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeThrustSciFiMK2</BlockPairName>
+            <BlockPairName>LargeThrustSciFiMK3</BlockPairName>
             <Center x="1" y="0" z="2" />
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
@@ -551,10 +551,10 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>LargeBlockLargeAtmosphericThrustSciFiMK2</SubtypeId>
+                <SubtypeId>LargeBlockLargeAtmosphericThrustSciFiMK3</SubtypeId>
             </Id>
-            <DisplayName>Large SiFi Atmospheric Thruster MK2</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\MK2\Large_AtmosphericThrusterLarge_SciFiMK2.dds</Icon>
+            <DisplayName>Large SiFi Atmospheric Thruster MK3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\MK3\Large_AtmosphericThrusterLarge_SciFiMK3.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -598,7 +598,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeAtmoThrustSciFiMK2</BlockPairName>
+            <BlockPairName>LargeAtmoThrustSciFiMK3</BlockPairName>
             <Center x="1" y="1" z="2" />
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -655,10 +655,10 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>LargeBlockSmallAtmosphericThrustSciFiMK2</SubtypeId>
+                <SubtypeId>LargeBlockSmallAtmosphericThrustSciFiMK3</SubtypeId>
             </Id>
-            <DisplayName>Small SiFi Atmospheric Thruster MK2</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\MK2\Large_AtmosphericThrusterSmall_SciFiMK2.dds</Icon>
+            <DisplayName>Small SiFi Atmospheric Thruster MK3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\MK3\Large_AtmosphericThrusterSmall_SciFiMK3.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -702,7 +702,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallAtmoThrustSciFiMK2</BlockPairName>
+            <BlockPairName>SmallAtmoThrustSciFiMK3</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringZ>Y</MirroringZ>
             <MirroringY>Z</MirroringY>
@@ -760,10 +760,10 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>SmallBlockLargeAtmosphericThrustSciFiMK2</SubtypeId>
+                <SubtypeId>SmallBlockLargeAtmosphericThrustSciFiMK3</SubtypeId>
             </Id>
-            <DisplayName>Large SiFi Atmospheric Thruster MK2</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\MK2\Small_AtmosphericThrusterLarge_SciFiMK2.dds</Icon>
+            <DisplayName>Large SiFi Atmospheric Thruster MK3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\MK3\Small_AtmosphericThrusterLarge_SciFiMK3.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -806,7 +806,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeAtmoThrustSciFiMK2</BlockPairName>
+            <BlockPairName>LargeAtmoThrustSciFiMK3</BlockPairName>
             <Center x="1" y="1" z="2" />
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -864,10 +864,10 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>SmallBlockSmallAtmosphericThrustSciFiMK2</SubtypeId>
+                <SubtypeId>SmallBlockSmallAtmosphericThrustSciFiMK3</SubtypeId>
             </Id>
-            <DisplayName>Small SiFi Atmospheric Thruster MK2</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\MK2\Small_AtmosphericThrusterSmall_SciFiMK2.dds</Icon>
+            <DisplayName>Small SiFi Atmospheric Thruster MK3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\MK3\Small_AtmosphericThrusterSmall_SciFiMK3.dds</Icon>
             <Description>Description_AtmosphericThrust</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -910,7 +910,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>SmallAtmoThrustSciFiMK2</BlockPairName>
+            <BlockPairName>SmallAtmoThrustSciFiMK3</BlockPairName>
             <Center x="0" y="0" z="1" />
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>10</BuildTimeSeconds>
@@ -969,10 +969,10 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>LargeBlockLargeHydrogenThrustIndustrialMK2</SubtypeId>
+                <SubtypeId>LargeBlockLargeHydrogenThrustIndustrialMK3</SubtypeId>
             </Id>
-            <DisplayName>Large Industrial Hydrogen Thruster MK2</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\MK2\HydrogenThrusterIndustrialLargeMK2.dds</Icon>
+            <DisplayName>Large Industrial Hydrogen Thruster MK3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\MK3\HydrogenThrusterIndustrialLargeMK3.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1018,7 +1018,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeHydrogenThrustIndustrialMK2</BlockPairName>
+            <BlockPairName>LargeHydrogenThrustIndustrialMK3</BlockPairName>
             <MirroringX>Z</MirroringX>
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -1072,10 +1072,10 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>LargeBlockSmallHydrogenThrustIndustrialMK2</SubtypeId>
+                <SubtypeId>LargeBlockSmallHydrogenThrustIndustrialMK3</SubtypeId>
             </Id>
-            <DisplayName>Small Industrial Hydrogen Thruster MK2</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\MK2\HydrogenThrusterIndustrialSmallMK2.dds</Icon>
+            <DisplayName>Small Industrial Hydrogen Thruster MK3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\MK3\HydrogenThrusterIndustrialSmallMK3.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1116,7 +1116,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>HydrogenThrustIndustrialMK2</BlockPairName>
+            <BlockPairName>HydrogenThrustIndustrialMK3</BlockPairName>
             <Center x="0" y="0" z="0" />
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -1171,10 +1171,10 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>SmallBlockLargeHydrogenThrustIndustrialMK2</SubtypeId>
+                <SubtypeId>SmallBlockLargeHydrogenThrustIndustrialMK3</SubtypeId>
             </Id>
-            <DisplayName>Large Industrial Hydrogen Thruster MK2</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\MK2\HydrogenThrusterIndustrialLargeMK2.dds</Icon>
+            <DisplayName>Large Industrial Hydrogen Thruster MK3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\MK3\HydrogenThrusterIndustrialLargeMK3.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1219,7 +1219,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>LargeHydrogenThrustIndustrialMK2</BlockPairName>
+            <BlockPairName>LargeHydrogenThrustIndustrialMK3</BlockPairName>
             <MirroringX>Z</MirroringX>
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -1272,10 +1272,10 @@
         <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
             <Id>
                 <TypeId>Thrust</TypeId>
-                <SubtypeId>SmallBlockSmallHydrogenThrustIndustrialMK2</SubtypeId>
+                <SubtypeId>SmallBlockSmallHydrogenThrustIndustrialMK3</SubtypeId>
             </Id>
-            <DisplayName>Small Industrial Hydrogen Thruster MK2</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\MK2\HydrogenThrusterIndustrialSmallMK2.dds</Icon>
+            <DisplayName>Small Industrial Hydrogen Thruster MK3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\MK3\HydrogenThrusterIndustrialSmallMK3.dds</Icon>
             <Description>Description_HydrogenThrust</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -1315,7 +1315,7 @@
                     <MinAllowed>0</MinAllowed>
                 </DynamicMode>
             </VoxelPlacement>
-            <BlockPairName>HydrogenThrustIndustrialMK2</BlockPairName>
+            <BlockPairName>HydrogenThrustIndustrialMK3</BlockPairName>
             <Center x="0" y="0" z="0" />
             <MirroringZ>X</MirroringZ>
             <EdgeType>Light</EdgeType>

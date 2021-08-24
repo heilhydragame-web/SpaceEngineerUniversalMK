@@ -5,10 +5,10 @@
     <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
       <Id>
         <TypeId>UpgradeModule</TypeId>
-        <SubtypeId>LargeProductivityModuleMK2</SubtypeId>
+        <SubtypeId>LargeProductivityModuleMK3</SubtypeId>
       </Id>
-      <DisplayName>Productivity Module MK2</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\UpgradeProductivityMK2.dds</Icon>
+      <DisplayName>Productivity Module MK3</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\UpgradeProductivityMK3.dds</Icon>
       <Description>Description_ProductivityModule</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -39,7 +39,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\UpgradeProductivityConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\UpgradeProductivityConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>ProductivityModuleMK2</BlockPairName>
+      <BlockPairName>ProductivityModuleMK3</BlockPairName>
       <MirroringX>Z</MirroringX>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -62,10 +62,10 @@
     <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
       <Id>
         <TypeId>UpgradeModule</TypeId>
-        <SubtypeId>LargeEffectivenessModuleMK2</SubtypeId>
+        <SubtypeId>LargeEffectivenessModuleMK3</SubtypeId>
       </Id>
-      <DisplayName>Effectiveness Module MK2</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\UpgradeEffectivenessMK2.dds</Icon>
+      <DisplayName>Effectiveness Module MK3</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\UpgradeEffectivenessMK3.dds</Icon>
       <Description>Description_EffectivenessModule</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -96,7 +96,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\UpgradeEffectivenessConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\UpgradeEffectivenessConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>EffectivenessModuleMK2</BlockPairName>
+      <BlockPairName>EffectivenessModuleMK3</BlockPairName>
       <MirroringX>Z</MirroringX>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -119,10 +119,10 @@
     <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
       <Id>
         <TypeId>UpgradeModule</TypeId>
-        <SubtypeId>LargeEnergyModuleMK2</SubtypeId>
+        <SubtypeId>LargeEnergyModuleMK3</SubtypeId>
       </Id>
-      <DisplayName>Energy Module MK2</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\UpgradeEnergyMK2.dds</Icon>
+      <DisplayName>Energy Module MK3</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\UpgradeEnergyMK3.dds</Icon>
       <Description>Description_PowerEfficiencyModule</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -153,7 +153,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\UpgradeEnergyConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\UpgradeEnergyConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>EnergyModuleMK2</BlockPairName>
+      <BlockPairName>EnergyModuleMK3</BlockPairName>
       <MirroringX>Z</MirroringX>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -177,10 +177,10 @@
     <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
       <Id>
         <TypeId>OxygenGenerator</TypeId>
-        <SubtypeId>OxygenGeneratorMK2</SubtypeId>
+        <SubtypeId>OxygenGeneratorMK3</SubtypeId>
       </Id>
-      <DisplayName>Oxygen Generator MK2</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\OxygenGeneratorMK2.dds</Icon>
+      <DisplayName>Oxygen Generator MK3</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\OxygenGeneratorMK3.dds</Icon>
       <Description>Description_OxygenGenerator</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -212,7 +212,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenGeneratorConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenGeneratorConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>OxygenGeneratorMK2</BlockPairName>
+      <BlockPairName>OxygenGeneratorMK3</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>22</BuildTimeSeconds>
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
@@ -274,10 +274,10 @@
     <Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
       <Id>
         <TypeId>OxygenGenerator</TypeId>
-        <SubtypeId>OxygenGeneratorSmallMK2</SubtypeId>
+        <SubtypeId>OxygenGeneratorSmallMK3</SubtypeId>
       </Id>
-      <DisplayName>Oxygen Generator MK2</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\OxygenGeneratorSmallMK2.dds</Icon>
+      <DisplayName>Oxygen Generator MK3</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\OxygenGeneratorSmallMK3.dds</Icon>
       <Description>Description_OxygenGenerator</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -358,7 +358,7 @@
       </BlueprintClasses>
       <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
-      <BlockPairName>OxygenGeneratorMK2</BlockPairName>
+      <BlockPairName>OxygenGeneratorMK3</BlockPairName>
       <GenerateSound>BlockOxyGenProcess</GenerateSound>
       <IdleSound>BlockOxyGenIdle</IdleSound>
       <DestroyEffect>Explosion_Missile</DestroyEffect>
@@ -379,10 +379,10 @@
     <Definition xsi:type="MyObjectBuilder_OxygenFarmDefinition">
       <Id>
         <TypeId>OxygenFarm</TypeId>
-        <SubtypeId>LargeBlockOxygenFarmMK2</SubtypeId>
+        <SubtypeId>LargeBlockOxygenFarmMK3</SubtypeId>
       </Id>
-      <DisplayName>Oxygen Farm MK2</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\SolarHydroponicsMK2.dds</Icon>
+      <DisplayName>Oxygen Farm MK3</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\SolarHydroponicsMK3.dds</Icon>
       <Description>Description_OxygenFarm</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -416,7 +416,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarHydroponicsConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarHydroponicsConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>OxygenFarmMK2</BlockPairName>
+      <BlockPairName>OxygenFarmMK3</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>30</BuildTimeSeconds>
       <PanelOrientation>
@@ -446,10 +446,10 @@
     <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
       <Id>
         <TypeId>JumpDrive</TypeId>
-        <SubtypeId>LargeJumpDriveMK2</SubtypeId>
+        <SubtypeId>LargeJumpDriveMK3</SubtypeId>
       </Id>
-      <DisplayName>Jump Drive MK2</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\JumpDriveMK2.dds</Icon>
+      <DisplayName>Jump Drive MK3</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\JumpDriveMK3.dds</Icon>
       <Description>Description_JumpDrive</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -483,7 +483,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\JumpDriveConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\JumpDriveConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>JumpDriveMK2</BlockPairName>
+      <BlockPairName>JumpDriveMK3</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -507,10 +507,10 @@
     <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
       <Id>
         <TypeId>OxygenTank</TypeId>
-        <SubtypeId>OxygenTankSmallMK2</SubtypeId>
+        <SubtypeId>OxygenTankSmallMK3</SubtypeId>
       </Id>
-      <DisplayName>Oxygen Tank MK2</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\OxygenTankSmallMK2.dds</Icon>
+      <DisplayName>Oxygen Tank MK3</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\OxygenTankSmallMK3.dds</Icon>
       <Description>Description_OxygenTank</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -544,7 +544,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\OxygenStorageConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\OxygenStorageConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>OxygenTankMK2</BlockPairName>
+      <BlockPairName>OxygenTankMK3</BlockPairName>
       <Center x="1" y="1" z="1" />
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
@@ -583,10 +583,10 @@
     <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
       <Id>
         <TypeId>OxygenTank</TypeId>
-        <SubtypeId>OxygenTankLargeMK2</SubtypeId>
+        <SubtypeId>OxygenTankLargeMK3</SubtypeId>
       </Id>
-      <DisplayName>Oxygen Tank MK2</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\OxygenTankMK2.dds</Icon>
+      <DisplayName>Oxygen Tank MK3</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\OxygenTankMK3.dds</Icon>
       <Description>Description_OxygenTank</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -625,7 +625,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenStorageConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenStorageConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>OxygenTankMK2</BlockPairName>
+      <BlockPairName>OxygenTankMK3</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -666,10 +666,10 @@
     <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
       <Id>
         <TypeId>OxygenTank</TypeId>
-        <SubtypeId>LargeHydrogenTankMK2</SubtypeId>
+        <SubtypeId>LargeHydrogenTankMK3</SubtypeId>
       </Id>
-      <DisplayName>Hydrogen Tank MK2</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\HydrogenTankMK2.dds</Icon>
+      <DisplayName>Hydrogen Tank MK3</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\HydrogenTankMK3.dds</Icon>
       <Description>Description_HydrogenTank</Description>
       <Public>true</Public>
       <CubeSize>Large</CubeSize>
@@ -705,7 +705,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenTank_Construction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenTank_Construction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HydrogenTankMK2</BlockPairName>
+      <BlockPairName>HydrogenTankMK3</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -743,10 +743,10 @@
     <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
       <Id>
         <TypeId>OxygenTank</TypeId>
-        <SubtypeId>LargeHydrogenTankSmallMK2</SubtypeId>
+        <SubtypeId>LargeHydrogenTankSmallMK3</SubtypeId>
       </Id>
-      <DisplayName>Small Hydrogen Tank MK2</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\largeHydrogenTankSmallMK2.dds</Icon>
+      <DisplayName>Small Hydrogen Tank MK3</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\largeHydrogenTankSmallMK3.dds</Icon>
       <Description>Description_HydrogenTank</Description>
       <Public>true</Public>
       <CubeSize>Large</CubeSize>
@@ -777,7 +777,7 @@
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\HydrogenTankSmallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenTankSmallConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HydrogenTankSmallMK2</BlockPairName>
+      <BlockPairName>HydrogenTankSmallMK3</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -815,10 +815,10 @@
     <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
       <Id>
         <TypeId>OxygenTank</TypeId>
-        <SubtypeId>SmallHydrogenTankMK2</SubtypeId>
+        <SubtypeId>SmallHydrogenTankMK3</SubtypeId>
       </Id>
-      <DisplayName>Hydrogen Tank MK2</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\HydrogenTankMK2.dds</Icon>
+      <DisplayName>Hydrogen Tank MK3</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\HydrogenTankMK3.dds</Icon>
       <Description>Description_HydrogenTank</Description>
       <CubeSize>Small</CubeSize>
       <Public>true</Public>
@@ -866,7 +866,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\HydrogenTank_Construction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\HydrogenTank_Construction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HydrogenTankMK2</BlockPairName>
+      <BlockPairName>HydrogenTankMK3</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -904,10 +904,10 @@
     <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
       <Id>
         <TypeId>OxygenTank</TypeId>
-        <SubtypeId>SmallHydrogenTankSmallMK2</SubtypeId>
+        <SubtypeId>SmallHydrogenTankSmallMK3</SubtypeId>
       </Id>
-      <DisplayName>Small Hydrogen Tank MK2</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\SmallHydrogenTankSmallMK2.dds</Icon>
+      <DisplayName>Small Hydrogen Tank MK3</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\SmallHydrogenTankSmallMK3.dds</Icon>
       <Description>Description_HydrogenTank</Description>
       <Public>true</Public>
       <CubeSize>Small</CubeSize>
@@ -938,7 +938,7 @@
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\HydrogenTankSmallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\HydrogenTankSmallConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>HydrogenTankSmallMK2</BlockPairName>
+      <BlockPairName>HydrogenTankSmallMK3</BlockPairName>
       <MirroringX>Y</MirroringX>
       <MirroringY>X</MirroringY>
       <EdgeType>Light</EdgeType>
@@ -978,10 +978,10 @@
     <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
       <Id>
         <TypeId>CargoContainer</TypeId>
-        <SubtypeId>SmallBlockSmallContainerMK2</SubtypeId>
+        <SubtypeId>SmallBlockSmallContainerMK3</SubtypeId>
       </Id>
-      <DisplayName>Small Container MK2</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\containerMK2.dds</Icon>
+      <DisplayName>Small Container MK3</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\containerMK3.dds</Icon>
       <Description>Description_SmallCargoContainer</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1011,7 +1011,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerSmallConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerSmallConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>SmallCargoContainerMK2</BlockPairName>
+      <BlockPairName>SmallCargoContainerMK3</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <BuildTimeSeconds>6</BuildTimeSeconds>
@@ -1026,10 +1026,10 @@
     <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
       <Id>
         <TypeId>CargoContainer</TypeId>
-        <SubtypeId>SmallBlockMediumContainerMK2</SubtypeId>
+        <SubtypeId>SmallBlockMediumContainerMK3</SubtypeId>
       </Id>
-      <DisplayName>Medium Container MK2</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\container_mediumMK2.dds</Icon>
+      <DisplayName>Medium Container MK3</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\container_mediumMK3.dds</Icon>
       <Description>Description_MediumCargoContainer</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1059,7 +1059,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerMediumConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerMediumConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>MediumCargoContainerMK2</BlockPairName>
+      <BlockPairName>MediumCargoContainerMK3</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1074,10 +1074,10 @@
     <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
       <Id>
         <TypeId>CargoContainer</TypeId>
-        <SubtypeId>SmallBlockLargeContainerMK2</SubtypeId>
+        <SubtypeId>SmallBlockLargeContainerMK3</SubtypeId>
       </Id>
-      <DisplayName>Large Container MK2</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\container_largeMK2.dds</Icon>
+      <DisplayName>Large Container MK3</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\container_largeMK3.dds</Icon>
       <Description>Description_LargeCargoContainer</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1107,7 +1107,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerLargeConstruction_1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerLargeConstruction_2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LargeCargoContainerMK2</BlockPairName>
+      <BlockPairName>LargeCargoContainerMK3</BlockPairName>
       <MirroringX>Z</MirroringX>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1121,10 +1121,10 @@
     <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
       <Id>
         <TypeId>CargoContainer</TypeId>
-        <SubtypeId>LargeBlockSmallContainerMK2</SubtypeId>
+        <SubtypeId>LargeBlockSmallContainerMK3</SubtypeId>
       </Id>
-      <DisplayName>Small Container MK2</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\containerMK2.dds</Icon>
+      <DisplayName>Small Container MK3</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\containerMK3.dds</Icon>
       <Description>Description_SmallCargoContainer</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1158,7 +1158,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerSmallConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerSmallConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>SmallCargoContainerMK2</BlockPairName>
+      <BlockPairName>SmallCargoContainerMK3</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -1173,10 +1173,10 @@
     <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
       <Id>
         <TypeId>CargoContainer</TypeId>
-        <SubtypeId>LargeBlockLargeContainerMK2</SubtypeId>
+        <SubtypeId>LargeBlockLargeContainerMK3</SubtypeId>
       </Id>
-      <DisplayName>Large Container MK2</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\container_largeMK2.dds</Icon>
+      <DisplayName>Large Container MK3</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\container_largeMK3.dds</Icon>
       <Description>Description_LargeCargoContainer</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -1210,7 +1210,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerLargeConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerLargeConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>LargeCargoContainerMK2</BlockPairName>
+      <BlockPairName>LargeCargoContainerMK3</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>

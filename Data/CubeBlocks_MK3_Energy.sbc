@@ -6,10 +6,10 @@
         <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
             <Id>
                 <TypeId>BatteryBlock</TypeId>
-                <SubtypeId>LargeBlockBatteryBlockMK2</SubtypeId>
+                <SubtypeId>LargeBlockBatteryBlockMK3</SubtypeId>
             </Id>
-            <DisplayName>Battery MK2</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\BatteryMK2.dds</Icon>
+            <DisplayName>Battery MK3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\BatteryMK3.dds</Icon>
             <Description>Description_Battery</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -37,7 +37,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BatteryLargeConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BatteryLargeConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>BatteryBlockMK2</BlockPairName>
+            <BlockPairName>BatteryBlockMK3</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>40</BuildTimeSeconds>
 
@@ -70,10 +70,10 @@
         <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
             <Id>
                 <TypeId>BatteryBlock</TypeId>
-                <SubtypeId>SmallBlockBatteryBlockMK2</SubtypeId>
+                <SubtypeId>SmallBlockBatteryBlockMK3</SubtypeId>
             </Id>
-            <DisplayName>Battery MK2</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\BatteryMK2.dds</Icon>
+            <DisplayName>Battery MK3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\BatteryMK3.dds</Icon>
             <Description>Description_Battery</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -100,7 +100,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BatterySmallConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BatterySmallConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>BatteryBlockMK2</BlockPairName>
+            <BlockPairName>BatteryBlockMK3</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>20</BuildTimeSeconds>
 
@@ -132,10 +132,10 @@
         <Definition xsi:type="MyObjectBuilder_BatteryBlockDefinition">
             <Id>
                 <TypeId>BatteryBlock</TypeId>
-                <SubtypeId>SmallBlockSmallBatteryBlockMK2</SubtypeId>
+                <SubtypeId>SmallBlockSmallBatteryBlockMK3</SubtypeId>
             </Id>
-            <DisplayName>Small Battery MK2</DisplayName>
-            <Icon>Textures/GUI/Icons/Cubes/Battery1x1MK2.dds</Icon>
+            <DisplayName>Small Battery MK3</DisplayName>
+            <Icon>Textures/GUI/Icons/Cubes/Battery1x1MK3.dds</Icon>
             <Description>Description_Battery</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -162,7 +162,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\BatterySmall1x1_Construction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\BatterySmall1x1_Construction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>Battery1x1BlockMK2</BlockPairName>
+            <BlockPairName>Battery1x1BlockMK3</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>8</BuildTimeSeconds>
 
@@ -195,10 +195,10 @@
         <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
             <Id>
                 <TypeId>Reactor</TypeId>
-                <SubtypeId>SmallBlockSmallGeneratorMK2</SubtypeId>
+                <SubtypeId>SmallBlockSmallGeneratorMK3</SubtypeId>
             </Id>
-            <DisplayName>Small Reactor MK2</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\nuclear_reactorMK2.dds</Icon>
+            <DisplayName>Small Reactor MK3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\nuclear_reactorMK3.dds</Icon>
             <Description>Description_Reactor</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -231,7 +231,7 @@
                 <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\GeneratorSmallConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GeneratorSmallConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>SmallReactorMK2</BlockPairName>
+            <BlockPairName>SmallReactorMK3</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -288,10 +288,10 @@
         <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
             <Id>
                 <TypeId>Reactor</TypeId>
-                <SubtypeId>SmallBlockLargeGeneratorMK2</SubtypeId>
+                <SubtypeId>SmallBlockLargeGeneratorMK3</SubtypeId>
             </Id>
-            <DisplayName>Large Reactor MK2</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor_largeMK2.dds</Icon>
+            <DisplayName>Large Reactor MK3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor_largeMK3.dds</Icon>
             <Description>Description_Reactor</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -328,7 +328,7 @@
                 <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Small\GeneratorLargeConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\GeneratorLargeConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>LargeReactorMK2</BlockPairName>
+            <BlockPairName>LargeReactorMK3</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <BuildTimeSeconds>30</BuildTimeSeconds>
@@ -382,10 +382,10 @@
         <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
             <Id>
                 <TypeId>Reactor</TypeId>
-                <SubtypeId>LargeBlockSmallGeneratorMK2</SubtypeId>
+                <SubtypeId>LargeBlockSmallGeneratorMK3</SubtypeId>
             </Id>
-            <DisplayName>Small Reactor MK2</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\nuclear_reactorMK2.dds</Icon>
+            <DisplayName>Small Reactor MK3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\nuclear_reactorMK3.dds</Icon>
             <Description>Description_Reactor</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -418,7 +418,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\GeneratorSmallConstruction_2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GeneratorSmallConstruction_3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>SmallReactorMK2</BlockPairName>
+            <BlockPairName>SmallReactorMK3</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -474,10 +474,10 @@
         <Definition xsi:type="MyObjectBuilder_ReactorDefinition">
             <Id>
                 <TypeId>Reactor</TypeId>
-                <SubtypeId>LargeBlockLargeGeneratorMK2</SubtypeId>
+                <SubtypeId>LargeBlockLargeGeneratorMK3</SubtypeId>
             </Id>
-            <DisplayName>Large Reactor MK2</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor_largeMK2.dds</Icon>
+            <DisplayName>Large Reactor MK3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\nuclear_reactor_largeMK3.dds</Icon>
             <Description>Description_Reactor</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -513,7 +513,7 @@
                 <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\GeneratorLargeConstruction_4.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\GeneratorLargeConstruction_5.mwm" />
             </BuildProgressModels>
-            <BlockPairName>LargeReactorMK2</BlockPairName>
+            <BlockPairName>LargeReactorMK3</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -566,11 +566,11 @@
         <Definition xsi:type="MyObjectBuilder_HydrogenEngineDefinition">
             <Id>
                 <TypeId>HydrogenEngine</TypeId>
-                <SubtypeId>LargeHydrogenEngineMK2</SubtypeId>
+                <SubtypeId>LargeHydrogenEngineMK3</SubtypeId>
             </Id>
-            <DisplayName>Hydrogen Engine MK2</DisplayName>
+            <DisplayName>Hydrogen Engine MK3</DisplayName>
             <Description>Description_PowerGenerator</Description>
-            <Icon>Textures\GUI\Icons\Cubes\HydrogenEngineLargeMK2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HydrogenEngineLargeMK3.dds</Icon>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="1" y="1" z="2" />
@@ -599,7 +599,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\HydrogenEngine_Construction2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\HydrogenEngine_Construction3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HydrogenEngineMK2</BlockPairName>
+            <BlockPairName>HydrogenEngineMK3</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -653,11 +653,11 @@
         <Definition xsi:type="MyObjectBuilder_HydrogenEngineDefinition">
             <Id>
                 <TypeId>HydrogenEngine</TypeId>
-                <SubtypeId>SmallHydrogenEngineMK2</SubtypeId>
+                <SubtypeId>SmallHydrogenEngineMK3</SubtypeId>
             </Id>
-            <DisplayName>Hydrogen Engine MK2</DisplayName>
+            <DisplayName>Hydrogen Engine MK3</DisplayName>
             <Description>Description_PowerGenerator</Description>
-            <Icon>Textures\GUI\Icons\Cubes\HydrogenEngineSmallMK2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\HydrogenEngineSmallMK3.dds</Icon>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
             <Size x="3" y="2" z="2" />
@@ -691,7 +691,7 @@
                 <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\HydrogenEngine_Construction1.mwm" />
                 <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\HydrogenEngine_Construction2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>HydrogenEngineMK2</BlockPairName>
+            <BlockPairName>HydrogenEngineMK3</BlockPairName>
             <MirroringY>Z</MirroringY>
             <MirroringZ>Y</MirroringZ>
             <EdgeType>Light</EdgeType>
@@ -732,11 +732,11 @@
         <Definition xsi:type="MyObjectBuilder_WindTurbineDefinition">
             <Id>
                 <TypeId>WindTurbine</TypeId>
-                <SubtypeId>LargeBlockWindTurbineMK2</SubtypeId>
+                <SubtypeId>LargeBlockWindTurbineMK3</SubtypeId>
             </Id>
-            <DisplayName>Wind Turbine MK2</DisplayName>
+            <DisplayName>Wind Turbine MK3</DisplayName>
             <Description>Description_WindTurbine</Description>
-            <Icon>Textures\GUI\Icons\Cubes\WindTurbineMK2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\WindTurbineMK3.dds</Icon>
             <CubeSize>Large</CubeSize>
             <PlaceDecals>false</PlaceDecals>
             <ResearchGroup>Tier00Basics</ResearchGroup>
@@ -767,7 +767,7 @@
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\WindTurbine_Construction3.mwm" />
             </BuildProgressModels>
 
-            <BlockPairName>WindTurbineMK2</BlockPairName>
+            <BlockPairName>WindTurbineMK3</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>20</BuildTimeSeconds>
             <DamageEffectId>214</DamageEffectId>
@@ -803,10 +803,10 @@
         <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
             <Id>
                 <TypeId>SolarPanel</TypeId>
-                <SubtypeId>LargeBlockSolarPanelMK2</SubtypeId>
+                <SubtypeId>LargeBlockSolarPanelMK3</SubtypeId>
             </Id>
-            <DisplayName>Solar Panel MK2</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\SolarPanelMK2.dds</Icon>
+            <DisplayName>Solar Panel MK3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\SolarPanelMK3.dds</Icon>
             <Description>Description_SolarPanel</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -842,7 +842,7 @@
                 <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\SolarPanelConstruction2.mwm" />
                 <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\SolarPanelConstruction3.mwm" />
             </BuildProgressModels>
-            <BlockPairName>SolarPanelMK2</BlockPairName>
+            <BlockPairName>SolarPanelMK3</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>30</BuildTimeSeconds>
 
@@ -868,10 +868,10 @@
         <Definition xsi:type="MyObjectBuilder_SolarPanelDefinition">
             <Id>
                 <TypeId>SolarPanel</TypeId>
-                <SubtypeId>SmallBlockSolarPanelMK2</SubtypeId>
+                <SubtypeId>SmallBlockSolarPanelMK3</SubtypeId>
             </Id>
-            <DisplayName>Solar Panel MK2</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\SolarPanelMK2.dds</Icon>
+            <DisplayName>Solar Panel MK3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\SolarPanelMK3.dds</Icon>
             <Description>Description_SolarPanel</Description>
             <CubeSize>Small</CubeSize>
             <BlockTopology>TriangleMesh</BlockTopology>
@@ -905,7 +905,7 @@
                 <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\SolarPanelConstruction_1.mwm" />
                 <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\SolarPanelConstruction_2.mwm" />
             </BuildProgressModels>
-            <BlockPairName>SolarPanelMK2</BlockPairName>
+            <BlockPairName>SolarPanelMK3</BlockPairName>
             <EdgeType>Light</EdgeType>
             <BuildTimeSeconds>20</BuildTimeSeconds>
 
