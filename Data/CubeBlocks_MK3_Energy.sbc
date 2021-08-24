@@ -16,6 +16,8 @@
             <Size x="1" y="1" z="1" />
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\BatteryLarge.mwm</Model>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <Components>
                 <Component Subtype="SteelPlate" Count="40" />
                 <Component Subtype="Construction" Count="20" />
@@ -78,6 +80,8 @@
             <Size x="3" y="2" z="3" />
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Small\BatterySmall.mwm</Model>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <Components>
                 <Component Subtype="SteelPlate" Count="10" />
                 <Component Subtype="Construction" Count="4" />
@@ -138,6 +142,8 @@
             <Size x="1" y="1" z="1" />
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Small\BatterySmall1x1.mwm</Model>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <Components>
                 <Component Subtype="SteelPlate" Count="4" />
                 <Component Subtype="Construction" Count="2" />
@@ -200,6 +206,8 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Small\GeneratorSmall.mwm</Model>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <Components>
                 <Component Subtype="SteelPlate" Count="2" />
                 <Component Subtype="Construction" Count="20" />
@@ -291,6 +299,8 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Small\GeneratorLarge.mwm</Model>
             <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <Components>
                 <Component Subtype="SteelPlate" Count="80" />
                 <Component Subtype="Construction" Count="20" />
@@ -382,6 +392,8 @@
             <Size x="1" y="1" z="1" />
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\GeneratorSmall.mwm</Model>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <Components>
                 <Component Subtype="SteelPlate" Count="100" />
                 <Component Subtype="Construction" Count="80" />
@@ -472,6 +484,8 @@
             <Size x="3" y="3" z="3" />
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\GeneratorLarge.mwm</Model>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <Components>
                 <Component Subtype="SteelPlate" Count="1500" />
                 <Component Subtype="Construction" Count="150" />
@@ -562,6 +576,8 @@
             <Size x="1" y="1" z="2" />
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\HydrogenEngine.mwm</Model>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <Components>
                 <Component Subtype="SteelPlate" Count="150" />
                 <Component Subtype="Construction" Count="120" />
@@ -647,6 +663,8 @@
             <Size x="3" y="2" z="2" />
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Small\HydrogenEngine.mwm</Model>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <Components>
                 <Component Subtype="SteelPlate" Count="20" />
                 <Component Subtype="Construction" Count="18" />
@@ -728,6 +746,8 @@
             <Center x="1" y="0" z="1" />
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\WindTurbine.mwm</Model>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <Components>
                 <Component Subtype="InteriorPlate" Count="20" />
                 <Component Subtype="Motor" Count="15" />
@@ -793,6 +813,8 @@
             <Size x="4" y="2" z="1" />
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Large\SolarPanel.mwm</Model>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <Components>
                 <Component Subtype="SteelPlate" Count="8" />
                 <Component Subtype="Construction" Count="20" />
@@ -857,6 +879,8 @@
             <ModelOffset x="0" y="0" z="0" />
             <Model>Models\Cubes\Small\SolarPanel.mwm</Model>
             <Center x="0" y="0" z="0" />
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <Components>
                 <Component Subtype="SteelPlate" Count="4" />
                 <Component Subtype="Construction" Count="2" />

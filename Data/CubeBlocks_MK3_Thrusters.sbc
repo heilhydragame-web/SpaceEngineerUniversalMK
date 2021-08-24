@@ -18,6 +18,8 @@
       <Model>Models\Cubes\Small\ThrustSmall.mwm</Model>
       <ThrusterType>Ion</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <GuiVisible>false</GuiVisible>
+      <Public>false</Public>
       <Components>
         <Component Subtype="SteelPlate" Count="2" />
         <Component Subtype="Construction" Count="2" />
@@ -115,6 +117,8 @@
       <Model>Models\Cubes\Small\ThrustLarge.mwm</Model>
       <ThrusterType>Ion</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <GuiVisible>false</GuiVisible>
+      <Public>false</Public>
       <Components>
         <Component Subtype="SteelPlate" Count="2" />
         <Component Subtype="Construction" Count="2" />
@@ -213,6 +217,8 @@
       <Model>Models\Cubes\Large\ThrustSmall.mwm</Model>
       <ThrusterType>Ion</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <GuiVisible>false</GuiVisible>
+      <Public>false</Public>
       <Components>
         <Component Subtype="SteelPlate" Count="30" />
         <Component Subtype="Construction" Count="80" />
@@ -310,6 +316,8 @@
       <Model>Models\Cubes\Large\ThrustLarge.mwm</Model>
       <ThrusterType>Ion</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <GuiVisible>false</GuiVisible>
+      <Public>false</Public>
       <Components>
         <Component Subtype="SteelPlate" Count="200" />
         <Component Subtype="Construction" Count="140" />
@@ -412,6 +420,8 @@
       <Model>Models\Cubes\Large\HydrogenThrusterLarge.mwm</Model>
       <ThrusterType>Hydrogen</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <GuiVisible>false</GuiVisible>
+      <Public>false</Public>
       <Components>
         <Component Subtype="SteelPlate" Count="200" />
         <Component Subtype="Construction" Count="300" />
@@ -513,6 +523,8 @@
       <Model>Models\Cubes\Large\HydrogenThrusterSmall.mwm</Model>
       <ThrusterType>Hydrogen</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <GuiVisible>false</GuiVisible>
+      <Public>false</Public>
       <Components>
         <Component Subtype="SteelPlate" Count="30" />
         <Component Subtype="Construction" Count="80" />
@@ -612,6 +624,8 @@
       <Model>Models\Cubes\Small\HydrogenThrusterLarge.mwm</Model>
       <ThrusterType>Hydrogen</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <GuiVisible>false</GuiVisible>
+      <Public>false</Public>
       <Components>
         <Component Subtype="SteelPlate" Count="40" />
         <Component Subtype="Construction" Count="40" />
@@ -712,6 +726,8 @@
       <Model>Models\Cubes\Small\HydrogenThrusterSmall.mwm</Model>
       <ThrusterType>Hydrogen</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <GuiVisible>false</GuiVisible>
+      <Public>false</Public>
       <Components>
         <Component Subtype="SteelPlate" Count="4" />
         <Component Subtype="Construction" Count="20" />
@@ -813,6 +829,8 @@
       <Model>Models\Cubes\Large\AtmosphericThrusterLarge.mwm</Model>
       <ThrusterType>Atmospheric</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <GuiVisible>false</GuiVisible>
+      <Public>false</Public>
       <Components>
         <Component Subtype="SteelPlate" Count="200" />
         <Component Subtype="Construction" Count="80" />
@@ -919,6 +937,8 @@
       <Model>Models\Cubes\Large\AtmosphericThrusterSmall.mwm</Model>
       <ThrusterType>Atmospheric</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <GuiVisible>false</GuiVisible>
+      <Public>false</Public>
       <Components>
         <Component Subtype="SteelPlate" Count="30" />
         <Component Subtype="Construction" Count="60" />
@@ -1026,6 +1046,8 @@
       <Model>Models\Cubes\Small\AtmosphericThrusterLarge.mwm</Model>
       <ThrusterType>Atmospheric</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <GuiVisible>false</GuiVisible>
+      <Public>false</Public>
       <Components>
         <Component Subtype="SteelPlate" Count="20" />
         <Component Subtype="Construction" Count="40" />
@@ -1133,6 +1155,8 @@
       <Model>Models\Cubes\Small\AtmosphericThrusterSmall.mwm</Model>
       <ThrusterType>Atmospheric</ThrusterType>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <GuiVisible>false</GuiVisible>
+      <Public>false</Public>
       <Components>
         <Component Subtype="SteelPlate" Count="4" />
         <Component Subtype="Construction" Count="40" />

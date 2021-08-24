@@ -15,6 +15,8 @@
       <Size x="1" y="1" z="2" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\UpgradeProductivity.mwm</Model>
+      <GuiVisible>false</GuiVisible>
+      <Public>false</Public>
       <Components>
         <Component Subtype="SteelPlate" Count="150" />
         <Component Subtype="Construction" Count="80" />
@@ -70,6 +72,8 @@
       <Size x="1" y="1" z="2" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\UpgradeEffectiveness.mwm</Model>
+      <GuiVisible>false</GuiVisible>
+      <Public>false</Public>
       <Components>
         <Component Subtype="SteelPlate" Count="150" />
         <Component Subtype="Construction" Count="100" />
@@ -125,6 +129,8 @@
       <Size x="1" y="1" z="2" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\UpgradeEnergy.mwm</Model>
+      <GuiVisible>false</GuiVisible>
+      <Public>false</Public>
       <Components>
         <Component Subtype="SteelPlate" Count="150" />
         <Component Subtype="Construction" Count="80" />
@@ -181,6 +187,8 @@
       <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\OxygenGenerator.mwm</Model>
+      <GuiVisible>false</GuiVisible>
+      <Public>false</Public>
       <Components>
         <Component Subtype="SteelPlate" Count="220" />
         <Component Subtype="Construction" Count="10" />
@@ -277,6 +285,8 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\OxygenGenerator.mwm</Model>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+      <GuiVisible>false</GuiVisible>
+      <Public>false</Public>
       <Components>
         <Component Subtype="SteelPlate" Count="12" />
         <Component Subtype="Construction" Count="16" />
@@ -380,6 +390,8 @@
       <Center x="0" y="0" z="0" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\SolarHydroponics.mwm</Model>
+      <GuiVisible>false</GuiVisible>
+      <Public>false</Public>
       <Components>
         <Component Subtype="SteelPlate" Count="80" />
         <Component Subtype="BulletproofGlass" Count="120" />
@@ -444,6 +456,8 @@
       <Size x="3" y="3" z="2" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\JumpDrive.mwm</Model>
+      <GuiVisible>false</GuiVisible>
+      <Public>false</Public>
       <Components>
         <Component Subtype="SteelPlate" Count="80" />
         <Component Subtype="MetalGrid" Count="100" />
@@ -503,6 +517,8 @@
       <Size x="3" y="3" z="3" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\OxygenStorage.mwm</Model>
+      <GuiVisible>false</GuiVisible>
+      <Public>false</Public>
       <Components>
         <Component Subtype="SteelPlate" Count="20" />
         <Component Subtype="LargeTube" Count="15" />
@@ -577,6 +593,8 @@
       <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\OxygenStorage.mwm</Model>
+      <GuiVisible>false</GuiVisible>
+      <Public>false</Public>
       <Components>
         <Component Subtype="SteelPlate" Count="120" />
         <Component Subtype="LargeTube" Count="80" />
@@ -659,6 +677,8 @@
       <Size x="3" y="3" z="3" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\HydrogenTank.mwm</Model>
+      <GuiVisible>false</GuiVisible>
+      <Public>false</Public>
       <Components>
         <Component Subtype="SteelPlate" Count="300" />
         <Component Subtype="LargeTube" Count="150" />
@@ -734,6 +754,8 @@
       <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\HydrogenTankSmall.mwm</Model>
+      <GuiVisible>false</GuiVisible>
+      <Public>false</Public>
       <Components>
         <Component Subtype="SteelPlate" Count="120" />
         <Component Subtype="LargeTube" Count="80" />
@@ -804,6 +826,8 @@
       <Size x="5" y="5" z="5" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\HydrogenTank.mwm</Model>
+      <GuiVisible>false</GuiVisible>
+      <Public>false</Public>
       <Components>
         <Component Subtype="SteelPlate" Count="60" />
         <Component Subtype="LargeTube" Count="40" />
@@ -891,6 +915,8 @@
       <Size x="2" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\HydrogenTankSmall.mwm</Model>
+      <GuiVisible>false</GuiVisible>
+      <Public>false</Public>
       <Components>
         <Component Subtype="SteelPlate" Count="4" />
         <Component Subtype="LargeTube" Count="2" />
@@ -962,6 +988,8 @@
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\CargoContainerSmall.mwm</Model>
+      <GuiVisible>false</GuiVisible>
+      <Public>false</Public>
       <Components>
         <Component Subtype="InteriorPlate" Count="4" />
         <Component Subtype="Construction" Count="2" />
@@ -1008,6 +1036,8 @@
       <Size x="3" y="3" z="3" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\CargoContainerMedium.mwm</Model>
+      <GuiVisible>false</GuiVisible>
+      <Public>false</Public>
       <Components>
         <Component Subtype="InteriorPlate" Count="40" />
         <Component Subtype="Construction" Count="20" />
@@ -1054,6 +1084,8 @@
       <Size x="5" y="5" z="5" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Small\CargoContainerLarge.mwm</Model>
+      <GuiVisible>false</GuiVisible>
+      <Public>false</Public>
       <Components>
         <Component Subtype="InteriorPlate" Count="110" />
         <Component Subtype="Construction" Count="50" />
@@ -1099,6 +1131,8 @@
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\CargoContainerSmall.mwm</Model>
+      <GuiVisible>false</GuiVisible>
+      <Public>false</Public>
       <Components>
         <Component Subtype="InteriorPlate" Count="60" />
         <Component Subtype="Construction" Count="70" />
@@ -1149,6 +1183,8 @@
       <Size x="3" y="3" z="3" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\CargoContainerLarge.mwm</Model>
+      <GuiVisible>false</GuiVisible>
+      <Public>false</Public>
       <Components>
         <Component Subtype="InteriorPlate" Count="600" />
         <Component Subtype="Construction" Count="120" />
