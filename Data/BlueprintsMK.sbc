@@ -2,6 +2,7 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Blueprints>
+    <!-- MK compo are x100 normal but faster build -->
 
     <!-- Mk componentS -->
 
@@ -15,12 +16,11 @@
       <DisplayName>Construction Component MK</DisplayName>
       <Icon>Textures\GUI\Icons\Component\construction_components_component_MK.dds</Icon>
       <Prerequisites>
-        <Item Amount="1000" TypeId="Ingot" SubtypeId="Iron" />
-        <!-- 10 -->
+        <Item Amount="800" TypeId="Ingot" SubtypeId="Iron" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="ConstructionMK" />
-      <!-- 1 -->
-      <BaseProductionTimeInSeconds>200</BaseProductionTimeInSeconds>      <!-- 4 -->
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
     </Blueprint>
 
     <!-- Girder Component MK -->
@@ -33,12 +33,11 @@
       <DisplayName>Girder MK</DisplayName>
       <Icon>Textures\GUI\Icons\Component\girder_component_MK.dds</Icon>
       <Prerequisites>
-        <Item Amount="700" TypeId="Ingot" SubtypeId="Iron" />
-        <!-- 7 -->
+        <Item Amount="600" TypeId="Ingot" SubtypeId="Iron" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="GirderMK" />
-      <!-- 1 -->
-      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>      <!-- 1 -->
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
     </Blueprint>
 
     <!-- Metal Grid MK -->
@@ -52,15 +51,12 @@
       <Icon>Textures\GUI\Icons\Component\metal_grid_component_MK.dds</Icon>
       <Prerequisites>
         <Item Amount="1200" TypeId="Ingot" SubtypeId="Iron" />
-        <!-- 12 -->
         <Item Amount="500" TypeId="Ingot" SubtypeId="Nickel" />
-        <!-- 5 -->
         <Item Amount="300" TypeId="Ingot" SubtypeId="Cobalt" />
-        <!-- 3 -->
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="MetalGridMK" />
-      <!-- 1 -->
-      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>      <!-- 2 -->
+      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
     </Blueprint>
 
     <!-- Interior Plate MK -->
@@ -73,12 +69,11 @@
       <DisplayName>Interior Plate MK</DisplayName>
       <Icon>Textures\GUI\Icons\Component\interior_plate_component_MK.dds</Icon>
       <Prerequisites>
-        <Item Amount="350" TypeId="Ingot" SubtypeId="Iron" />
-        <!-- 3.5 -->
+        <Item Amount="300" TypeId="Ingot" SubtypeId="Iron" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="InteriorPlateMK" />
-      <!-- 1 -->
-      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>      <!-- 1 -->
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
     </Blueprint>
 
     <!-- Steel Plate MK -->
@@ -92,11 +87,10 @@
       <Icon>Textures\GUI\Icons\Component\steel_plate_component_MK.dds</Icon>
       <Prerequisites>
         <Item Amount="2100" TypeId="Ingot" SubtypeId="Iron" />
-        <!-- 21 -->
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="SteelPlateMK" />
-      <!-- 1 -->
-      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>      <!-- 1 -->
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
     </Blueprint>
 
     <!-- Small Tube MK -->
@@ -110,11 +104,10 @@
       <Icon>Textures\GUI\Icons\Component\small_tube_component_MK.dds</Icon>
       <Prerequisites>
         <Item Amount="500" TypeId="Ingot" SubtypeId="Iron" />
-        <!-- 5 -->
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="SmallTubeMK" />
-      <!-- 1 -->
-      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>      <!-- 1 -->
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
     </Blueprint>
 
     <!-- Large Tube MK -->
@@ -128,11 +121,10 @@
       <Icon>Textures\GUI\Icons\Component\large_tube_component_MK.dds</Icon>
       <Prerequisites>
         <Item Amount="3000" TypeId="Ingot" SubtypeId="Iron" />
-        <!-- 30 -->
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="LargeTubeMK" />
-      <!-- 1 -->
-      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>      <!-- 1 -->
+      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
     </Blueprint>
 
     <!-- Motor Component MK -->
@@ -146,13 +138,11 @@
       <Icon>Textures\GUI\Icons\Component\motor_component_MK.dds</Icon>
       <Prerequisites>
         <Item Amount="2000" TypeId="Ingot" SubtypeId="Iron" />
-        <!-- 20 -->
         <Item Amount="500" TypeId="Ingot" SubtypeId="Nickel" />
-        <!-- 5 -->
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="MotorMK" />
-      <!-- 1 -->
-      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>      <!-- 1 -->
+      <BaseProductionTimeInSeconds>150</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
     </Blueprint>
 
     <!-- Display MK -->
@@ -166,13 +156,11 @@
       <Icon>Textures\GUI\Icons\Component\display_component_MK.dds</Icon>
       <Prerequisites>
         <Item Amount="100" TypeId="Ingot" SubtypeId="Iron" />
-        <!-- 1 -->
         <Item Amount="500" TypeId="Ingot" SubtypeId="Silicon" />
-        <!-- 5 -->
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="DisplayMK" />
-      <!-- 1 -->
-      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>      <!-- 1 -->
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
     </Blueprint>
 
     <!-- Bullet proof Glass MK -->
@@ -186,11 +174,10 @@
       <Icon>Textures\GUI\Icons\Component\bulletproof_glass_component_MK.dds</Icon>
       <Prerequisites>
         <Item Amount="1500" TypeId="Ingot" SubtypeId="Silicon" />
-        <!-- 15 -->
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="BulletproofGlassMK" />
-      <!-- 1 -->
-      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>      <!-- 1 -->
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
     </Blueprint>
 
     <!-- Computer Component MK -->
@@ -204,13 +191,11 @@
       <Icon>Textures\GUI\Icons\Component\computer_component_MK.dds</Icon>
       <Prerequisites>
         <Item Amount="50" TypeId="Ingot" SubtypeId="Iron" />
-        <!-- 0.5 -->
         <Item Amount="20" TypeId="Ingot" SubtypeId="Silicon" />
-        <!-- 0.2 -->
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="ComputerMK" />
-      <!-- 1 -->
-      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>      <!-- 1 -->
+      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
     </Blueprint>
 
     <!-- Reactor Component MK -->
@@ -224,15 +209,12 @@
       <Icon>Textures\GUI\Icons\Component\reactor_components_component_MK.dds</Icon>
       <Prerequisites>
         <Item Amount="1500" TypeId="Ingot" SubtypeId="Iron" />
-        <!-- 15 -->
         <Item Amount="2000" TypeId="Ingot" SubtypeId="Stone" />
-        <!-- 20 -->
         <Item Amount="500" TypeId="Ingot" SubtypeId="Silver" />
-        <!-- 5 -->
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="ReactorMK" />
-      <!-- 1 -->
-      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>      <!-- 1 -->
+      <BaseProductionTimeInSeconds>400</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
     </Blueprint>
 
     <!-- Thrust Component MK -->
@@ -246,17 +228,13 @@
       <Icon>Textures\GUI\Icons\Component\thrust_components_component_MK.dds</Icon>
       <Prerequisites>
         <Item Amount="3000" TypeId="Ingot" SubtypeId="Iron" />
-        <!-- 30 -->
         <Item Amount="1000" TypeId="Ingot" SubtypeId="Cobalt" />
-        <!-- 10 -->
         <Item Amount="100" TypeId="Ingot" SubtypeId="Gold" />
-        <!-- 1 -->
         <Item Amount="40" TypeId="Ingot" SubtypeId="Platinum" />
-        <!-- 0.4 -->
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="ThrustMK" />
-      <!-- 1 -->
-      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>      <!-- 1 -->
+      <BaseProductionTimeInSeconds>200</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
     </Blueprint>
 
     <!-- Gravity Generator ComponentMK -->
@@ -270,17 +248,13 @@
       <Icon>Textures\GUI\Icons\Component\gravity_generator_components_component_MK.dds</Icon>
       <Prerequisites>
         <Item Amount="60000" TypeId="Ingot" SubtypeId="Iron" />
-        <!-- 600 -->
         <Item Amount="22000" TypeId="Ingot" SubtypeId="Cobalt" />
-        <!-- 220 -->
         <Item Amount="500" TypeId="Ingot" SubtypeId="Silver" />
-        <!-- 5 -->
         <Item Amount="1000" TypeId="Ingot" SubtypeId="Gold" />
-        <!-- 10 -->
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="GravityGeneratorMK" />
-      <!-- 1 -->
-      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>      <!-- 1 -->
+      <BaseProductionTimeInSeconds>500</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
     </Blueprint>
 
     <!-- Medical Component MK -->
@@ -294,15 +268,12 @@
       <Icon>Textures\GUI\Icons\Component\medical_components_component_MK.dds</Icon>
       <Prerequisites>
         <Item Amount="6000" TypeId="Ingot" SubtypeId="Iron" />
-        <!-- 60 -->
         <Item Amount="7000" TypeId="Ingot" SubtypeId="Nickel" />
-        <!-- 70 -->
         <Item Amount="2000" TypeId="Ingot" SubtypeId="Silver" />
-        <!-- 20 -->
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="MedicalMK" />
-      <!-- 1 -->
-      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>      <!-- 1 -->
+      <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
     </Blueprint>
 
     <!-- Radio Communication Component MK -->
@@ -316,13 +287,11 @@
       <Icon>Textures\GUI\Icons\Component\radio_communication_components_component_MK.dds</Icon>
       <Prerequisites>
         <Item Amount="800" TypeId="Ingot" SubtypeId="Iron" />
-        <!-- 8 -->
         <Item Amount="100" TypeId="Ingot" SubtypeId="Silicon" />
-        <!-- 1 -->
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="RadioCommunicationMK" />
-      <!-- 1 -->
-      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>      <!-- 1 -->
+      <BaseProductionTimeInSeconds>200</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
     </Blueprint>
 
     <!-- Detector Component MK -->
@@ -336,13 +305,11 @@
       <Icon>Textures\GUI\Icons\Component\detector_components_component_MK.dds</Icon>
       <Prerequisites>
         <Item Amount="500" TypeId="Ingot" SubtypeId="Iron" />
-        <!-- 5 -->
         <Item Amount="1500" TypeId="Ingot" SubtypeId="Nickel" />
-        <!-- 15 -->
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="DetectorMK" />
-      <!-- 1 -->
-      <BaseProductionTimeInSeconds>50</BaseProductionTimeInSeconds>      <!-- 1 -->
+      <BaseProductionTimeInSeconds>200</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
     </Blueprint>
 
     <!-- Solar Cell MK -->
@@ -355,14 +322,12 @@
       <DisplayName>Solar Cell MK</DisplayName>
       <Icon>Textures\GUI\Icons\Component\SolarCellComponent_MK.dds</Icon>
       <Prerequisites>
-        <Item Amount="1000" TypeId="Ingot" SubtypeId="Nickel" />
-        <!-- 10 -->
-        <Item Amount="800" TypeId="Ingot" SubtypeId="Silicon" />
-        <!-- 8 -->
+        <Item Amount="300" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="600" TypeId="Ingot" SubtypeId="Silicon" />
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="SolarCellMK" />
-      <!-- 1 -->
-      <BaseProductionTimeInSeconds>500</BaseProductionTimeInSeconds>      <!-- 10 -->
+      <BaseProductionTimeInSeconds>100</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
     </Blueprint>
 
     <!-- Power Cell MK -->
@@ -376,15 +341,12 @@
       <Icon>Textures\GUI\Icons\Component\BatteryComponent_MK.dds</Icon>
       <Prerequisites>
         <Item Amount="1000" TypeId="Ingot" SubtypeId="Iron" />
-        <!-- 10 -->
         <Item Amount="100" TypeId="Ingot" SubtypeId="Silicon" />
-        <!-- 1 -->
         <Item Amount="200" TypeId="Ingot" SubtypeId="Nickel" />
-        <!-- 2 -->
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="PowerCellMK" />
-      <!-- 1 -->
-      <BaseProductionTimeInSeconds>200</BaseProductionTimeInSeconds>      <!-- 4 -->
+      <BaseProductionTimeInSeconds>200</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
     </Blueprint>
 
     <!-- Superconductor MK -->
@@ -398,13 +360,11 @@
       <Icon>Textures\GUI\Icons\Component\superconductor_conducts_component_MK.dds</Icon>
       <Prerequisites>
         <Item Amount="1000" TypeId="Ingot" SubtypeId="Iron" />
-        <!-- 10 -->
         <Item Amount="200" TypeId="Ingot" SubtypeId="Gold" />
-        <!-- 2 -->
       </Prerequisites>
       <Result Amount="1" TypeId="Component" SubtypeId="SuperconductorMK" />
-      <!-- 1 -->
-      <BaseProductionTimeInSeconds>400</BaseProductionTimeInSeconds>      <!-- 8 -->
+      <BaseProductionTimeInSeconds>400</BaseProductionTimeInSeconds>
+      <IsPrimary>true</IsPrimary>
     </Blueprint>
 
   </Blueprints>
