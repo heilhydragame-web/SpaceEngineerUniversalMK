@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>        
+<!-- Region Large Blocks-->
+        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+            <Id>
+                <TypeId>CargoContainer</TypeId>
+                <SubtypeId>LTMLargeBlockSmallContainerMK2</SubtypeId>
+            </Id>
+            <DisplayName>Small Container MK2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\MK2\containerMK2.dds</Icon>
+            <Description>Description_SmallCargoContainer</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\CargoContainerSmall.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="60" />
+                <Component Subtype="Construction" Count="70" />
+                <Component Subtype="MetalGrid" Count="8" />
+                <Component Subtype="SmallTube" Count="40" />
+                <Component Subtype="Motor" Count="8" />
+                <Component Subtype="Display" Count="2" />
+                <Component Subtype="Computer" Count="4" />
+                <Component Subtype="Construction" Count="10" />
+                <Component Subtype="InteriorPlate" Count="20" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\CargoContainerSmallConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerSmallConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerSmallConstruction_3.mwm" />
+            </BuildProgressModels>
+            <BlockVariants>
+                <BlockVariant>
+                    <TypeId>CargoContainer</TypeId>
+                    <SubtypeId>LTMLargeBlockSmallContainerMK3</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>CargoContainer</TypeId>
+                    <SubtypeId>LTMLargeBlockSmallContainerMK4</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>CargoContainer</TypeId>
+                    <SubtypeId>LTMLargeBlockSmallContainerMK5</SubtypeId>
+                </BlockVariant>
+            </BlockVariants>            
+            <BlockPairName>SmallCargoContainer</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>15</BuildTimeSeconds>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>10</PCU>
+            <IsAirTight>true</IsAirTight>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+            <Id>
+                <TypeId>CargoContainer</TypeId>
+                <SubtypeId>LTMLargeBlockSmallContainerMK3</SubtypeId>
+            </Id>
+            <DisplayName>Small Container MK3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\MK3\containerMK3.dds</Icon>
+            <Description>Description_SmallCargoContainer</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\CargoContainerSmall.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="20" />
+                <Component Subtype="InteriorPlateMK" Count="1" />
+                <Component Subtype="Construction" Count="40" />
+                <Component Subtype="ConstructionMK" Count="1" />
+                <Component Subtype="MetalGrid" Count="16" />
+                <Component Subtype="SmallTube" Count="80" />
+                <Component Subtype="Motor" Count="16" />
+                <Component Subtype="Display" Count="4" />
+                <Component Subtype="Computer" Count="8" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="InteriorPlate" Count="40" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\CargoContainerSmallConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerSmallConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerSmallConstruction_3.mwm" />
+            </BuildProgressModels>            
+            <BlockPairName>SmallCargoContainer</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>15</BuildTimeSeconds>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>10</PCU>
+            <IsAirTight>true</IsAirTight>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+            <Id>
+                <TypeId>CargoContainer</TypeId>
+                <SubtypeId>LTMLargeBlockSmallContainerMK4</SubtypeId>
+            </Id>
+            <DisplayName>Small Container MK4</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\MK4\containerMK4.dds</Icon>
+            <Description>Description_SmallCargoContainer</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\CargoContainerSmall.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="40" />
+                <Component Subtype="InteriorPlateMK" Count="2" />
+                <Component Subtype="Construction" Count="80" />
+                <Component Subtype="ConstructionMK" Count="2" />
+                <Component Subtype="MetalGrid" Count="32" />
+                <Component Subtype="SmallTube" Count="60" />
+                <Component Subtype="SmallTube" Count="1" />
+                <Component Subtype="Motor" Count="32" />
+                <Component Subtype="Display" Count="8" />
+                <Component Subtype="Computer" Count="16" />
+                <Component Subtype="Construction" Count="40" />
+                <Component Subtype="InteriorPlate" Count="80" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\CargoContainerSmallConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerSmallConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerSmallConstruction_3.mwm" />
+            </BuildProgressModels>            
+            <BlockPairName>SmallCargoContainer</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>15</BuildTimeSeconds>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>10</PCU>
+            <IsAirTight>true</IsAirTight>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+            <Id>
+                <TypeId>CargoContainer</TypeId>
+                <SubtypeId>LTMLargeBlockSmallContainerMK5</SubtypeId>
+            </Id>
+            <DisplayName>Small Container MK5</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\MK5\containerMK5.dds</Icon>
+            <Description>Description_SmallCargoContainer</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\CargoContainerSmall.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="80" />
+                <Component Subtype="InteriorPlateMK" Count="5" />
+                <Component Subtype="Construction" Count="60" />
+                <Component Subtype="ConstructionMK" Count="5" />
+                <Component Subtype="MetalGrid" Count="64" />
+                <Component Subtype="SmallTube" Count="20" />
+                <Component Subtype="SmallTube" Count="3" />
+                <Component Subtype="Motor" Count="64" />
+                <Component Subtype="Display" Count="16" />
+                <Component Subtype="Computer" Count="32" />
+                <Component Subtype="Construction" Count="80" />
+                <Component Subtype="InteriorPlate" Count="60" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\CargoContainerSmallConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\CargoContainerSmallConstruction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\CargoContainerSmallConstruction_3.mwm" />
+            </BuildProgressModels>            
+            <BlockPairName>SmallCargoContainer</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>15</BuildTimeSeconds>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>10</PCU>
+            <IsAirTight>true</IsAirTight>
+        </Definition>
+<!-- Region Small Blocks-->
+        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+            <Id>
+                <TypeId>CargoContainer</TypeId>
+                <SubtypeId>LTMSmallBlockSmallContainerMK2</SubtypeId>
+            </Id>
+            <DisplayName>Small Container MK2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\MK2\containerMK2.dds</Icon>
+            <Description>Description_SmallCargoContainer</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\CargoContainerSmall.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="4" />
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="Computer" Count="2" />
+                <Component Subtype="Motor" Count="2" />
+                <Component Subtype="Display" Count="2" />
+                <Component Subtype="InteriorPlate" Count="2" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerSmallConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerSmallConstruction_2.mwm" />
+            </BuildProgressModels>
+            <BlockVariants>
+                <BlockVariant>
+                    <TypeId>CargoContainer</TypeId>
+                    <SubtypeId>LTMSmallBlockSmallContainerMK3</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>CargoContainer</TypeId>
+                    <SubtypeId>LTMSmallBlockSmallContainerMK4</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>CargoContainer</TypeId>
+                    <SubtypeId>LTMSmallBlockSmallContainerMK5</SubtypeId>
+                </BlockVariant>
+            </BlockVariants>  
+            <BlockPairName>SmallCargoContainer</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <EdgeType>Light</EdgeType>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>10</PCU>
+            <IsAirTight>true</IsAirTight>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+            <Id>
+                <TypeId>CargoContainer</TypeId>
+                <SubtypeId>LTMSmallBlockSmallContainerMK3</SubtypeId>
+            </Id>
+            <DisplayName>Small Container MK3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\MK3\containerMK3.dds</Icon>
+            <Description>Description_SmallCargoContainer</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\CargoContainerSmall.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="8" />
+                <Component Subtype="Construction" Count="4" />
+                <Component Subtype="Computer" Count="4" />
+                <Component Subtype="Motor" Count="4" />
+                <Component Subtype="Display" Count="4" />
+                <Component Subtype="InteriorPlate" Count="4" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerSmallConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerSmallConstruction_2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>SmallCargoContainer</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <EdgeType>Light</EdgeType>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>10</PCU>
+            <IsAirTight>true</IsAirTight>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+            <Id>
+                <TypeId>CargoContainer</TypeId>
+                <SubtypeId>LTMSmallBlockSmallContainerMK4</SubtypeId>
+            </Id>
+            <DisplayName>Small Container MK4</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\MK4\containerMK4.dds</Icon>
+            <Description>Description_SmallCargoContainer</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\CargoContainerSmall.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="16" />
+                <Component Subtype="Construction" Count="8" />
+                <Component Subtype="Computer" Count="8" />
+                <Component Subtype="Motor" Count="8" />
+                <Component Subtype="Display" Count="8" />
+                <Component Subtype="InteriorPlate" Count="8" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerSmallConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerSmallConstruction_2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>SmallCargoContainer</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <EdgeType>Light</EdgeType>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>10</PCU>
+            <IsAirTight>true</IsAirTight>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+            <Id>
+                <TypeId>CargoContainer</TypeId>
+                <SubtypeId>LTMSmallBlockSmallContainerMK5</SubtypeId>
+            </Id>
+            <DisplayName>Small Container MK5</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\MK5\containerMK5.dds</Icon>
+            <Description>Description_SmallCargoContainer</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\CargoContainerSmall.mwm</Model>
+            <Components>
+                <Component Subtype="InteriorPlate" Count="32" />
+                <Component Subtype="Construction" Count="16" />
+                <Component Subtype="Computer" Count="16" />
+                <Component Subtype="Motor" Count="16" />
+                <Component Subtype="Display" Count="16" />
+                <Component Subtype="InteriorPlate" Count="16" />
+            </Components>
+            <CriticalComponent Subtype="Computer" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\CargoContainerSmallConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CargoContainerSmallConstruction_2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>SmallCargoContainer</BlockPairName>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <BuildTimeSeconds>6</BuildTimeSeconds>
+            <EdgeType>Light</EdgeType>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>BlockDestroyedExplosion_Small</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>10</PCU>
+            <IsAirTight>true</IsAirTight>
+        </Definition>
+    </CubeBlocks>
+
+    <EntityComponents>
+<!-- Region Large Blocks-->
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMLargeBlockSmallContainerMK2</SubtypeId>
+            </Id>
+            <Size x="3.15" y="3.15" z="3.15" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMLargeBlockSmallContainerMK3</SubtypeId>
+            </Id>
+            <Size x="4.0" y="4.0" z="4.0" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMLargeBlockSmallContainerMK4</SubtypeId>
+            </Id>
+            <Size x="5.0" y="5.0" z="5.0" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMLargeBlockSmallContainerMK5</SubtypeId>
+            </Id>
+            <Size x="6.3" y="6.3" z="6.3" />
+        </EntityComponent>
+<!-- Region Small Blocks-->
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMSmallBlockSmallContainerMK2</SubtypeId>
+            </Id>
+            <Size x="0.63" y="0.63" z="0.63" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMSmallBlockSmallContainerMK3</SubtypeId>
+            </Id>
+            <Size x="0.8" y="0.8" z="0.8" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMSmallBlockSmallContainerMK4</SubtypeId>
+            </Id>
+            <Size x="1.0" y="1.0" z="1.0" />
+        </EntityComponent>
+        <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+            <Id>
+                <TypeId>Inventory</TypeId>
+                <SubtypeId>LTMSmallBlockSmallContainerMK5</SubtypeId>
+            </Id>
+            <Size x="1.26" y="1.26" z="1.26" />
+        </EntityComponent>
+    </EntityComponents>
+</Definitions>
