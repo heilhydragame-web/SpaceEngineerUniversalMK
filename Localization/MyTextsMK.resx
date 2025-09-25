@@ -1,0 +1,120 @@
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+        <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+            <xsd:element name="metadata">
+            <xsd:complexType>
+                <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+                </xsd:sequence>
+                <xsd:attribute name="name" use="required" type="xsd:string" />
+                <xsd:attribute name="type" type="xsd:string" />
+                <xsd:attribute name="mimetype" type="xsd:string" />
+                <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="assembly">
+            <xsd:complexType>
+                <xsd:attribute name="alias" type="xsd:string" />
+                <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="data">
+            <xsd:complexType>
+                <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                </xsd:sequence>
+                <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+                <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+                <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+                <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+            </xsd:element>
+            <xsd:element name="resheader">
+            <xsd:complexType>
+                <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                </xsd:sequence>
+                <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+            </xsd:element>
+        </xsd:choice>
+        </xsd:complexType>
+    </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>2.0</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="DisplayName_Block_SmallCargoContainer_T2" xml:space="preserve">
+        <value>Small Container T2</value>
+    </data>
+    <data name="DisplayName_Block_SmallCargoContainer_T3" xml:space="preserve">
+        <value>Small Container T3</value>
+    </data>
+    <data name="DisplayName_Block_SmallCargoContainer_T4" xml:space="preserve">
+        <value>Small Container T4</value>
+    </data>
+    <data name="DisplayName_Block_SmallCargoContainer_T5" xml:space="preserve">
+        <value>Small Container T5</value>
+    </data>
+    <data name="DisplayName_Block_MediumCargoContainer_T2" xml:space="preserve">
+        <value>Medium Container T2</value>
+    </data>
+    <data name="DisplayName_Block_MediumCargoContainer_T3" xml:space="preserve">
+        <value>Medium Container T3</value>
+    </data>
+    <data name="DisplayName_Block_MediumCargoContainer_T4" xml:space="preserve">
+        <value>Medium Container T4</value>
+    </data>
+    <data name="DisplayName_Block_MediumCargoContainer_T5" xml:space="preserve">
+        <value>Medium Container T5</value>
+    </data>
+    <data name="DisplayName_Block_LargeCargoContainer_T2" xml:space="preserve">
+        <value>Large Container T2</value>
+    </data>
+    <data name="DisplayName_Block_LargeCargoContainer_T3" xml:space="preserve">
+        <value>Large Container T3</value>
+    </data>
+    <data name="DisplayName_Block_LargeCargoContainer_T4" xml:space="preserve">
+        <value>Large Container T4</value>
+    </data>
+    <data name="DisplayName_Block_LargeCargoContainer_T5" xml:space="preserve">
+        <value>Large Container T5</value>
+    </data>
+    <data name="DisplayName_Block_LargeIndustrialCargoContainer_T2" xml:space="preserve">
+        <value>Large Industrial Container T2</value>
+    </data>
+    <data name="DisplayName_Block_LargeIndustrialCargoContainer_T3" xml:space="preserve">
+        <value>Large Industrial Container T3</value>
+    </data>
+    <data name="DisplayName_Block_LargeIndustrialCargoContainer_T4" xml:space="preserve">
+        <value>Large Industrial Container T4</value>
+    </data>
+    <data name="DisplayName_Block_LargeIndustrialCargoContainer_T5" xml:space="preserve">
+        <value>Large Industrial Container T5</value>
+    </data>
+    <data name="DisplayName_Block_ModularCargoContainer_T2" xml:space="preserve">
+        <value>Modular Container T2</value>
+    </data>
+    <data name="DisplayName_Block_ModularCargoContainer_T3" xml:space="preserve">
+        <value>Modular Container T3</value>
+    </data>
+    <data name="DisplayName_Block_ModularCargoContainer_T4" xml:space="preserve">
+        <value>Modular Container T4</value>
+    </data>
+    <data name="DisplayName_Block_ModularCargoContainer_T5" xml:space="preserve">
+        <value>Modular Container T5</value>
+    </data>
+</root>

@@ -8,7 +8,7 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LTMLargeBlockLargeContainerT2</SubtypeId>
             </Id>
-            <DisplayName>Large Container T2</DisplayName>
+            <DisplayName>DisplayName_Block_LargeCargoContainer_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\container_largeT2.dds</Icon>
             <Description>Description_LargeCargoContainer</Description>
             <CubeSize>Large</CubeSize>
@@ -74,7 +74,7 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LTMLargeBlockLargeContainerT3</SubtypeId>
             </Id>
-            <DisplayName>Large Container T3</DisplayName>
+            <DisplayName>DisplayName_Block_LargeCargoContainer_T3</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\container_largeT3.dds</Icon>
             <Description>Description_LargeCargoContainer</Description>
             <CubeSize>Large</CubeSize>
@@ -126,7 +126,7 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LTMLargeBlockLargeContainerT4</SubtypeId>
             </Id>
-            <DisplayName>Large Container T4</DisplayName>
+            <DisplayName>DisplayName_Block_LargeCargoContainer_T4</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\container_largeT4.dds</Icon>
             <Description>Description_LargeCargoContainer</Description>
             <CubeSize>Large</CubeSize>
@@ -180,7 +180,7 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LTMLargeBlockLargeContainerT5</SubtypeId>
             </Id>
-            <DisplayName>Large Container T5</DisplayName>
+            <DisplayName>DisplayName_Block_LargeCargoContainer_T5</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\container_largeT5.dds</Icon>
             <Description>Description_LargeCargoContainer</Description>
             <CubeSize>Large</CubeSize>
@@ -236,7 +236,7 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LTMSmallBlockLargeContainerT2</SubtypeId>
             </Id>
-            <DisplayName>Large Container T2</DisplayName>
+            <DisplayName>DisplayName_Block_LargeCargoContainer_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\container_largeT2.dds</Icon>
             <Description>Description_LargeCargoContainer</Description>
             <CubeSize>Small</CubeSize>
@@ -297,7 +297,7 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LTMSmallBlockLargeContainerT3</SubtypeId>
             </Id>
-            <DisplayName>Large Container T3</DisplayName>
+            <DisplayName>DisplayName_Block_LargeCargoContainer_T3</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\container_largeT3.dds</Icon>
             <Description>Description_LargeCargoContainer</Description>
             <CubeSize>Small</CubeSize>
@@ -344,7 +344,7 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LTMSmallBlockLargeContainerT4</SubtypeId>
             </Id>
-            <DisplayName>Large Container T4</DisplayName>
+            <DisplayName>DisplayName_Block_LargeCargoContainer_T4</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\container_largeT4.dds</Icon>
             <Description>Description_LargeCargoContainer</Description>
             <CubeSize>Small</CubeSize>
@@ -391,7 +391,7 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LTMSmallBlockLargeContainerT5</SubtypeId>
             </Id>
-            <DisplayName>Large Container T5</DisplayName>
+            <DisplayName>DisplayName_Block_LargeCargoContainer_T5</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\container_largeT5.dds</Icon>
             <Description>Description_LargeCargoContainer</Description>
             <CubeSize>Small</CubeSize>
@@ -441,7 +441,7 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LTMLargeBlockLargeIndustrialContainerT2</SubtypeId>
             </Id>
-            <DisplayName>Large Industrial Container T2</DisplayName>
+            <DisplayName>DisplayName_Block_LargeIndustrialCargoContainer_T2</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T2\CargoContainerT2.dds</Icon>
             <Description>Description_LargeCargoContainer</Description>
             <CubeSize>Large</CubeSize>
@@ -530,7 +530,7 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LTMLargeBlockLargeIndustrialContainerT3</SubtypeId>
             </Id>
-            <DisplayName>Large Industrial Container T3</DisplayName>
+            <DisplayName>DisplayName_Block_LargeIndustrialCargoContainer_T3</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\CargoContainerT3.dds</Icon>
             <Description>Description_LargeCargoContainer</Description>
             <CubeSize>Large</CubeSize>
@@ -605,7 +605,7 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LTMLargeBlockLargeIndustrialContainerT4</SubtypeId>
             </Id>
-            <DisplayName>Large Industrial Container T4</DisplayName>
+            <DisplayName>DisplayName_Block_LargeIndustrialCargoContainer_T4</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\CargoContainerT4.dds</Icon>
             <Description>Description_LargeCargoContainer</Description>
             <CubeSize>Large</CubeSize>
@@ -680,10 +680,10 @@
         <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
             <Id>
                 <TypeId>CargoContainer</TypeId>
-                <SubtypeId>LTMLargeBlockLargeIndustrialContainerT4</SubtypeId>
+                <SubtypeId>LTMLargeBlockLargeIndustrialContainerT5</SubtypeId>
             </Id>
-            <DisplayName>Large Industrial Container T4</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\T4\CargoContainerT4.dds</Icon>
+            <DisplayName>DisplayName_Block_LargeIndustrialCargoContainer_T5</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T5\CargoContainerT5.dds</Icon>
             <Description>Description_LargeCargoContainer</Description>
             <CubeSize>Large</CubeSize>
             <GuiVisible>false</GuiVisible>
