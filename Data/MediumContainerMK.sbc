@@ -4,10 +4,10 @@
         <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
             <Id>
                 <TypeId>CargoContainer</TypeId>
-                <SubtypeId>LTMSmallBlockMediumContainerMK2</SubtypeId>
+                <SubtypeId>LTMSmallBlockMediumContainerT2</SubtypeId>
             </Id>
             <DisplayName>Medium Container T2</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\MK2\container_mediumMK2.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\T2\container_mediumT2.dds</Icon>
             <Description>Description_MediumCargoContainer</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -39,15 +39,15 @@
             <BlockVariants>
                 <BlockVariant>
                     <TypeId>CargoContainer</TypeId>
-                    <SubtypeId>LTMSmallBlockMediumContainerMK3</SubtypeId>
+                    <SubtypeId>LTMSmallBlockMediumContainerT3</SubtypeId>
                 </BlockVariant>
                 <BlockVariant>
                     <TypeId>CargoContainer</TypeId>
-                    <SubtypeId>LTMSmallBlockMediumContainerMK4</SubtypeId>
+                    <SubtypeId>LTMSmallBlockMediumContainerT4</SubtypeId>
                 </BlockVariant>
                 <BlockVariant>
                     <TypeId>CargoContainer</TypeId>
-                    <SubtypeId>LTMSmallBlockMediumContainerMK5</SubtypeId>
+                    <SubtypeId>LTMSmallBlockMediumContainerT5</SubtypeId>
                 </BlockVariant>
             </BlockVariants>            
             <BlockPairName>MediumCargoContainer</BlockPairName>
@@ -65,10 +65,10 @@
         <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
             <Id>
                 <TypeId>CargoContainer</TypeId>
-                <SubtypeId>LTMSmallBlockMediumContainerMK3</SubtypeId>
+                <SubtypeId>LTMSmallBlockMediumContainerT3</SubtypeId>
             </Id>
             <DisplayName>Medium Container T3</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\MK3\container_mediumMK3.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\T3\container_mediumT3.dds</Icon>
             <Description>Description_MediumCargoContainer</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -112,10 +112,10 @@
         <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
             <Id>
                 <TypeId>CargoContainer</TypeId>
-                <SubtypeId>LTMSmallBlockMediumContainerMK4</SubtypeId>
+                <SubtypeId>LTMSmallBlockMediumContainerT4</SubtypeId>
             </Id>
             <DisplayName>Medium Container T4</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\MK4\container_mediumMK4.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\T4\container_mediumT4.dds</Icon>
             <Description>Description_MediumCargoContainer</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -160,10 +160,10 @@
         <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
             <Id>
                 <TypeId>CargoContainer</TypeId>
-                <SubtypeId>LTMSmallBlockMediumContainerMK5</SubtypeId>
+                <SubtypeId>LTMSmallBlockMediumContainerT5</SubtypeId>
             </Id>
             <DisplayName>Medium Container T5</DisplayName>
-            <Icon>Textures\GUI\Icons\Cubes\MK5\container_mediumMK5.dds</Icon>
+            <Icon>Textures\GUI\Icons\Cubes\T5\container_mediumT5.dds</Icon>
             <Description>Description_MediumCargoContainer</Description>
             <CubeSize>Small</CubeSize>
             <GuiVisible>false</GuiVisible>
@@ -212,28 +212,28 @@
         <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
             <Id>
                 <TypeId>Inventory</TypeId>
-                <SubtypeId>LTMSmallBlockMediumContainerMK2</SubtypeId>
+                <SubtypeId>LTMSmallBlockMediumContainerT2</SubtypeId>
             </Id>
             <Size x="1.9" y="1.9" z="1.9" />
         </EntityComponent>
         <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
             <Id>
                 <TypeId>Inventory</TypeId>
-                <SubtypeId>LTMSmallBlockMediumContainerMK3</SubtypeId>
+                <SubtypeId>LTMSmallBlockMediumContainerT3</SubtypeId>
             </Id>
             <Size x="2.4" y="2.4" z="2.4" />
         </EntityComponent>
         <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
             <Id>
                 <TypeId>Inventory</TypeId>
-                <SubtypeId>LTMSmallBlockMediumContainerMK4</SubtypeId>
+                <SubtypeId>LTMSmallBlockMediumContainerT4</SubtypeId>
             </Id>
             <Size x="3" y="3" z="3" />
         </EntityComponent>
         <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
             <Id>
                 <TypeId>Inventory</TypeId>
-                <SubtypeId>LTMSmallBlockMediumContainerMK5</SubtypeId>
+                <SubtypeId>LTMSmallBlockMediumContainerT5</SubtypeId>
             </Id>
             <Size x="3.8" y="3.8" z="3.8" />
         </EntityComponent>
