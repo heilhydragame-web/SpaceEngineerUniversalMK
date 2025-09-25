@@ -386,7 +386,7 @@
             <Upgrades>
                 <MyUpgradeModuleInfo>
                     <UpgradeType>Effectiveness</UpgradeType>
-                    <Modifier>1,4142134</Modifier>
+                    <Modifier>1.4142134</Modifier>
                     <ModifierType>Multiplicative</ModifierType>
                 </MyUpgradeModuleInfo>
             </Upgrades>
@@ -446,7 +446,7 @@
             <Upgrades>
                 <MyUpgradeModuleInfo>
                     <UpgradeType>Effectiveness</UpgradeType>
-                    <Modifier>1,2</Modifier>
+                    <Modifier>1.2</Modifier>
                     <ModifierType>Multiplicative</ModifierType>
                 </MyUpgradeModuleInfo>
             </Upgrades>
@@ -563,7 +563,7 @@
             <Upgrades>
                 <MyUpgradeModuleInfo>
                     <UpgradeType>PowerEfficiency</UpgradeType>
-                    <Modifier>1,4953487</Modifier>
+                    <Modifier>1.4953487</Modifier>
                     <ModifierType>Multiplicative</ModifierType>
                 </MyUpgradeModuleInfo>
             </Upgrades>

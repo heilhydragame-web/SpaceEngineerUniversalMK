@@ -57,6 +57,7 @@
     <resheader name="writer">
         <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
     </resheader>
+<!-- *********************Region Container******************************-->
     <data name="DisplayName_Block_SmallCargoContainer_T2" xml:space="preserve">
         <value>Small Container T2</value>
     </data>
@@ -117,6 +118,7 @@
     <data name="DisplayName_Block_ModularCargoContainer_T5" xml:space="preserve">
         <value>Modular Container T5</value>
     </data>
+<!-- *********************Region Modules******************************-->
     <data name="DisplayName_Block_ProductivityModule_T2" xml:space="preserve">
         <value>Speed Module T2</value>
     </data>
@@ -144,4 +146,79 @@
     <data name="DisplayName_Block_PowerEfficiencyModule_T2" xml:space="preserve">
         <value>Power Module T2</value>
     </data>
+<!-- *********************Region Thruster ION********************************-->
+    <data name="DisplayName_Block_SmallThrust_T2" xml:space="preserve">
+        <value>Ion Thruster T2</value>
+    </data>
+    <data name="DisplayName_Block_SmallThrust_T3" xml:space="preserve">
+        <value>Ion Thruster T3</value>
+    </data>
+    <data name="DisplayName_Block_SmallThrust_T4" xml:space="preserve">
+        <value>Ion Thruster T4</value>
+    </data>
+    <data name="DisplayName_Block_SmallThrust_T5" xml:space="preserve">
+        <value>Ion Thruster T5</value>
+    </data>
+    <data name="DisplayName_Block_LargeThrust_T2" xml:space="preserve">
+        <value>Large Ion Thruster T2</value>
+    </data>
+    <data name="DisplayName_Block_LargeThrust_T3" xml:space="preserve">
+        <value>Large Ion Thruster T3</value>
+    </data>
+    <data name="DisplayName_Block_LargeThrust_T4" xml:space="preserve">
+        <value>Large Ion Thruster T4</value>
+    </data>
+    <data name="DisplayName_Block_LargeThrust_T5" xml:space="preserve">
+        <value>Large Ion Thruster T5</value>
+    </data>
+    <data name="DisplayName_Block_SmallThrustSciFi_T2" xml:space="preserve">
+        <value>Sci-Fi Ion Thruster T2</value>
+    </data>
+    <data name="DisplayName_Block_SmallThrustSciFi_T3" xml:space="preserve">
+        <value>Sci-Fi Ion Thruster T3</value>
+    </data>
+    <data name="DisplayName_Block_SmallThrustSciFi_T4" xml:space="preserve">
+        <value>Sci-Fi Ion Thruster T4</value>
+    </data>
+    <data name="DisplayName_Block_SmallThrustSciFi_T5" xml:space="preserve">
+        <value>Sci-Fi Ion Thruster T5</value>
+    </data>
+    <data name="DisplayName_Block_LargeThrustSciFi_T2" xml:space="preserve">
+        <value>Sci-Fi Large Ion Thruster T2</value>
+    </data>
+    <data name="DisplayName_Block_LargeThrustSciFi_T3" xml:space="preserve">
+        <value>Sci-Fi Large Ion Thruster T3</value>
+    </data>
+    <data name="DisplayName_Block_LargeThrustSciFi_T4" xml:space="preserve">
+        <value>Sci-Fi Large Ion Thruster T4</value>
+    </data>
+    <data name="DisplayName_Block_LargeThrustSciFi_T5" xml:space="preserve">
+        <value>Sci-Fi Large Ion Thruster T5</value>
+    </data>
+    <data name="DisplayName_Block_SmallModularThruster_T2" xml:space="preserve">
+        <value>Warfare Ion Thruster T2</value>
+    </data>
+    <data name="DisplayName_Block_SmallModularThruster_T3" xml:space="preserve">
+        <value>Warfare Ion Thruster T3</value>
+    </data>
+    <data name="DisplayName_Block_SmallModularThruster_T4" xml:space="preserve">
+        <value>Warfare Ion Thruster T4</value>
+    </data>
+    <data name="DisplayName_Block_SmallModularThruster_T5" xml:space="preserve">
+        <value>Warfare Ion Thruster T5</value>
+    </data>
+    <data name="DisplayName_Block_LargeModularThruster_T2" xml:space="preserve">
+        <value>Warfare Large Ion Thruster T2</value>
+    </data>
+    <data name="DisplayName_Block_LargeModularThruster_T3" xml:space="preserve">
+        <value>Warfare Large Ion Thruster T3</value>
+    </data>
+    <data name="DisplayName_Block_LargeModularThruster_T4" xml:space="preserve">
+        <value>Warfare Large Ion Thruster T4</value>
+    </data>
+    <data name="DisplayName_Block_LargeModularThruster_T5" xml:space="preserve">
+        <value>Warfare Large Ion Thruster T5</value>
+    </data>
+<!-- *********************Region Thruster ATMOS******************************-->
+<!-- *********************Region Thruster HYDRO******************************-->
 </root>
