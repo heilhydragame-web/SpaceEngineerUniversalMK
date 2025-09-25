@@ -1,0 +1,1194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+<!-- *********************Region Vanilla Blocks******************************-->
+<!-- Region Large Blocks-->
+        <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+            <Id>
+                <TypeId>Thrust</TypeId>
+                <SubtypeId>LTMLargeBlockLargeAtmosphericThrustT2</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_LargeAtmoThrust_T2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T2\AtmosphericThrusterLargeLargeT2.dds</Icon>
+            <Description>Description_AtmosphericThrust</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="3" z="5" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\AtmosphericThrusterLarge.mwm</Model>
+            <ThrusterType>Atmospheric</ThrusterType>
+            <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+            <Components>
+                <Component Subtype="SteelPlate" Count="60" />
+                <Component Subtype="SteelPlateMK" Count="5" />
+                <Component Subtype="Construction" Count="80" />
+                <Component Subtype="LargeTubeMK" Count="1" />
+                <Component Subtype="MetalGrid" Count="80" />
+                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="MotorMK" Count="22" />
+                <Component Subtype="Construction" Count="40" />
+            </Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="3" Default="true" />
+                <MountPoint Side="Bottom" StartX="1" StartY="2" EndX="2" EndY="4" />
+                <MountPoint Side="Left" StartX="2" StartY="1" EndX="4" EndY="2" />
+                <MountPoint Side="Right" StartX="1" StartY="1" EndX="3" EndY="2" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\AtmosphericThrusterLarge_Construction_01.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AtmosphericThrusterLarge_Construction_02.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AtmosphericThrusterLarge_Construction_03.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+                <StaticMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockVariants>
+                <BlockVariant>
+                    <TypeId>Thrust</TypeId>
+                    <SubtypeId>LTMLargeBlockLargeAtmosphericThrustT3</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>Thrust</TypeId>
+                    <SubtypeId>LTMLargeBlockLargeAtmosphericThrustT4</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>Thrust</TypeId>
+                    <SubtypeId>LTMLargeBlockLargeAtmosphericThrustT5</SubtypeId>
+                </BlockVariant>
+            </BlockVariants>
+            <BlockPairName>LargeAtmoThrust</BlockPairName>
+            <Center x="1" y="1" z="2" />
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>90</BuildTimeSeconds>
+
+            <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+            <ForceMagnitude>12960000</ForceMagnitude>
+            <MaxPowerConsumption>33.6</MaxPowerConsumption>
+            <MinPowerConsumption>0.000002</MinPowerConsumption>
+            <SlowdownFactor>1</SlowdownFactor>
+
+            <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
+            <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+            <EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
+            <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+            <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+
+            <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
+            <FlameLengthScale>1.15</FlameLengthScale>
+            <FlameIdleColor>
+                <X>0.3</X>
+                <Y>0.3</Y>
+                <Z>0.3</Z>
+                <W>0.75</W>
+            </FlameIdleColor>
+            <FlameFullColor>
+                <X>0.3</X>
+                <Y>0.3</Y>
+                <Z>0.3</Z>
+                <W>0.75</W>
+            </FlameFullColor>
+            <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+            <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+            <FlameFlare>LargeGridSmallThruster</FlameFlare>
+            <FlameVisibilityDistance>500</FlameVisibilityDistance>
+            <FlameGlareQuerySize>1</FlameGlareQuerySize>
+            <PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
+            <PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
+            <PropellerRoundsPerSecondOnFullSpeed>4.2</PropellerRoundsPerSecondOnFullSpeed>
+            <PropellerRoundsPerSecondOnIdleSpeed>0.3</PropellerRoundsPerSecondOnIdleSpeed>
+            <PropellerAccelerationTime>5</PropellerAccelerationTime>
+            <PropellerDecelerationTime>10</PropellerDecelerationTime>
+            <PropellerMaxVisibleDistance>400</PropellerMaxVisibleDistance>
+            <PrimarySound>LrgShipSmJetAtmo</PrimarySound>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <Public>true</Public>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>12</PCU>
+            <TieredUpdateTimes>
+                <unsignedInt>100</unsignedInt>
+                <unsignedInt>3600</unsignedInt>
+                <unsignedInt>0</unsignedInt>
+            </TieredUpdateTimes>
+            <TargetingGroups>
+                <string>Propulsion</string>
+            </TargetingGroups>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+            <Id>
+                <TypeId>Thrust</TypeId>
+                <SubtypeId>LTMLargeBlockLargeAtmosphericThrustT3</SubtypeId>
+            </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
+            <DisplayName>DisplayName_Block_LargeAtmoThrust_T3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T3\AtmosphericThrusterLargeLargeT3.dds</Icon>
+            <Description>Description_AtmosphericThrust</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="3" z="5" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\AtmosphericThrusterLarge.mwm</Model>
+            <ThrusterType>Atmospheric</ThrusterType>
+            <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+            <Components>
+                <Component Subtype="SteelPlate" Count="20" />
+                <Component Subtype="SteelPlateMK" Count="11" />
+                <Component Subtype="Construction" Count="60" />
+                <Component Subtype="ConstructionMK" Count="1" />
+                <Component Subtype="LargeTubeMK" Count="2" />
+                <Component Subtype="MetalGrid" Count="60" />
+                <Component Subtype="MetalGridMK" Count="1" />
+                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="MotorMK" Count="44" />
+                <Component Subtype="Construction" Count="80" />
+            </Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="3" Default="true" />
+                <MountPoint Side="Bottom" StartX="1" StartY="2" EndX="2" EndY="4" />
+                <MountPoint Side="Left" StartX="2" StartY="1" EndX="4" EndY="2" />
+                <MountPoint Side="Right" StartX="1" StartY="1" EndX="3" EndY="2" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\AtmosphericThrusterLarge_Construction_01.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AtmosphericThrusterLarge_Construction_02.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AtmosphericThrusterLarge_Construction_03.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+                <StaticMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>LargeAtmoThrust</BlockPairName>
+            <Center x="1" y="1" z="2" />
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>90</BuildTimeSeconds>
+
+            <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+            <ForceMagnitude>25920000</ForceMagnitude>
+            <MaxPowerConsumption>67.2</MaxPowerConsumption>
+            <MinPowerConsumption>0.000002</MinPowerConsumption>
+            <SlowdownFactor>1</SlowdownFactor>
+
+            <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
+            <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+            <EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
+            <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+            <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+
+            <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
+            <FlameLengthScale>1.15</FlameLengthScale>
+            <FlameIdleColor>
+                <X>0.3</X>
+                <Y>0.3</Y>
+                <Z>0.3</Z>
+                <W>0.75</W>
+            </FlameIdleColor>
+            <FlameFullColor>
+                <X>0.3</X>
+                <Y>0.3</Y>
+                <Z>0.3</Z>
+                <W>0.75</W>
+            </FlameFullColor>
+            <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+            <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+            <FlameFlare>LargeGridSmallThruster</FlameFlare>
+            <FlameVisibilityDistance>500</FlameVisibilityDistance>
+            <FlameGlareQuerySize>1</FlameGlareQuerySize>
+            <PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
+            <PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
+            <PropellerRoundsPerSecondOnFullSpeed>4.2</PropellerRoundsPerSecondOnFullSpeed>
+            <PropellerRoundsPerSecondOnIdleSpeed>0.3</PropellerRoundsPerSecondOnIdleSpeed>
+            <PropellerAccelerationTime>5</PropellerAccelerationTime>
+            <PropellerDecelerationTime>10</PropellerDecelerationTime>
+            <PropellerMaxVisibleDistance>400</PropellerMaxVisibleDistance>
+            <PrimarySound>LrgShipSmJetAtmo</PrimarySound>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <Public>true</Public>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>12</PCU>
+            <TieredUpdateTimes>
+                <unsignedInt>100</unsignedInt>
+                <unsignedInt>3600</unsignedInt>
+                <unsignedInt>0</unsignedInt>
+            </TieredUpdateTimes>
+            <TargetingGroups>
+                <string>Propulsion</string>
+            </TargetingGroups>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+            <Id>
+                <TypeId>Thrust</TypeId>
+                <SubtypeId>LTMLargeBlockLargeAtmosphericThrustT4</SubtypeId>
+            </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
+            <DisplayName>DisplayName_Block_LargeAtmoThrust_T4</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T4\AtmosphericThrusterLargeLargeT4.dds</Icon>
+            <Description>Description_AtmosphericThrust</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="3" z="5" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\AtmosphericThrusterLarge.mwm</Model>
+            <ThrusterType>Atmospheric</ThrusterType>
+            <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+            <Components>
+                <Component Subtype="SteelPlate" Count="40" />
+                <Component Subtype="SteelPlateMK" Count="22" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="ConstructionMK" Count="4" />
+                <Component Subtype="LargeTubeMK" Count="4" />
+                <Component Subtype="MetalGrid" Count="20" />
+                <Component Subtype="MetalGridMK" Count="3" />
+                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="MotorMK" Count="88" />
+                <Component Subtype="Construction" Count="60" />
+            </Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="3" Default="true" />
+                <MountPoint Side="Bottom" StartX="1" StartY="2" EndX="2" EndY="4" />
+                <MountPoint Side="Left" StartX="2" StartY="1" EndX="4" EndY="2" />
+                <MountPoint Side="Right" StartX="1" StartY="1" EndX="3" EndY="2" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\AtmosphericThrusterLarge_Construction_01.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AtmosphericThrusterLarge_Construction_02.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AtmosphericThrusterLarge_Construction_03.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+                <StaticMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>LargeAtmoThrust</BlockPairName>
+            <Center x="1" y="1" z="2" />
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>90</BuildTimeSeconds>
+
+            <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+            <ForceMagnitude>51840000</ForceMagnitude>
+            <MaxPowerConsumption>134.4</MaxPowerConsumption>
+            <MinPowerConsumption>0.000002</MinPowerConsumption>
+            <SlowdownFactor>1</SlowdownFactor>
+
+            <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
+            <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+            <EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
+            <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+            <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+
+            <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
+            <FlameLengthScale>1.15</FlameLengthScale>
+            <FlameIdleColor>
+                <X>0.3</X>
+                <Y>0.3</Y>
+                <Z>0.3</Z>
+                <W>0.75</W>
+            </FlameIdleColor>
+            <FlameFullColor>
+                <X>0.3</X>
+                <Y>0.3</Y>
+                <Z>0.3</Z>
+                <W>0.75</W>
+            </FlameFullColor>
+            <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+            <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+            <FlameFlare>LargeGridSmallThruster</FlameFlare>
+            <FlameVisibilityDistance>500</FlameVisibilityDistance>
+            <FlameGlareQuerySize>1</FlameGlareQuerySize>
+            <PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
+            <PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
+            <PropellerRoundsPerSecondOnFullSpeed>4.2</PropellerRoundsPerSecondOnFullSpeed>
+            <PropellerRoundsPerSecondOnIdleSpeed>0.3</PropellerRoundsPerSecondOnIdleSpeed>
+            <PropellerAccelerationTime>5</PropellerAccelerationTime>
+            <PropellerDecelerationTime>10</PropellerDecelerationTime>
+            <PropellerMaxVisibleDistance>400</PropellerMaxVisibleDistance>
+            <PrimarySound>LrgShipSmJetAtmo</PrimarySound>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <Public>true</Public>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>12</PCU>
+            <TieredUpdateTimes>
+                <unsignedInt>100</unsignedInt>
+                <unsignedInt>3600</unsignedInt>
+                <unsignedInt>0</unsignedInt>
+            </TieredUpdateTimes>
+            <TargetingGroups>
+                <string>Propulsion</string>
+            </TargetingGroups>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+            <Id>
+                <TypeId>Thrust</TypeId>
+                <SubtypeId>LTMLargeBlockLargeAtmosphericThrustT5</SubtypeId>
+            </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
+            <DisplayName>DisplayName_Block_LargeAtmoThrust_T5</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T5\AtmosphericThrusterLargeLargeT5.dds</Icon>
+            <Description>Description_AtmosphericThrust</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="3" z="5" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\AtmosphericThrusterLarge.mwm</Model>
+            <ThrusterType>Atmospheric</ThrusterType>
+            <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+            <Components>
+                <Component Subtype="SteelPlate" Count="80" />
+                <Component Subtype="SteelPlateMK" Count="44" />
+                <Component Subtype="Construction" Count="40" />
+                <Component Subtype="ConstructionMK" Count="9" />
+                <Component Subtype="LargeTubeMK" Count="8" />
+                <Component Subtype="MetalGrid" Count="40" />
+                <Component Subtype="MetalGridMK" Count="6" />
+                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="MotorMK" Count="176" />
+                <Component Subtype="Construction" Count="20" />
+            </Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="3" Default="true" />
+                <MountPoint Side="Bottom" StartX="1" StartY="2" EndX="2" EndY="4" />
+                <MountPoint Side="Left" StartX="2" StartY="1" EndX="4" EndY="2" />
+                <MountPoint Side="Right" StartX="1" StartY="1" EndX="3" EndY="2" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\AtmosphericThrusterLarge_Construction_01.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AtmosphericThrusterLarge_Construction_02.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AtmosphericThrusterLarge_Construction_03.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+                <StaticMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>LargeAtmoThrust</BlockPairName>
+            <Center x="1" y="1" z="2" />
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>90</BuildTimeSeconds>
+
+            <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+            <ForceMagnitude>103680000</ForceMagnitude>
+            <MaxPowerConsumption>268.8</MaxPowerConsumption>
+            <MinPowerConsumption>0.000002</MinPowerConsumption>
+            <SlowdownFactor>1</SlowdownFactor>
+
+            <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
+            <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+            <EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
+            <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+            <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+
+            <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
+            <FlameLengthScale>1.15</FlameLengthScale>
+            <FlameIdleColor>
+                <X>0.3</X>
+                <Y>0.3</Y>
+                <Z>0.3</Z>
+                <W>0.75</W>
+            </FlameIdleColor>
+            <FlameFullColor>
+                <X>0.3</X>
+                <Y>0.3</Y>
+                <Z>0.3</Z>
+                <W>0.75</W>
+            </FlameFullColor>
+            <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+            <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+            <FlameFlare>LargeGridSmallThruster</FlameFlare>
+            <FlameVisibilityDistance>500</FlameVisibilityDistance>
+            <FlameGlareQuerySize>1</FlameGlareQuerySize>
+            <PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
+            <PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
+            <PropellerRoundsPerSecondOnFullSpeed>4.2</PropellerRoundsPerSecondOnFullSpeed>
+            <PropellerRoundsPerSecondOnIdleSpeed>0.3</PropellerRoundsPerSecondOnIdleSpeed>
+            <PropellerAccelerationTime>5</PropellerAccelerationTime>
+            <PropellerDecelerationTime>10</PropellerDecelerationTime>
+            <PropellerMaxVisibleDistance>400</PropellerMaxVisibleDistance>
+            <PrimarySound>LrgShipSmJetAtmo</PrimarySound>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <Public>true</Public>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>12</PCU>
+            <TieredUpdateTimes>
+                <unsignedInt>100</unsignedInt>
+                <unsignedInt>3600</unsignedInt>
+                <unsignedInt>0</unsignedInt>
+            </TieredUpdateTimes>
+            <TargetingGroups>
+                <string>Propulsion</string>
+            </TargetingGroups>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+            <Id>
+                <TypeId>Thrust</TypeId>
+                <SubtypeId>LTMLargeBlockSmallAtmosphericThrustT2</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_SmallAtmoThrust_T2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T2\AtmosphericThrusterSmallT2.dds</Icon>
+            <Description>Description_AtmosphericThrust</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="3" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\AtmosphericThrusterSmall.mwm</Model>
+            <ThrusterType>Atmospheric</ThrusterType>
+            <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+            <Components>
+                <Component Subtype="SteelPlate" Count="30" />
+                <Component Subtype="Construction" Count="60" />
+                <Component Subtype="LargeTube" Count="16" />
+                <Component Subtype="MetalGrid" Count="20" />
+                <Component Subtype="Motor" Count="20" />
+                <Component Subtype="MotorMK" Count="2" />
+                <Component Subtype="Construction" Count="40" />
+                <Component Subtype="SteelPlate" Count="40" />
+            </Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="0" StartY="1" EndX="1" EndY="2" Default="true"/>
+                <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2" />
+                <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Right" StartX="1" StartY="0" EndX="2" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\AtmosphericThrusterSmall_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AtmosphericThrusterSmall_Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AtmosphericThrusterSmall_Construction_3.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+                <StaticMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockVariants>
+                <BlockVariant>
+                    <TypeId>Thrust</TypeId>
+                    <SubtypeId>LTMLargeBlockSmallAtmosphericThrustT3</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>Thrust</TypeId>
+                    <SubtypeId>LTMLargeBlockSmallAtmosphericThrustT4</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>Thrust</TypeId>
+                    <SubtypeId>LTMLargeBlockSmallAtmosphericThrustT5</SubtypeId>
+                </BlockVariant>
+            </BlockVariants>
+            <BlockPairName>SmallAtmoThrust</BlockPairName>
+            <Center x="0" y="0" z="1" />
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>40</BuildTimeSeconds>
+
+            <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+            <ForceMagnitude>1296000</ForceMagnitude>
+            <MaxPowerConsumption>4.8</MaxPowerConsumption>
+            <MinPowerConsumption>0.000002</MinPowerConsumption>
+            <SlowdownFactor>1</SlowdownFactor>
+
+            <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
+            <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+            <EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
+            <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+            <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+
+            <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
+            <FlameLengthScale>1.15</FlameLengthScale>
+            <FlameIdleColor>
+                <X>0.3</X>
+                <Y>0.3</Y>
+                <Z>0.3</Z>
+                <W>0.75</W>
+            </FlameIdleColor>
+            <FlameFullColor>
+                <X>0.3</X>
+                <Y>0.3</Y>
+                <Z>0.3</Z>
+                <W>0.75</W>
+            </FlameFullColor>
+            <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+            <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+            <FlameFlare>LargeGridSmallThruster</FlameFlare>
+            <FlameVisibilityDistance>500</FlameVisibilityDistance>
+            <FlameGlareQuerySize>1</FlameGlareQuerySize>
+            <PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
+            <PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
+            <PropellerRoundsPerSecondOnFullSpeed>4.2</PropellerRoundsPerSecondOnFullSpeed>
+            <PropellerRoundsPerSecondOnIdleSpeed>0.3</PropellerRoundsPerSecondOnIdleSpeed>
+            <PropellerAccelerationTime>5</PropellerAccelerationTime>
+            <PropellerDecelerationTime>10</PropellerDecelerationTime>
+            <PropellerMaxVisibleDistance>250</PropellerMaxVisibleDistance>
+            <PrimarySound>LrgShipSmJetAtmo</PrimarySound>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <Public>true</Public>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>12</PCU>
+            <TieredUpdateTimes>
+                <unsignedInt>100</unsignedInt>
+                <unsignedInt>3600</unsignedInt>
+                <unsignedInt>0</unsignedInt>
+            </TieredUpdateTimes>
+            <TargetingGroups>
+                <string>Propulsion</string>
+            </TargetingGroups>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+            <Id>
+                <TypeId>Thrust</TypeId>
+                <SubtypeId>LTMLargeBlockSmallAtmosphericThrustT3</SubtypeId>
+            </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
+            <DisplayName>DisplayName_Block_SmallAtmoThrust_T3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T3\AtmosphericThrusterSmallT3.dds</Icon>
+            <Description>Description_AtmosphericThrust</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="3" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\AtmosphericThrusterSmall.mwm</Model>
+            <ThrusterType>Atmospheric</ThrusterType>
+            <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+            <Components>
+                <Component Subtype="SteelPlate" Count="60" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="ConstructionMK" Count="1" />
+                <Component Subtype="LargeTube" Count="32" />
+                <Component Subtype="MetalGrid" Count="40" />
+                <Component Subtype="Motor" Count="40" />
+                <Component Subtype="MotorMK" Count="4" />
+                <Component Subtype="Construction" Count="80" />
+                <Component Subtype="SteelPlate" Count="80" />
+            </Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="0" StartY="1" EndX="1" EndY="2" Default="true"/>
+                <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2" />
+                <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Right" StartX="1" StartY="0" EndX="2" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\AtmosphericThrusterSmall_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AtmosphericThrusterSmall_Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AtmosphericThrusterSmall_Construction_3.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+                <StaticMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>SmallAtmoThrust</BlockPairName>
+            <Center x="0" y="0" z="1" />
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>40</BuildTimeSeconds>
+
+            <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+            <ForceMagnitude>2592000</ForceMagnitude>
+            <MaxPowerConsumption>9.6</MaxPowerConsumption>
+            <MinPowerConsumption>0.000002</MinPowerConsumption>
+            <SlowdownFactor>1</SlowdownFactor>
+
+            <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
+            <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+            <EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
+            <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+            <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+
+            <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
+            <FlameLengthScale>1.15</FlameLengthScale>
+            <FlameIdleColor>
+                <X>0.3</X>
+                <Y>0.3</Y>
+                <Z>0.3</Z>
+                <W>0.75</W>
+            </FlameIdleColor>
+            <FlameFullColor>
+                <X>0.3</X>
+                <Y>0.3</Y>
+                <Z>0.3</Z>
+                <W>0.75</W>
+            </FlameFullColor>
+            <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+            <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+            <FlameFlare>LargeGridSmallThruster</FlameFlare>
+            <FlameVisibilityDistance>500</FlameVisibilityDistance>
+            <FlameGlareQuerySize>1</FlameGlareQuerySize>
+            <PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
+            <PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
+            <PropellerRoundsPerSecondOnFullSpeed>4.2</PropellerRoundsPerSecondOnFullSpeed>
+            <PropellerRoundsPerSecondOnIdleSpeed>0.3</PropellerRoundsPerSecondOnIdleSpeed>
+            <PropellerAccelerationTime>5</PropellerAccelerationTime>
+            <PropellerDecelerationTime>10</PropellerDecelerationTime>
+            <PropellerMaxVisibleDistance>250</PropellerMaxVisibleDistance>
+            <PrimarySound>LrgShipSmJetAtmo</PrimarySound>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <Public>true</Public>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>12</PCU>
+            <TieredUpdateTimes>
+                <unsignedInt>100</unsignedInt>
+                <unsignedInt>3600</unsignedInt>
+                <unsignedInt>0</unsignedInt>
+            </TieredUpdateTimes>
+            <TargetingGroups>
+                <string>Propulsion</string>
+            </TargetingGroups>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+            <Id>
+                <TypeId>Thrust</TypeId>
+                <SubtypeId>LTMLargeBlockSmallAtmosphericThrustT4</SubtypeId>
+            </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
+            <DisplayName>DisplayName_Block_SmallAtmoThrust_T4</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T4\AtmosphericThrusterSmallT4.dds</Icon>
+            <Description>Description_AtmosphericThrust</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="3" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\AtmosphericThrusterSmall.mwm</Model>
+            <ThrusterType>Atmospheric</ThrusterType>
+            <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+            <Components>
+                <Component Subtype="SteelPlate" Count="20" />
+                <Component Subtype="SteelPlateMK" Count="2" />
+                <Component Subtype="Construction" Count="40" />
+                <Component Subtype="ConstructionMK" Count="3" />
+                <Component Subtype="LargeTube" Count="64" />
+                <Component Subtype="MetalGrid" Count="40" />
+                <Component Subtype="Motor" Count="80" />
+                <Component Subtype="MotorMK" Count="8" />
+                <Component Subtype="Construction" Count="60" />
+                <Component Subtype="SteelPlate" Count="60" />
+            </Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="0" StartY="1" EndX="1" EndY="2" Default="true"/>
+                <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2" />
+                <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Right" StartX="1" StartY="0" EndX="2" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\AtmosphericThrusterSmall_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AtmosphericThrusterSmall_Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AtmosphericThrusterSmall_Construction_3.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+                <StaticMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>SmallAtmoThrust</BlockPairName>
+            <Center x="0" y="0" z="1" />
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>40</BuildTimeSeconds>
+
+            <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+            <ForceMagnitude>5184000</ForceMagnitude>
+            <MaxPowerConsumption>19.2</MaxPowerConsumption>
+            <MinPowerConsumption>0.000002</MinPowerConsumption>
+            <SlowdownFactor>1</SlowdownFactor>
+
+            <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
+            <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+            <EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
+            <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+            <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+
+            <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
+            <FlameLengthScale>1.15</FlameLengthScale>
+            <FlameIdleColor>
+                <X>0.3</X>
+                <Y>0.3</Y>
+                <Z>0.3</Z>
+                <W>0.75</W>
+            </FlameIdleColor>
+            <FlameFullColor>
+                <X>0.3</X>
+                <Y>0.3</Y>
+                <Z>0.3</Z>
+                <W>0.75</W>
+            </FlameFullColor>
+            <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+            <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+            <FlameFlare>LargeGridSmallThruster</FlameFlare>
+            <FlameVisibilityDistance>500</FlameVisibilityDistance>
+            <FlameGlareQuerySize>1</FlameGlareQuerySize>
+            <PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
+            <PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
+            <PropellerRoundsPerSecondOnFullSpeed>4.2</PropellerRoundsPerSecondOnFullSpeed>
+            <PropellerRoundsPerSecondOnIdleSpeed>0.3</PropellerRoundsPerSecondOnIdleSpeed>
+            <PropellerAccelerationTime>5</PropellerAccelerationTime>
+            <PropellerDecelerationTime>10</PropellerDecelerationTime>
+            <PropellerMaxVisibleDistance>250</PropellerMaxVisibleDistance>
+            <PrimarySound>LrgShipSmJetAtmo</PrimarySound>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <Public>true</Public>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>12</PCU>
+            <TieredUpdateTimes>
+                <unsignedInt>100</unsignedInt>
+                <unsignedInt>3600</unsignedInt>
+                <unsignedInt>0</unsignedInt>
+            </TieredUpdateTimes>
+            <TargetingGroups>
+                <string>Propulsion</string>
+            </TargetingGroups>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+            <Id>
+                <TypeId>Thrust</TypeId>
+                <SubtypeId>LTMLargeBlockSmallAtmosphericThrustT5</SubtypeId>
+            </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
+            <DisplayName>DisplayName_Block_SmallAtmoThrust_T5</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T5\AtmosphericThrusterSmallT5.dds</Icon>
+            <Description>Description_AtmosphericThrust</Description>
+            <CubeSize>Large</CubeSize>
+            <GuiVisible>false</GuiVisible>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="3" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\AtmosphericThrusterSmall.mwm</Model>
+            <ThrusterType>Atmospheric</ThrusterType>
+            <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+            <Components>
+                <Component Subtype="SteelPlate" Count="40" />
+                <Component Subtype="SteelPlateMK" Count="5" />
+                <Component Subtype="Construction" Count="80" />
+                <Component Subtype="ConstructionMK" Count="7" />
+                <Component Subtype="LargeTube" Count="20" />
+                <Component Subtype="LargeTubeMK" Count="1" />
+                <Component Subtype="MetalGrid" Count="80" />
+                <Component Subtype="Motor" Count="60" />
+                <Component Subtype="MotorMK" Count="17" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="SteelPlate" Count="20" />
+            </Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="0" StartY="1" EndX="1" EndY="2" Default="true"/>
+                <MountPoint Side="Bottom" StartX="0" StartY="1" EndX="1" EndY="2" />
+                <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="1" />
+                <MountPoint Side="Right" StartX="1" StartY="0" EndX="2" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\AtmosphericThrusterSmall_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AtmosphericThrusterSmall_Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AtmosphericThrusterSmall_Construction_3.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+                <StaticMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>SmallAtmoThrust</BlockPairName>
+            <Center x="0" y="0" z="1" />
+            <MirroringZ>Y</MirroringZ>
+            <MirroringY>Z</MirroringY>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>40</BuildTimeSeconds>
+
+            <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+            <ForceMagnitude>10368000</ForceMagnitude>
+            <MaxPowerConsumption>38.4</MaxPowerConsumption>
+            <MinPowerConsumption>0.000002</MinPowerConsumption>
+            <SlowdownFactor>1</SlowdownFactor>
+
+            <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
+            <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+            <EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
+            <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+            <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+
+            <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
+            <FlameLengthScale>1.15</FlameLengthScale>
+            <FlameIdleColor>
+                <X>0.3</X>
+                <Y>0.3</Y>
+                <Z>0.3</Z>
+                <W>0.75</W>
+            </FlameIdleColor>
+            <FlameFullColor>
+                <X>0.3</X>
+                <Y>0.3</Y>
+                <Z>0.3</Z>
+                <W>0.75</W>
+            </FlameFullColor>
+            <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+            <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+            <FlameFlare>LargeGridSmallThruster</FlameFlare>
+            <FlameVisibilityDistance>500</FlameVisibilityDistance>
+            <FlameGlareQuerySize>1</FlameGlareQuerySize>
+            <PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
+            <PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
+            <PropellerRoundsPerSecondOnFullSpeed>4.2</PropellerRoundsPerSecondOnFullSpeed>
+            <PropellerRoundsPerSecondOnIdleSpeed>0.3</PropellerRoundsPerSecondOnIdleSpeed>
+            <PropellerAccelerationTime>5</PropellerAccelerationTime>
+            <PropellerDecelerationTime>10</PropellerDecelerationTime>
+            <PropellerMaxVisibleDistance>250</PropellerMaxVisibleDistance>
+            <PrimarySound>LrgShipSmJetAtmo</PrimarySound>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <Public>true</Public>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>12</PCU>
+            <TieredUpdateTimes>
+                <unsignedInt>100</unsignedInt>
+                <unsignedInt>3600</unsignedInt>
+                <unsignedInt>0</unsignedInt>
+            </TieredUpdateTimes>
+            <TargetingGroups>
+                <string>Propulsion</string>
+            </TargetingGroups>
+        </Definition>
+<!-- Region Small Blocks-->
+        <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+            <Id>
+                <TypeId>Thrust</TypeId>
+                <SubtypeId>LTMSmallBlockLargeAtmosphericThrustT2</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_LargeAtmoThrust_T2</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T2\AtmosphericThrusterLargeLargeT2.dds</Icon>
+            <Description>Description_AtmosphericThrust</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="3" z="5" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\AtmosphericThrusterLarge.mwm</Model>
+            <ThrusterType>Atmospheric</ThrusterType>
+            <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+            <Components>
+                <Component Subtype="SteelPlate" Count="20" />
+                <Component Subtype="Construction" Count="40" />
+                <Component Subtype="LargeTube" Count="8" />
+                <Component Subtype="MetalGrid" Count="16" />
+                <Component Subtype="Motor" Count="80" />
+                <Component Subtype="MotorMK" Count="1" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="SteelPlate" Count="20" />
+            </Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="4" Default="true"/>
+                <MountPoint Side="Bottom" StartX="1" StartY="1" EndX="2" EndY="4" />
+                <MountPoint Side="Right" StartX="1" StartY="1" EndX="4" EndY="2" />
+                <MountPoint Side="Left" StartX="1" StartY="1" EndX="4" EndY="2" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\AtmosphericThrusterLarge_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\AtmosphericThrusterLarge_Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AtmosphericThrusterLarge_Construction_3.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+                <StaticMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockVariants>
+                <BlockVariant>
+                    <TypeId>Thrust</TypeId>
+                    <SubtypeId>LTMSmallBlockLargeAtmosphericThrustT3</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>Thrust</TypeId>
+                    <SubtypeId>LTMSmallBlockLargeAtmosphericThrustT4</SubtypeId>
+                </BlockVariant>
+                <BlockVariant>
+                    <TypeId>Thrust</TypeId>
+                    <SubtypeId>LTMSmallBlockLargeAtmosphericThrustT5</SubtypeId>
+                </BlockVariant>
+            </BlockVariants>
+            <BlockPairName>LargeAtmoThrust</BlockPairName>
+            <Center x="1" y="1" z="2" />
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+
+            <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+            <ForceMagnitude>1152000</ForceMagnitude>
+            <MaxPowerConsumption>4.8</MaxPowerConsumption>
+            <MinPowerConsumption>0.000002</MinPowerConsumption>
+            <SlowdownFactor>1</SlowdownFactor>
+
+            <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
+            <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+            <EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
+            <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+            <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+
+            <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
+            <FlameDamage>0.2</FlameDamage>
+            <FlameLengthScale>1.15</FlameLengthScale>
+            <FlameIdleColor>
+                <X>0.3</X>
+                <Y>0.3</Y>
+                <Z>0.3</Z>
+                <W>0.75</W>
+            </FlameIdleColor>
+            <FlameFullColor>
+                <X>0.3</X>
+                <Y>0.3</Y>
+                <Z>0.3</Z>
+                <W>0.75</W>
+            </FlameFullColor>
+            <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+            <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+            <FlameFlare>SmallGridLargeThruster</FlameFlare>
+            <FlameVisibilityDistance>300</FlameVisibilityDistance>
+            <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+            <PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
+            <PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
+            <PropellerRoundsPerSecondOnFullSpeed>1.9</PropellerRoundsPerSecondOnFullSpeed>
+            <PropellerRoundsPerSecondOnIdleSpeed>0.3</PropellerRoundsPerSecondOnIdleSpeed>
+            <PropellerAccelerationTime>3</PropellerAccelerationTime>
+            <PropellerDecelerationTime>6</PropellerDecelerationTime>
+            <PropellerMaxVisibleDistance>200</PropellerMaxVisibleDistance>
+            <PrimarySound>SmShipLrgJetAtmo</PrimarySound>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <Public>true</Public>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>12</PCU>
+            <TieredUpdateTimes>
+                <unsignedInt>100</unsignedInt>
+                <unsignedInt>3600</unsignedInt>
+                <unsignedInt>0</unsignedInt>
+            </TieredUpdateTimes>
+            <TargetingGroups>
+                <string>Propulsion</string>
+            </TargetingGroups>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_ThrustDefinition">
+            <Id>
+                <TypeId>Thrust</TypeId>
+                <SubtypeId>LTMSmallBlockLargeAtmosphericThrustT3</SubtypeId>
+            </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
+            <DisplayName>DisplayName_Block_LargeAtmoThrust_T3</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\T3\AtmosphericThrusterLargeLargeT3.dds</Icon>
+            <Description>Description_AtmosphericThrust</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="3" y="3" z="5" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\AtmosphericThrusterLarge.mwm</Model>
+            <ThrusterType>Atmospheric</ThrusterType>
+            <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
+            <Components>
+                <Component Subtype="SteelPlate" Count="40" />
+                <Component Subtype="Construction" Count="80" />
+                <Component Subtype="LargeTube" Count="16" />
+                <Component Subtype="MetalGrid" Count="32" />
+                <Component Subtype="Motor" Count="60" />
+                <Component Subtype="MotorMK" Count="3" />
+                <Component Subtype="Construction" Count="40" />
+                <Component Subtype="SteelPlate" Count="40" />
+            </Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Top" StartX="1" StartY="1" EndX="2" EndY="4" Default="true"/>
+                <MountPoint Side="Bottom" StartX="1" StartY="1" EndX="2" EndY="4" />
+                <MountPoint Side="Right" StartX="1" StartY="1" EndX="4" EndY="2" />
+                <MountPoint Side="Left" StartX="1" StartY="1" EndX="4" EndY="2" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\AtmosphericThrusterLarge_Construction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\AtmosphericThrusterLarge_Construction_2.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AtmosphericThrusterLarge_Construction_3.mwm" />
+            </BuildProgressModels>
+            <VoxelPlacement>
+                <!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+                <StaticMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>Volumetric</PlacementMode>
+                    <MaxAllowed>0.2</MaxAllowed>
+                    <MinAllowed>0</MinAllowed>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BlockPairName>LargeAtmoThrust</BlockPairName>
+            <Center x="1" y="1" z="2" />
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>20</BuildTimeSeconds>
+
+            <ResourceSinkGroup>Thrust</ResourceSinkGroup>
+            <ForceMagnitude>2304000</ForceMagnitude>
+            <MaxPowerConsumption>9.6</MaxPowerConsumption>
+            <MinPowerConsumption>0.000002</MinPowerConsumption>
+            <SlowdownFactor>1</SlowdownFactor>
+
+            <MinPlanetaryInfluence>0.3</MinPlanetaryInfluence>
+            <MaxPlanetaryInfluence>1</MaxPlanetaryInfluence>
+            <EffectivenessAtMinInfluence>0</EffectivenessAtMinInfluence>
+            <EffectivenessAtMaxInfluence>1</EffectivenessAtMaxInfluence>
+            <NeedsAtmosphereForInfluence>true</NeedsAtmosphereForInfluence>
+
+            <FlameDamageLengthScale>0.0</FlameDamageLengthScale>
+            <FlameDamage>0.2</FlameDamage>
+            <FlameLengthScale>1.15</FlameLengthScale>
+            <FlameIdleColor>
+                <X>0.3</X>
+                <Y>0.3</Y>
+                <Z>0.3</Z>
+                <W>0.75</W>
+            </FlameIdleColor>
+            <FlameFullColor>
+                <X>0.3</X>
+                <Y>0.3</Y>
+                <Z>0.3</Z>
+                <W>0.75</W>
+            </FlameFullColor>
+            <FlamePointMaterial>EngineThrustMiddle</FlamePointMaterial>
+            <FlameLengthMaterial>EngineThrustMiddle</FlameLengthMaterial>
+            <FlameFlare>SmallGridLargeThruster</FlameFlare>
+            <FlameVisibilityDistance>300</FlameVisibilityDistance>
+            <FlameGlareQuerySize>0.5</FlameGlareQuerySize>
+            <PropellerUsesPropellerSystem>true</PropellerUsesPropellerSystem>
+            <PropellerSubpartEntityName>Propeller</PropellerSubpartEntityName>
+            <PropellerRoundsPerSecondOnFullSpeed>1.9</PropellerRoundsPerSecondOnFullSpeed>
+            <PropellerRoundsPerSecondOnIdleSpeed>0.3</PropellerRoundsPerSecondOnIdleSpeed>
+            <PropellerAccelerationTime>3</PropellerAccelerationTime>
+            <PropellerDecelerationTime>6</PropellerDecelerationTime>
+            <PropellerMaxVisibleDistance>200</PropellerMaxVisibleDistance>
+            <PrimarySound>SmShipLrgJetAtmo</PrimarySound>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleWeapExpl</DamagedSound>
+            <Public>true</Public>
+            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+            <DestroySound>WepSmallWarheadExpl</DestroySound>
+            <PCU>12</PCU>
+            <TieredUpdateTimes>
+                <unsignedInt>100</unsignedInt>
+                <unsignedInt>3600</unsignedInt>
+                <unsignedInt>0</unsignedInt>
+            </TieredUpdateTimes>
+            <TargetingGroups>
+                <string>Propulsion</string>
+            </TargetingGroups>
+        </Definition>
+<!-- *********************Region FLAT Blocks******************************-->
+<!-- Region Large Blocks-->
+<!-- Region Small Blocks-->
+<!-- *********************Region DForm Blocks******************************-->
+<!-- Region Large Blocks-->
+<!-- Region Small Blocks-->
+    </CubeBlocks>
+</Definitions>

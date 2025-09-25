@@ -124,6 +124,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMLargeBlockSmallThrustT3</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_SmallThrust_T3</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\thrustT3.dds</Icon>
             <Description>Description_IonThrust</Description>
@@ -227,6 +229,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMLargeBlockSmallThrustT4</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_SmallThrust_T4</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\thrustT4.dds</Icon>
             <Description>Description_IonThrust</Description>
@@ -331,6 +335,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMLargeBlockSmallThrustT5</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_SmallThrust_T5</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\thrustT5.dds</Icon>
             <Description>Description_IonThrust</Description>
@@ -554,6 +560,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMLargeBlockLargeThrustT3</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_LargeThrust_T3</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\thrust_largeT3.dds</Icon>
             <Description>Description_IonThrust</Description>
@@ -659,6 +667,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMLargeBlockLargeThrustT4</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_LargeThrust_T4</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\thrust_largeT4.dds</Icon>
             <Description>Description_IonThrust</Description>
@@ -764,6 +774,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMLargeBlockLargeThrustT5</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_LargeThrust_T5</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\thrust_largeT5.dds</Icon>
             <Description>Description_IonThrust</Description>
@@ -985,6 +997,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMSmallBlockSmallThrustT3</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_SmallThrust_T3</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\thrustT3.dds</Icon>
             <Description>Description_IonThrust</Description>
@@ -1086,6 +1100,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMSmallBlockSmallThrustT4</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_SmallThrust_T4</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\thrustT4.dds</Icon>
             <Description>Description_IonThrust</Description>
@@ -1187,6 +1203,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMSmallBlockSmallThrustT5</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_SmallThrust_T5</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\thrustT5.dds</Icon>
             <Description>Description_IonThrust</Description>
@@ -1403,6 +1421,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMSmallBlockLargeThrustT3</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_LargeThrust_T3</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\thrust_largeT3.dds</Icon>
             <Description>Description_IonThrust</Description>
@@ -1504,6 +1524,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMSmallBlockLargeThrustT4</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_LargeThrust_T4</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\thrust_largeT4.dds</Icon>
             <Description>Description_IonThrust</Description>
@@ -1605,6 +1627,8 @@
                 <TypeId>Thrust</TypeId>
                 <SubtypeId>LTMSmallBlockLargeThrustT5</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_LargeThrust_T5</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\thrust_largeT5.dds</Icon>
             <Description>Description_IonThrust</Description>
