@@ -117,4 +117,31 @@
     <data name="DisplayName_Block_ModularCargoContainer_T5" xml:space="preserve">
         <value>Modular Container T5</value>
     </data>
+    <data name="DisplayName_Block_ProductivityModule_T2" xml:space="preserve">
+        <value>Speed Module T2</value>
+    </data>
+    <data name="DisplayName_Block_ProductivityModule_T3" xml:space="preserve">
+        <value>Speed Module T3</value>
+    </data>
+    <data name="DisplayName_Block_ProductivityModule_T4" xml:space="preserve">
+        <value>Speed Module T4</value>
+    </data>
+    <data name="DisplayName_Block_ProductivityModule_T5" xml:space="preserve">
+        <value>Speed Module T5</value>
+    </data>
+    <data name="DisplayName_Block_EffectivenessModule_T2" xml:space="preserve">
+        <value>Yield Module T2</value>
+    </data>
+    <data name="DisplayName_Block_EffectivenessModule_T3" xml:space="preserve">
+        <value>Yield Module T3</value>
+    </data>
+    <data name="DisplayName_Block_EffectivenessModule_T4" xml:space="preserve">
+        <value>Yield Module T4</value>
+    </data>
+    <data name="DisplayName_Block_EffectivenessModule_T5" xml:space="preserve">
+        <value>Yield Module T5</value>
+    </data>
+    <data name="DisplayName_Block_PowerEfficiencyModule_T2" xml:space="preserve">
+        <value>Power Module T2</value>
+    </data>
 </root>

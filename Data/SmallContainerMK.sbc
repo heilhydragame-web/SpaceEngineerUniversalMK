@@ -71,6 +71,8 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LTMLargeBlockSmallContainerT3</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_SmallCargoContainer_T3</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\containerT3.dds</Icon>
             <Description>Description_SmallCargoContainer</Description>
@@ -123,6 +125,8 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LTMLargeBlockSmallContainerT4</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_SmallCargoContainer_T4</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\containerT4.dds</Icon>
             <Description>Description_SmallCargoContainer</Description>
@@ -176,6 +180,8 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LTMLargeBlockSmallContainerT5</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_SmallCargoContainer_T5</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\containerT5.dds</Icon>
             <Description>Description_SmallCargoContainer</Description>
@@ -290,6 +296,8 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LTMSmallBlockSmallContainerT3</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_SmallCargoContainer_T3</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\containerT3.dds</Icon>
             <Description>Description_SmallCargoContainer</Description>
@@ -336,6 +344,8 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LTMSmallBlockSmallContainerT4</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_SmallCargoContainer_T4</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\containerT4.dds</Icon>
             <Description>Description_SmallCargoContainer</Description>
@@ -382,6 +392,8 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LTMSmallBlockSmallContainerT5</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_SmallCargoContainer_T5</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\containerT5.dds</Icon>
             <Description>Description_SmallCargoContainer</Description>

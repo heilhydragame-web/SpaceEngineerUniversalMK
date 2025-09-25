@@ -71,6 +71,8 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LTMSmallBlockModularContainerT3</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_ModularCargoContainer_T3</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\CargoContainerReskin_SmallT3.dds</Icon>
             <Description>Description_MediumCargoContainer</Description>
@@ -123,6 +125,8 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LTMSmallBlockModularContainerT4</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_ModularCargoContainer_T4</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\CargoContainerReskin_SmallT4.dds</Icon>
             <Description>Description_MediumCargoContainer</Description>
@@ -176,6 +180,8 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LTMSmallBlockModularContainerT5</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_ModularCargoContainer_T5</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\CargoContainerReskin_SmallT5.dds</Icon>
             <Description>Description_MediumCargoContainer</Description>

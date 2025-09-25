@@ -74,6 +74,8 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LTMLargeBlockLargeContainerT3</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_LargeCargoContainer_T3</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\container_largeT3.dds</Icon>
             <Description>Description_LargeCargoContainer</Description>
@@ -126,6 +128,8 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LTMLargeBlockLargeContainerT4</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_LargeCargoContainer_T4</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\container_largeT4.dds</Icon>
             <Description>Description_LargeCargoContainer</Description>
@@ -180,6 +184,8 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LTMLargeBlockLargeContainerT5</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_LargeCargoContainer_T5</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\container_largeT5.dds</Icon>
             <Description>Description_LargeCargoContainer</Description>
@@ -297,6 +303,8 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LTMSmallBlockLargeContainerT3</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_LargeCargoContainer_T3</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\container_largeT3.dds</Icon>
             <Description>Description_LargeCargoContainer</Description>
@@ -344,6 +352,8 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LTMSmallBlockLargeContainerT4</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_LargeCargoContainer_T4</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\container_largeT4.dds</Icon>
             <Description>Description_LargeCargoContainer</Description>
@@ -391,6 +401,8 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LTMSmallBlockLargeContainerT5</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_LargeCargoContainer_T5</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\container_largeT5.dds</Icon>
             <Description>Description_LargeCargoContainer</Description>
@@ -530,6 +542,8 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LTMLargeBlockLargeIndustrialContainerT3</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_LargeIndustrialCargoContainer_T3</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T3\CargoContainerT3.dds</Icon>
             <Description>Description_LargeCargoContainer</Description>
@@ -605,6 +619,8 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LTMLargeBlockLargeIndustrialContainerT4</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_LargeIndustrialCargoContainer_T4</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T4\CargoContainerT4.dds</Icon>
             <Description>Description_LargeCargoContainer</Description>
@@ -682,6 +698,8 @@
                 <TypeId>CargoContainer</TypeId>
                 <SubtypeId>LTMLargeBlockLargeIndustrialContainerT5</SubtypeId>
             </Id>
+            <GuiVisible>false</GuiVisible>
+            <Public>false</Public>
             <DisplayName>DisplayName_Block_LargeIndustrialCargoContainer_T5</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\T5\CargoContainerT5.dds</Icon>
             <Description>Description_LargeCargoContainer</Description>
