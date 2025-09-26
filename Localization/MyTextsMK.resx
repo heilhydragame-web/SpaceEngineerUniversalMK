@@ -220,5 +220,53 @@
         <value>Warfare Large Ion Thruster T5</value>
     </data>
 <!-- *********************Region Thruster ATMOS******************************-->
+    <data name="DisplayName_Block_SmallAtmoThrust_T2" xml:space="preserve">
+        <value>Atmospheric Thrusters T2</value>
+    </data>
+    <data name="DisplayName_Block_SmallAtmoThrust_T3" xml:space="preserve">
+        <value>Atmospheric Thrusters T3</value>
+    </data>
+    <data name="DisplayName_Block_SmallAtmoThrust_T4" xml:space="preserve">
+        <value>Atmospheric Thrusters T4</value>
+    </data>
+    <data name="DisplayName_Block_SmallAtmoThrust_T5" xml:space="preserve">
+        <value>Atmospheric Thrusters T5</value>
+    </data>
+    <data name="DisplayName_Block_LargeThrust_T2" xml:space="preserve">
+        <value>Large Atmospheric Thruster T2</value>
+    </data>
+    <data name="DisplayName_Block_LargeThrust_T3" xml:space="preserve">
+        <value>Large Atmospheric Thruster T3</value>
+    </data>
+    <data name="DisplayName_Block_LargeThrust_T4" xml:space="preserve">
+        <value>Large Atmospheric Thruster T4</value>
+    </data>
+    <data name="DisplayName_Block_LargeThrust_T5" xml:space="preserve">
+        <value>Large Atmospheric Thruster T5</value>
+    </data>
+    <data name="DisplayName_Block_SmallAtmoThrustSciFi_T2" xml:space="preserve">
+        <value>Sci-Fi Atmospheric Thrusters T2</value>
+    </data>
+    <data name="DisplayName_Block_SmallAtmoThrustSciFi_T3" xml:space="preserve">
+        <value>Sci-Fi Atmospheric Thrusters T3</value>
+    </data>
+    <data name="DisplayName_Block_SmallAtmoThrustSciFi_T4" xml:space="preserve">
+        <value>Sci-Fi Atmospheric Thrusters T4</value>
+    </data>
+    <data name="DisplayName_Block_SmallAtmoThrustSciFi_T5" xml:space="preserve">
+        <value>Sci-Fi Atmospheric Thrusters T5</value>
+    </data>
+    <data name="DisplayName_Block_LargeThrustSciFi_T2" xml:space="preserve">
+        <value>Sci-Fi Large Atmospheric Thruster T2</value>
+    </data>
+    <data name="DisplayName_Block_LargeThrustSciFi_T3" xml:space="preserve">
+        <value>Sci-Fi Large Atmospheric Thruster T3</value>
+    </data>
+    <data name="DisplayName_Block_LargeThrustSciFi_T4" xml:space="preserve">
+        <value>Sci-Fi Large Atmospheric Thruster T4</value>
+    </data>
+    <data name="DisplayName_Block_LargeThrustSciFi_T5" xml:space="preserve">
+        <value>Sci-Fi Large Atmospheric Thruster T5</value>
+    </data>
 <!-- *********************Region Thruster HYDRO******************************-->
 </root>
